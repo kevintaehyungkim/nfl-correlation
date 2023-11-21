@@ -60,9 +60,18 @@ for line in pbp_records:
 
 		team = str(line['posteam'])
 		game = str(line['nflverse_game_id'])
+
 		passer = line['passer_player_name']
 		receiver = line['receiver_player_name']
 		yards = line['passing_yards']
+
+
+		teams = set([game.split('_')[2], game.split('_')[3]])
+		teams.remove(team)
+		opp = list(teams)[0]
+
+		TEAM_GAME_YARDS[team][game]['opp'] = opp
+
 
 		if not TEAM_GAME_YARDS[team][game]['pass']:
 			TEAM_GAME_YARDS[team][game]['pass'] = nested_dict()
@@ -334,7 +343,9 @@ TO-DO
 '''
 def correlation_all():
 
+	r_data = defaultdict()
 	team_data = []
+
 	for team in TEAM_GAME_YARDS.keys():
 
 		game_log = TEAM_GAME_YARDS[team] 
@@ -344,7 +355,6 @@ def correlation_all():
 		
 		r_yards = defaultdict(list)
 		r_receptions = defaultdict(list)
-		r_data = defaultdict()
 
 		for game in game_log.keys():
 
@@ -365,11 +375,32 @@ def correlation_all():
 				r_yards[receiver].append(rec_data[0])
 				r_receptions[receiver].append(rec_data[1])
 
+				# TEST #
+				# print("jajaja")
+				# print(game_log[game]['opp'])
+
+				# if game_log[game]['opp'] == 'KC':
+				# 	r_data[receiver] = [team, rec_data[0]]
+				# TEST #
+
 		qb_yards_mean = round(np.mean(qb_yards), 2)
 		qb_yards_std = round(np.std(qb_yards), 2)
 
 
 		for receiver in r_yards.keys():
+
+			if receiver in r_data:
+				zzz = r_data[receiver] 
+				zzz.append(round(np.mean(r_yards[receiver]), 2))
+				r_data[receiver] = zzz
+
+
+
+			# print (r_data)
+			# testing against kc team
+			for r in r_data: 
+				print 
+
 
 			ud_projections = extract_ud_nfl()
 
@@ -382,10 +413,9 @@ def correlation_all():
 
 			# filter for most consistently best-performing receivers
 			min_yards = 45
-			min_games = 4
-			max_stdev = 0.75
+			min_games = 5
 
-			if yards_mean > min_yards and yards_std < max_stdev*yards_mean and num_games > min_games:
+			if yards_mean > min_yards and num_games >= min_games:
 
 				# correlation score per game
 				corr_games = []
@@ -411,7 +441,7 @@ def correlation_all():
 					print('----------------')
 
 					low_scl = (0.75+diff_low)**2
-					# print('low_scl: ' + str(round(low_scl, 4)))
+					print('low_scl: ' + str(round(low_scl, 4)))
 
 					corr = 100
 					
@@ -421,7 +451,7 @@ def correlation_all():
 						corr *= mean_diff_adj
 						corr *= 1.25
 
-						# print('dist_scl: ' + str(round(dist_scl,4)))
+						print('dist_scl: ' + str(round(dist_scl,4)))
 
 					else: 
 						dist_scl = (2+diff_dist)/2
@@ -565,34 +595,34 @@ def correlation_all():
 		qb_mean_str = str(round(d[2], 2))
 		qb_std_str = str(round(d[3], 2))
 
-		corr_mean_str = '  mean: '
+		corr_mean_str = '   mean: '
 		corr_mean_pad = ' '*(20 - len(corr_mean_str) - len(qb_mean_str))
 		corr_mean_str = colored(corr_mean_str, 'white') + colored(qb_mean_str, 'yellow')
 
-		corr_std_str = '  stdev: '
+		corr_std_str = '   stdev: '
 		corr_std_pad = ' '*(20 - len(corr_std_str) - len(qb_std_str))
 		corr_std_str = colored(corr_std_str, 'white') + colored(qb_std_str, 'yellow')
 		
 		corr_mean_str += corr_mean_pad
 		corr_std_str += corr_std_pad
 
-		corr_mean_str += colored('  ', 'cyan') + 'mean: ' + num_str_2(d[0], 'yellow')
-		corr_mean_str += ' '*(79-len(corr_mean_str)) + 'raw'
+		corr_mean_str += colored('   ', 'cyan') + 'mean: ' + num_str_2(d[0], 'yellow')
+		corr_mean_str += ' '*(78-len(corr_mean_str)) + ' raw'
 
 		# print(len(corr_mean_str))
 
-		corr_std_str += colored('  ', 'cyan') + 'stdev: ' + num_str_2(d[1], 'yellow') + ' '*9 + 'score'
+		corr_std_str += colored('   ', 'cyan') + 'stdev: ' + num_str_2(d[1], 'yellow') + ' '*8 + 'score'
 
 
-		border_corr = '  ============='
+		border_corr = '   ============='
 		border_corr += ' '*(20-len(border_corr)) + border_corr 
 
 		print(colored('             ', 'white'))
 
 
 
-		player_str = '  QB '
-		player_pad = ' '*(20-len(qb_str)-len(player_str))
+		player_str = '   QB '
+		player_pad = ' '*(21-len(qb_str)-len(player_str))
 		player_str = colored(player_str, 'cyan') + colored(qb_str, 'white') + player_pad + colored('  RC ', 'cyan') + colored(rc_str, 'white')
 
 		print(colored(player_str, 'white'))
@@ -604,6 +634,7 @@ def correlation_all():
 
 
 
+		num_match_mean = 0
 		rc_yards, rc_yards_mean = d[10], d[0]
 		qb_yards, qb_yards_mean = d[11], d[2]
 
@@ -611,21 +642,21 @@ def correlation_all():
 
 			qb_diff = qb_yards[i]-qb_yards_mean
 
-			qb_diff_str = colored('  ' + padded_num_str(qb_yards[i], 'yellow') + colored(' | ', 'white'), 'white')
-			rec_diff_str = colored('  ' + padded_num_str(rc_yards[i], 'yellow') + colored(' | ', 'white') , 'white')
+			qb_diff_str = colored('    ' + padded_num_str(qb_yards[i], 'yellow') + colored(' | ', 'white'), 'white')
+			rec_diff_str = colored('    ' + padded_num_str(rc_yards[i], 'yellow') + colored(' | ', 'white') , 'white')
 			padding = ''
 
 			if qb_diff >= 0: 
 				qb_diff_val = '+' + str(round(qb_diff, 2))
 				qb_diff_str += colored(qb_diff_val, 'green')
 
-				padding = ' '*(19 - len(' [REC] ') - len(qb_diff_val))
+				padding = ' '*(17 - len(' [REC] ') - len(qb_diff_val))
 
 			else:
 				qb_diff_val = str(round(qb_diff, 2))
 				qb_diff_str += colored(qb_diff_val, 'red')
 
-				padding =  ' '*(19 - len(' [REC] ') - len(qb_diff_val))
+				padding =  ' '*(17 - len(' [REC] ') - len(qb_diff_val))
 
 
 			rec_diff =  rc_yards[i]-rc_yards_mean
@@ -644,16 +675,19 @@ def correlation_all():
 			rec_diff_str += colored(corr_padding + str(d[9][i]), 'magenta')
 
 
-
-
 			print(qb_diff_str + padding + rec_diff_str)
 
-		# print(colored('             ', 'white'))
-					# print(colored(' ===============', 'cyan'))
-		# print(colored(' Correlation Log', 'cyan'))
-		# print(colored(' ===============', 'white'))
-		# print(colored(' ', 'white') + colored(str(d[9]), 'white'))
-		# print('\n')
+
+			if qb_diff * rec_diff >= 0:
+				num_match_mean += 1
+
+		print('')
+		# print(colored('   =============', 'white'))
+		print(colored('   **************', 'white'))
+		print(colored('    ', 'blue') + 'Match: ' + colored(str(num_match_mean) + '/' + str(len(rc_yards)), 'yellow'))
+		# print(colored('   **************', 'white'))
+		# print(colored('   ============', 'blue'))
+
 
 
 		# underdog projections 
@@ -664,9 +698,13 @@ def correlation_all():
 			print(colored(' Underdog Lines' , 'cyan'))
 			print(colored(' ===============', 'white'))
 
+			qb_line_val, rc_line_val = None, None
+			qb_line, rc_line = False, False
+
 			if qb_str in ud_projections:
-				qb_yards = ud_projections[qb_str]['passing_yds']
-				diff = float(qb_yards) - d[2]
+				qb_line = True
+				qb_line_val = ud_projections[qb_str]['passing_yds']
+				diff = float(qb_line_val) - d[2]
 				diff_str = str(round(diff, 2))
 
 				if diff >= 0:
@@ -674,14 +712,15 @@ def correlation_all():
 				else: 
 					diff_str = colored(diff_str, 'red')
 
-				print(' > ' + qb_str + ' Passing Yards: ' + colored(qb_yards, 'yellow') + colored(' | ', 'white') + diff_str)
+				print(' > ' + qb_str + ' Passing Yards: ' + colored(qb_line_val, 'yellow') + colored(' | ', 'white') + diff_str)
 			else:
 				print(' > ' + qb_str + ' Passing Yards: n/a')
 
 
 			if rc_str in ud_projections:
-				rc_yards = ud_projections[rc_str]['receiving_yds']
-				diff = float(rc_yards) - d[0]
+				rc_line = True
+				rc_line_val = ud_projections[rc_str]['receiving_yds']
+				diff = float(rc_line_val) - d[0]
 				diff_str = str(round(diff, 2))
 
 				if diff >= 0:
@@ -689,9 +728,71 @@ def correlation_all():
 				else: 
 					diff_str = colored(diff_str, 'red')
 
-				print(' > ' + rc_str + ' Receiving Yards: ' + colored(rc_yards, 'yellow') + colored(' | ', 'white') + diff_str)
+				print(' > ' + rc_str + ' Receiving Yards: ' + colored(rc_line_val, 'yellow') + colored(' | ', 'white') + diff_str)
 			else:
 				print(' > ' + rc_str + ' Receiving Yards: n/a')
+
+
+
+
+			if qb_line and rc_line:
+
+				print('')
+
+				num_match_ud = 0
+
+
+				for i in range(len(rc_yards)):
+
+					qb_diff = qb_yards[i]-float(qb_line_val)
+
+					qb_diff_str = colored('    ' + padded_num_str(qb_yards[i], 'yellow') + colored(' | ', 'white'), 'white')
+					rec_diff_str = colored('    ' + padded_num_str(rc_yards[i], 'yellow') + colored(' | ', 'white') , 'white')
+					padding = ''
+
+					if qb_diff >= 0: 
+						qb_diff_val = '+' + str(round(qb_diff, 2))
+						qb_diff_str += colored(qb_diff_val, 'green')
+
+						padding = ' '*(19 - len(' [REC] ') - len(qb_diff_val))
+
+					else:
+						qb_diff_val = str(round(qb_diff, 2))
+						qb_diff_str += colored(qb_diff_val, 'red')
+
+						padding =  ' '*(19 - len(' [REC] ') - len(qb_diff_val))
+
+
+					rec_diff =  rc_yards[i]-float(rc_line_val)
+					if rec_diff >= 0: 
+						rec_diff_str += colored('+' + str(round(rec_diff, 2)), 'green')
+					else:
+						rec_diff_str += colored(str(round(rec_diff, 2)), 'red')
+
+
+					corr_column = 58
+
+					if str(d[9][i])[0] != '-':
+						corr_column += 1
+
+					corr_padding =  ' '*(corr_column - len(rec_diff_str))
+					# rec_diff_str += colored(corr_padding + str(d[9][i]), 'magenta')
+
+
+					print(qb_diff_str + padding + rec_diff_str)
+
+
+
+					if qb_diff * rec_diff >= 0:
+						num_match_ud += 1
+
+				print('')
+				print(colored('   **************', 'white'))
+				print(colored('    ', 'blue') + 'Match: ' + colored(str(num_match_ud) + '/' + str(len(rc_yards)), 'yellow'))
+				# print(colored('   **************', 'white'))
+				# print(colored('   ============', 'blue'))
+
+
 
 
 	print('\n')
@@ -825,27 +926,14 @@ def team_data(team, qb):
 
 
 
+
 # title
-# 'stat_value': '33.5', 'status': 'active'
+# 'stat_value': '33.5'
+# 'status': 'active'
 
 nba_stats = ["Pts + Rebs + Asts", "double_faults", "service_games_lost", "breakpoints_won", "sets_lost"]
 nfl_stats = ["receiving_yds", "passing_yds"]
 
-def extract_underdog():
-	r = requests.get("https://api.underdogfantasy.com/beta/v3/over_under_lines")
-
-
-# OUTPUT #
-
-# team_data('DEN', 'R.Wilson')
-# team_data('CIN', 'J.Burrow')
-
-# correlation_all()
-# parlay_helper()
-
-
-# team_data('LAC', 'J.Herbert')
-# team_data('BUF', 'J.Allen')
 
 
 
@@ -853,20 +941,16 @@ import requests
 from datetime import date
 
 r = requests.get("https://api.underdogfantasy.com/beta/v3/over_under_lines")
-# print(r)
-# print(r.content)
-
 lines = r.json()["over_under_lines"]
 
 
 
+ud_nfl = defaultdict()
+
+
 
 def extract_ud_nfl():
-	ud_nfl = defaultdict()
-
 	for line in lines:
-
-		# print(line)
 
 		if line['over_under']['appearance_stat'] and line['over_under']['appearance_stat']['stat'] in nfl_stats and line['status'] == 'active' and '+' not in line['over_under']["title"]:
 
@@ -885,7 +969,7 @@ def extract_ud_nfl():
 
 
 	today = date.today()
-	curr_date = str(today.strftime("%m-%d-%Y"))
+	curr_date = str(today.strftime("%m-%d-%y"))
 	file_name = curr_date + '.txt'
 
 	output = open(file_name, "w")
@@ -896,6 +980,21 @@ def extract_ud_nfl():
 	return ud_nfl
 
 
+
+
+
+
+# OUTPUT #
+
+# team_data('DEN', 'R.Wilson')
+# team_data('CIN', 'J.Burrow')
+
+# correlation_all()
+# parlay_helper()
+
+
+# team_data('LAC', 'J.Herbert')
+# team_data('BUF', 'J.Allen')
 
 
 correlation_all()
