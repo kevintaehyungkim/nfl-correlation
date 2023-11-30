@@ -323,10 +323,10 @@ def parlay_helper():
 
 
 
+# pair_str = ""
 
 
-
-
+correlation_scores = []
 
 
 '''
@@ -342,6 +342,8 @@ TO-DO
 - adjust any formula scales needed to return ratios more closely matching sportsbooks
 '''
 def correlation_all():
+
+	all_pair_str = ''
 
 	r_data = defaultdict()
 	team_data = []
@@ -375,6 +377,7 @@ def correlation_all():
 				r_yards[receiver].append(rec_data[0])
 				r_receptions[receiver].append(rec_data[1])
 
+
 				# TEST #
 				# print("jajaja")
 				# print(game_log[game]['opp'])
@@ -402,6 +405,10 @@ def correlation_all():
 				print 
 
 
+			# all_pair_str += qb_key + '+' + receiver + ' '
+			# print(all_pair_str)
+
+
 			ud_projections = extract_ud_nfl()
 
 			yards_mean = round(np.mean(r_yards[receiver]), 2)
@@ -416,6 +423,9 @@ def correlation_all():
 			min_games = 5
 
 			if yards_mean > min_yards and num_games >= min_games:
+
+				all_pair_str += qb_key + '+' + receiver + ' '
+				print(all_pair_str)
 
 				# correlation score per game
 				corr_games = []
@@ -793,9 +803,20 @@ def correlation_all():
 				# print(colored('   ============', 'blue'))
 
 
+				corr_1 = d[8]
+				ud_match = float(num_match_ud/len(rc_yards))
+
+				if corr_1 > 30.0 and ud_match >= 0.7:
+					pair = d[5] + ' - ' + str(d[6]) + ' + ' + str(d[7])
+					correlation_scores.append([corr_1, pair])
+
+
+
 
 
 	print('\n')
+
+	print(all_pair_str)
 
 	return sorted_team_data
 
@@ -927,6 +948,7 @@ def team_data(team, qb):
 
 
 
+
 # title
 # 'stat_value': '33.5'
 # 'status': 'active'
@@ -999,6 +1021,7 @@ def extract_ud_nfl():
 
 correlation_all()
 
+correlation_scores_sorted = sorted(correlation_scores, reverse=True)
 
-
-
+for c in correlation_scores_sorted:
+	print(c)

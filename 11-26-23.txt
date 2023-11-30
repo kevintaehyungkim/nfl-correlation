@@ -1,0 +1,12 @@
+J.Fields {'passing_yds': '196.5'}
+K.Herbert {'receiving_yds': '10.5'}
+R.Johnson {'receiving_yds': '6.5'}
+D.Moore {'receiving_yds': '61.5'}
+D.Mooney {'receiving_yds': '26.5'}
+C.Kmet {'receiving_yds': '36.5'}
+T.Scott {'receiving_yds': '7.5'}
+E.St. {'receiving_yds': '7.5'}
+J.Dobbs {'passing_yds': '236.5'}
+A.Mattison {'receiving_yds': '10.5'}
+T.Chandler {'receiving_yds': '10.5'}
+T.Hockenson {'receiving_yds': '62.5'}
