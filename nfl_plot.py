@@ -148,6 +148,12 @@ extract_ud_nfl()
 
 
 
+# points - qb, wr
+# ud_lines - qb, wr
+
+# def find_distribution(points, mean, std, ud_lines):
+
+
 
 
 
@@ -224,9 +230,6 @@ def growth_correlation(qb, rec):
 	qb_recs_sum = []
 	rc_recs_sum = []
 
-	# qb_recs_1std = []
-	# rc_recs_1std = []
-
 
 	for game in growth_yards:
 
@@ -235,8 +238,6 @@ def growth_correlation(qb, rec):
 
 		qb_recs = growth_recs[game][qb]
 		rc_recs = growth_recs[game][rec]
-
-		# for qb_yard in qb_yards:
 
 
 
@@ -269,10 +270,20 @@ def growth_correlation(qb, rec):
 	print("Growth rate game: " + str(yards_growth_rate_game))
 
 
+	hit_rate = ''
+
+	# sim_res = run_sim(qb, rec)
+	# hit_rate = round(sim_res[2], 4)
 
 
-	sim_res = run_sim(qb, rec)
-	hit_rate = round(sim_res[2], 4)
+	qb_yards_ud = None
+	rc_yards_ud = None
+
+
+	if qb in ud_nfl and rec in ud_nfl:
+
+		qb_yards_ud = ud_nfl[qb]['passing_yds']
+		rc_yards_ud = ud_nfl[rec]['receiving_yds']
 
 
 
@@ -321,12 +332,16 @@ def growth_correlation(qb, rec):
 	# )
 
 		
-	print(qb_projected_growth1)
-	print(rc_projected_growth1)
+	# print(qb_projected_growth1)
+	# print(rc_projected_growth1)
 
 
 	# some inverse function that translates this into quantitative metric/scoring
 
+
+	distr_score = 0
+	distr_hit = 0
+	distr_total = 0
 
 
 	for game in growth_yards:
@@ -336,6 +351,34 @@ def growth_correlation(qb, rec):
 
 		qb_recs = growth_recs[game][qb]
 		rc_recs = growth_recs[game][rec]
+
+
+		if qb_yards_ud and rc_yards_ud: 
+
+			for i in range(len(qb_yards)):
+
+				rc_yd, qb_yd = rc_yards[i], qb_yards[i]
+
+				qb_low = qb_yards_mean - qb_yards_std*1.5
+				qb_high = qb_yards_mean + qb_yards_std
+
+				if qb_yd > qb_low and rc_yd < qb_high:
+
+					qb_score = float(qb_yards_ud) - qb_yd
+					rc_score = float(rc_yards_ud) - rc_yd
+
+					score = qb_score * rc_score
+					dist = (qb_score**2 + rc_score**2)**0.5
+
+					if score > 0:
+						distr_score += math.log(dist, 2)
+						distr_hit += 1
+					else:
+						distr_score -= math.log(dist, 2)
+						
+					distr_total += 1
+
+
 
 
 		#################
@@ -660,36 +703,11 @@ def growth_correlation(qb, rec):
 		row=2, col=1
 	)
 
-	# fig.add_vline(
-	# 	x=qb_yards_mean-qb_yards_std, 
-	# 	name='QB yards mean -1 stdev',
-	# 	line_width=1,
-	# 	line_dash="dash",
-	# 	line_color=COLORS['WHITE'],
-	# 	row=2, col=1
-	# )
-
-	# fig.add_trace(go.Scatter(
-	#     x=qb_projected_growth, y=rc_projected_growth,
-	#     line_color=COLORS['ORANGE'],
-	# 	mode='lines',
-	# 	# visible="legendonly",
-	# 	fill='tonexty'
-	#     # marker=dict(symbol="diamond", size=4)
-	# 	), 
-	# 	row=2, col=1
-	# )
 
 
 
-
-	# sim_res = run_sim(qb, rec)
-
-
-	# for sim in sim_res:
-
-	qb_yards_sim = sim_res[1]
-	rec_yards_sim = sim_res[0]
+	# qb_yards_sim = sim_res[1]
+	# rec_yards_sim = sim_res[0]
 
 
 
@@ -742,14 +760,14 @@ def growth_correlation(qb, rec):
 	# 	row=2, col=2
 	# )
 
-	fig.add_trace(go.Scatter(
-	    x=qb_yards_sim, y=rec_yards_sim,
-	    line_color='rgba(108,189,191,0.2)',
-		mode='markers',
-	    marker=dict(symbol="diamond", size=5)
-		), 
-		row=2, col=2
-	)
+	# fig.add_trace(go.Scatter(
+	#     x=qb_yards_sim, y=rec_yards_sim,
+	#     line_color='rgba(108,189,191,0.2)',
+	# 	mode='markers',
+	#     marker=dict(symbol="diamond", size=5)
+	# 	), 
+	# 	row=2, col=2
+	# )
 
 
 
@@ -879,38 +897,39 @@ seed(1)
 
 def transform_distribution(data):
 
-	# print("original")
+	# print("original data: ")
 	# print(data)
 	# print(np.mean(data))
 	# print(np.median(data))
 	# print(np.std(data))
 
 	k2, p = stats.normaltest(np.array(data))
-	print('\nChi-squared statistic = %.3f, p = %.3f' % (k2, p))
+	# print('\nChi-squared statistic = %.3f, p = %.3f' % (k2, p))
 
 	alpha = 0.05
 
 	if p > alpha:
-	    print('The original data is Gaussian (fails to reject the null hypothesis)')
+	    # print('The original data is Gaussian - p: ' + str(p) + ' alpha: 0.05')
 	    return np.mean(data), np.std(data)
-	else:
-	    print('The original data does not look Gaussian (reject the null hypothesis)')
+	# else:
+	    # print('The original data does not look Gaussian')
 
 
-
+	# print('Performing box-clot transformation')
 
 	# apply box-cox transformation
 
 	data_trans, lmbda = stats.boxcox(data)
+	# print('lambda: ' + str(lmbda))
 
 	k2, p = stats.normaltest(np.array(data_trans))
-	print('\nChi-squared statistic = %.3f, p = %.3f' % (k2, p))
+	# print('\nChi-squared statistic = %.3f, p = %.3f' % (k2, p))
 
-	alpha = 0.05
-	if p > alpha:
-	    print('The transformed data is Gaussian (fails to reject the null hypothesis)')
-	else:
-	    print('The transformed data does not look Gaussian (reject the null hypothesis)')
+	# alpha = 0.05
+	# if p > alpha:
+	    # print('The transformed data is Gaussian - p: ' + str(p) + ' alpha: 0.05')
+	# else:
+		# print('The transformed data does not look Gaussian')
 
 
 	data_trans_mean = np.mean(data_trans)
@@ -925,6 +944,9 @@ def transform_distribution(data):
 
 	back_trans_mean = inv_boxcox(data_trans_mean, lmbda)
 	back_trans_std = inv_boxcox(data_trans_std, lmbda)
+
+	# print('box-clot back-transformation mean: ' + str(back_trans_mean))
+	# print('box-clot back-transformation std: ' + str(back_trans_std))
 
 
 	return back_trans_mean, back_trans_std
@@ -1035,8 +1057,8 @@ def run_sim(qb, rec):
 
 
 
-	print("avg yard rec: " + str(yards_rec_mean))
-	print("avg yard rem: " + str(yards_rem_mean))
+	# print("avg yard rec: " + str(yards_rec_mean))
+	# print("avg yard rem: " + str(yards_rem_mean))
 
 
 
@@ -1061,7 +1083,7 @@ def run_sim(qb, rec):
 	rec_yards_end = []
 	qb_yards_end = []
 
-	for i in range(50000):
+	for i in range(10000):
 
 		# print(qb_recs_game)
 
@@ -1159,6 +1181,237 @@ def correlation_rank():
 
 
 
+def find_ud_scores():
+
+	distr_score = 0
+	distr_hit = 0
+	distr_total = 0
+
+	pair_prob = []
+
+	ud_pairs = "S.Howell+T.McLaurin K.Murray+M.Brown K.Murray+Mi.Wilson J.Allen+S.Diggs J.Allen+G.Davis T.Boyle+G.Wilson D.Ridder+D.London D.Ridder+J.Smith B.Young+A.Thielen J.Browning+J.Chase J.Browning+T.Higgins D.Thompson-Robinson+A.Cooper T.DeVito+D.Waller T.DeVito+J.Hyatt D.Prescott+C.Lamb P.Mahomes+R.Rice P.Mahomes+T.Kelce J.Goff+A.Brown J.Goff+S.LaPorta J.Fields+D.Moore J.Fields+C.Kmet J.Love+J.Reed J.Love+C.Watson L.Jackson+Z.Flowers L.Jackson+M.Andrews C.Stroud+N.Brown C.Stroud+N.Collins C.Stroud+N.Dell G.Minshew+J.Downs G.Minshew+M.Pittman T.Lawrence+E.Engram T.Lawrence+C.Kirk T.Lawrence+C.Ridley G.Smith+T.Lockett G.Smith+D.Metcalf M.Stafford+P.Nacua M.Stafford+C.Kupp A.O'Connell+D.Adams A.O'Connell+J.Meyers R.Wilson+C.Sutton T.Tagovailoa+T.Hill T.Tagovailoa+J.Waddle J.Herbert+K.Allen J.Herbert+J.Palmer J.Hurts+A.Brown J.Hurts+D.Smith J.Hurts+D.Goedert M.Jones+K.Bourne K.Pickett+G.Pickens K.Pickett+D.Johnson B.Purdy+D.Samuel B.Purdy+G.Kittle B.Purdy+B.Aiyuk B.Mayfield+C.Godwin B.Mayfield+M.Evans J.Dobbs+J.Jefferson J.Dobbs+T.Hockenson J.Dobbs+J.Addison W.Levis+D.Hopkins"
+
+
+	ud_pair_arr = ud_pairs.split(' ')
+
+	for pair in ud_pair_arr:
+		print(pair)
+
+		# pair_split = pair.split('+')
+		# qb, rec = pair_split[0], pair_split[1]
+		# find_score(qb, rec)
+
+		try: 
+			pair_split = pair.split('+')
+
+			qb, rec = pair_split[0], pair_split[1]
+			distr_prob, distr_score, distr_total, distr, rec_data, qb_data, ud_lines = find_score(qb, rec)
+
+			if distr_total > 50 and distr > 0.2 :
+
+				pair_prob.append([distr_prob, round(distr_score, 4), distr_total, round(distr,3), qb + ' ' + colored(str(ud_lines[0]), 'cyan') + ' ' + rec + ' ' + colored(str(ud_lines[1]), 'cyan'), rec_data, qb_data ])
+
+		except:
+			print('no match')
+			continue
+
+	pair_prob_sorted = sorted(pair_prob, reverse=True)
+
+	for p in pair_prob_sorted:
+		print('')
+		print (p[4] + ' --- ' + colored(str(round(100.0*p[0], 2)) + ' %', 'green'))
+		print(' - line corr score: ' + colored(str(p[1]), 'yellow') + ' (' + str(p[2]) + ' game states)')
+		print(' - avg yard share: ' + str(round(100*p[3], 2)) + ' %')
+
+		rec_total = p[5][0]+p[5][1]
+		qb_total = p[6][0]+p[6][1]
+
+		print(' - [rec] over: ' + colored(str(round(p[5][0]/rec_total, 2)), 'yellow') + ' under: ' + colored(str(round(p[5][1]/rec_total, 2)), 'yellow'))
+		print(' - [qb] over: ' + colored(str(round(p[6][0]/qb_total, 2)), 'yellow') + ' under: ' + colored(str(round(p[6][1]/qb_total, 2)), 'yellow'))
+
+
+def find_score(qb, rec):
+
+
+	qb_recs, qb_yards = 0, 0 
+	rec_recs, rec_yards = 0, 0
+
+	growth_recs = {}
+	growth_yards = {}
+
+	for line in pbp_records:
+
+		if line['play_type'] == 'pass' and line['complete_pass'] == 1.0:
+
+			team, game = str(line['posteam']), str(line['nflverse_game_id'])
+			passer, receiver = line['passer_player_name'], line['receiver_player_name']
+			yards =  int(line['passing_yards'])
+
+			if passer == qb:
+
+				if game not in growth_recs:
+					growth_recs[game] = {qb: [0], rec: [0]}
+					growth_yards[game] = {qb: [0], rec: [0]}
+
+
+				qb_game_recs = growth_recs[game][qb]
+				qb_game_yards = growth_yards[game][qb]
+
+				qb_curr_recs = qb_game_recs[-1]
+				qb_curr_yards = qb_game_yards[-1]
+
+				qb_game_recs.append(qb_curr_recs+1)
+				qb_game_yards.append(qb_curr_yards+yards)
+
+				growth_recs[game][qb] = qb_game_recs
+				growth_yards[game][qb] = qb_game_yards
+
+
+				curr_recs, curr_yards = growth_recs[game][rec][-1], growth_yards[game][rec][-1]
+
+				if receiver == rec: 
+					growth_recs[game][rec].append(curr_recs+1)
+					growth_yards[game][rec].append(curr_yards+yards)
+
+				else: 
+					growth_recs[game][rec].append(curr_recs)
+					growth_yards[game][rec].append(curr_yards)
+
+
+	qb_recs, qb_yards = 0, 0 
+	rec_recs, rec_yards = 0, 0
+
+	# for game in growth_yards:
+
+
+	qb_yards_sum = []
+	rc_yards_sum = []
+
+	qb_recs_sum = []
+	rc_recs_sum = []
+
+
+	for game in growth_yards:
+
+		qb_yards = growth_yards[game][qb]
+		rc_yards = growth_yards[game][rec]
+
+		qb_recs = growth_recs[game][qb]
+		rc_recs = growth_recs[game][rec]
+
+
+
+		qb_yards_sum.append(growth_yards[game][qb][-1])
+		rc_yards_sum.append(growth_yards[game][rec][-1])
+
+		qb_recs_sum.append(qb_recs[-1])
+		rc_recs_sum.append(rc_recs[-1])
+
+
+	qb_yards_mean = round(np.mean(qb_yards_sum), 1)
+	qb_yards_std = round(np.std(qb_yards_sum), 1)
+
+	rc_yards_mean = round(np.mean(rc_yards_sum), 1)
+	rc_yards_std = round(np.std(rc_yards_sum), 1)
+
+
+	qb_recs_mean = round(np.mean(qb_recs_sum), 1)
+	qb_recs_std = round(np.std(qb_recs_sum), 1)
+
+	rc_recs_mean = round(np.mean(rc_recs_sum), 1)
+	rc_recs_std = round(np.std(rc_recs_sum), 1)
+
+
+
+	yards_growth_rate_game = rc_yards_mean/qb_yards_mean
+	recs_growth_rate_game = rc_recs_mean/qb_recs_mean
+
+
+	qb_yards_ud = None
+	rc_yards_ud = None
+
+
+	if qb in ud_nfl and rec in ud_nfl:
+
+		qb_yards_ud = ud_nfl[qb]['passing_yds']
+		rc_yards_ud = ud_nfl[rec]['receiving_yds']
+
+
+	distr_score = 0
+	distr_hit = 0
+	distr_total = 0
+
+	rec_over = 0
+	rec_under = 0
+	rec_total = 0
+
+	qb_over = 0
+	qb_under = 0
+	qb_total = 0
+
+
+
+	for game in growth_yards:
+
+		qb_yards = growth_yards[game][qb]
+		rc_yards = growth_yards[game][rec]
+
+		qb_recs = growth_recs[game][qb]
+		rc_recs = growth_recs[game][rec]
+
+
+		if qb_yards_ud and rc_yards_ud: 
+
+			for i in range(len(qb_yards)):
+
+				rc_yd, qb_yd = rc_yards[i], qb_yards[i]
+
+				qb_low = qb_yards_mean - qb_yards_std
+				qb_high = qb_yards_mean + qb_yards_std
+
+				if qb_yd > qb_low and rc_yd < qb_high:
+
+					qb_score = float(qb_yards_ud) - qb_yd
+					rc_score = float(rc_yards_ud) - rc_yd
+
+
+					if qb_score > 0: 
+						qb_under += 1
+					else: 
+						qb_over += 1 
+
+
+					if rc_score > 0:
+						rec_under += 1
+					else:
+						rec_over += 1
+
+
+					score = qb_score * rc_score
+					
+					scale_factor = 1
+					miss_factor = 1.25
+
+					if qb_yd > qb_yards_mean:
+						scale_factor = 1.25
+
+					if score >= 0:
+						distr_score += scale_factor*math.log(score, 5)
+						distr_hit += 1
+					else:
+						distr_score -= miss_factor*scale_factor*math.log(abs(score), 5)
+						
+					distr_total += 1
+
+	distr_score = distr_score/distr_total
+	distr_prob = round(distr_hit/distr_total, 4)
+
+	
+	print(distr_score)
+	print(distr_prob)
+	print(distr_total)
+
+	return distr_prob, distr_score, distr_total, rc_yards_mean/qb_yards_mean, [rec_over, rec_under], [qb_over, qb_under], [qb_yards_ud, rc_yards_ud]
 
 
 
@@ -1200,70 +1453,16 @@ def get_updated_time():
 ########################
 ### temporary script ###
 ########################
-'''
-- stock symbol
-- days until expiry
 
-ex. python3 plot.py SPY 21
-'''
 growth_correlation(sys.argv[1], sys.argv[2])
+
+find_ud_scores()
 
 # correlation_rank()
 
 # run_sim(sys.argv[1], sys.argv[2])
 
 # growth_correlation(sys.argv[1], sys.argv[2])
-
-
-
-'''
-D.Ridder+J.Smith - 0.9509
-G.Smith+D.Metcalf - 0.8916
-G.Smith+T.Lockett - 0.8433
-P.Mahomes+T.Kelce - 0.7625
-B.Purdy+G.Kittle - 0.7563
-D.Prescott+C.Lamb - 0.7516
-B.Mayfield+C.Godwin - 0.7305
-J.Hurts+A.Brown - 0.7251
-J.Herbert+K.Allen - 0.7241
-P.Mahomes+R.Rice - 0.7
-K.Pickett+D.Johnson - 0.6913
-K.Murray+M.Brown - 0.6575
-R.Wilson+C.Sutton - 0.6538
-T.Tagovailoa+T.Hill - 0.64
-D.Ridder+D.London - 0.6393
-B.Young+A.Thielen - 0.6247
-J.Love+C.Watson - 0.6211
-J.Goff+S.LaPorta - 0.6127
-J.Hurts+D.Smith - 0.594
-B.Purdy+B.Aiyuk - 0.5855
-B.Purdy+D.Samuel - 0.5386
-B.Mayfield+M.Evans - 0.531
-W.Levis+D.Hopkins - 0.525
-M.Stafford+C.Kupp - 0.5078
-T.Tagovailoa+J.Waddle - 0.5029
-J.Goff+A.St. - 0.4874
-
-
-
-
-
-https://play.underdogfantasy.com/es-xhQ0RY4wax
-https://play.underdogfantasy.com/es-wSBKtA4EAJ
-https://play.underdogfantasy.com/es-XM1dyR94cu
-
-
-
-
-
-
-
-'''
-
-
-
-
-
 
 
 
