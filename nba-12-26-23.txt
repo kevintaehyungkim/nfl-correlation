@@ -1,0 +1,52 @@
+Paolo Banchero {'Points': 24.5, 'Pts + Rebs + Asts': 36.5, 'Assists': 4.5, 'Rebounds': 7.5, 'Points + Assists': 28.5, 'Points + Rebounds': 31.5}
+Franz Wagner {'Points': 22.5, 'Pts + Rebs + Asts': 33.5, 'Assists': 5.0, 'Points + Rebounds': 28.5, 'Points + Assists': 27.5}
+Kyle Kuzma {'Points': 22.5, 'Pts + Rebs + Asts': 33.5, 'Rebounds': 6.5, 'Points + Assists': 26.5, 'Points + Rebounds': 29.5}
+Jordan Poole {'Points': 18.5, 'Pts + Rebs + Asts': 24.5, 'Assists': 3.5, 'Rebounds': 2.5, 'Points + Assists': 22.5, 'Points + Rebounds': 21.5}
+Tyus Jones {'Points': 12.5, 'Pts + Rebs + Asts': 21.5, 'Assists': 6.0, 'Rebounds': 3.0, 'Points + Assists': 18.5, 'Points + Rebounds': 15.5}
+Deni Avdija {'Points': 9.5, 'Pts + Rebs + Asts': 19.5, 'Assists': 3.5, 'Rebounds': 5.5, 'Points + Rebounds': 15.5}
+Daniel Gafford {'Points': 11.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 7.0, 'Points + Rebounds': 18.5}
+Mikal Bridges {'Points': 22.5, 'Pts + Rebs + Asts': 31.5, 'Points + Assists': 26.5, 'Points + Rebounds': 27.5}
+Spencer Dinwiddie {'Points': 14.5, 'Pts + Rebs + Asts': 25.5, 'Assists': 7.0, 'Rebounds': 3.5, 'Points + Assists': 21.5, 'Points + Rebounds': 17.5}
+Nic Claxton {'Points': 11.5, 'Rebounds': 9.5, 'Points + Rebounds': 20.5}
+Cam Johnson {'Points': 14.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 4.5, 'Points + Assists': 16.5, 'Points + Rebounds': 18.5}
+Cam Thomas {'Points': 23.5, 'Pts + Rebs + Asts': 29.5, 'Rebounds': 3.5, 'Points + Assists': 25.5, 'Points + Rebounds': 26.5}
+Cade Cunningham {'Points': 22.5, 'Pts + Rebs + Asts': 34.5, 'Assists': 7.0, 'Points + Assists': 29.5, 'Points + Rebounds': 26.5}
+Bojan Bogdanovic {'Points': 19.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 3.0, 'Points + Assists': 22.5, 'Points + Rebounds': 22.5}
+Anthony Edwards {'Points': 28.5, 'Pts + Rebs + Asts': 39.5, 'Assists': 5.0, 'Rebounds': 6.0, 'Points + Assists': 33.5}
+Karl-Anthony Towns {'Points': 21.5, 'Pts + Rebs + Asts': 34.5, 'Points + Assists': 25.5, 'Points + Rebounds': 31.5}
+Mike Conley {'Points': 10.5, 'Pts + Rebs + Asts': 20.5, 'Assists': 7.0, 'Rebounds': 2.5, 'Points + Assists': 18.5, 'Points + Rebounds': 13.5}
+Shai Gilgeous-Alexander {'Points': 33.5, 'Pts + Rebs + Asts': 46.5, 'Assists': 6.5, 'Rebounds': 5.5, 'Points + Assists': 40.5, 'Points + Rebounds': 39.5}
+Chet Holmgren {'Points': 17.5, 'Pts + Rebs + Asts': 28.5, 'Rebounds': 8.5, 'Points + Assists': 20.5, 'Points + Rebounds': 26.5}
+Jalen Williams {'Points': 16.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 4.0, 'Points + Assists': 20.5, 'Points + Rebounds': 21.5}
+Luguentz Dort {'Points': 10.5, 'Rebounds': 4.0, 'Points + Rebounds': 14.5, 'Points + Assists': 12.5}
+Ja Morant {'Points': 28.5, 'Pts + Rebs + Asts': 42.5, 'Rebounds': 6.0, 'Points + Assists': 36.5, 'Points + Rebounds': 34.5}
+Jaren Jackson Jr. {'Points': 18.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 5.5, 'Points + Assists': 19.5, 'Points + Rebounds': 24.5}
+Desmond Bane {'Points': 25.5, 'Pts + Rebs + Asts': 35.5, 'Assists': 4.5, 'Rebounds': 4.5, 'Points + Assists': 30.5, 'Points + Rebounds': 30.5}
+Zion Williamson {'Points': 22.5, 'Pts + Rebs + Asts': 33.5, 'Rebounds': 6.5, 'Points + Assists': 27.5, 'Points + Rebounds': 29.5}
+Brandon Ingram {'Points': 22.5, 'Pts + Rebs + Asts': 32.5, 'Assists': 5.5, 'Rebounds': 4.5, 'Points + Rebounds': 27.5, 'Points + Assists': 27.5}
+CJ McCollum {'Points': 17.5, 'Pts + Rebs + Asts': 26.5, 'Assists': 5.0, 'Rebounds': 3.5, 'Points + Assists': 22.5, 'Points + Rebounds': 21.5}
+Herbert Jones {'Points': 8.5, 'Pts + Rebs + Asts': 14.5, 'Rebounds': 3.5, 'Points + Assists': 10.5}
+Jonas Valanciunas {'Points': 14.5, 'Pts + Rebs + Asts': 27.5, 'Rebounds': 10.5, 'Points + Assists': 16.5, 'Points + Rebounds': 25.5}
+Trae Young {'Points': 28.5, 'Pts + Rebs + Asts': 42.5, 'Points + Assists': 39.5}
+Clint Capela {'Points': 13.5, 'Points + Assists': 14.5, 'Points + Rebounds': 24.5}
+Tyrese Haliburton {'Points': 24.5, 'Pts + Rebs + Asts': 40.5, 'Rebounds': 4.0, 'Points + Assists': 36.5, 'Points + Rebounds': 28.5}
+Myles Turner {'Points': 15.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 8.0, 'Points + Assists': 16.5, 'Points + Rebounds': 24.5}
+Buddy Hield {'Points': 15.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 4.5, 'Points + Rebounds': 20.5, 'Points + Assists': 17.5}
+Fred VanVleet {'Points': 19.5, 'Pts + Rebs + Asts': 32.5, 'Assists': 9.0, 'Points + Rebounds': 23.5, 'Points + Assists': 28.5}
+Jalen Green {'Pts + Rebs + Asts': 25.5, 'Rebounds': 4.0, 'Points + Rebounds': 22.5, 'Points + Assists': 20.5}
+Alperen Sengun {'Points': 22.5, 'Pts + Rebs + Asts': 38.5, 'Assists': 5.0, 'Rebounds': 10.5, 'Points + Assists': 27.5, 'Points + Rebounds': 33.5}
+Jabari Smith Jr. {'Points': 17.5, 'Pts + Rebs + Asts': 28.5, 'Rebounds': 9.5, 'Points + Rebounds': 26.5}
+Dillon Brooks {'Points': 11.5, 'Pts + Rebs + Asts': 16.5}
+Domantas Sabonis {'Points': 21.5, 'Pts + Rebs + Asts': 43.5, 'Assists': 8.0, 'Rebounds': 13.5, 'Points + Assists': 29.5, 'Points + Rebounds': 34.5}
+De'Aaron Fox {'Points': 29.5, 'Pts + Rebs + Asts': 41.5, 'Assists': 6.5, 'Rebounds': 4.5, 'Points + Assists': 36.5, 'Points + Rebounds': 34.5}
+Keegan Murray {'Points': 18.5, 'Pts + Rebs + Asts': 26.5, 'Points + Assists': 19.5, 'Points + Rebounds': 24.5}
+Harrison Barnes {'Points': 11.5, 'Pts + Rebs + Asts': 16.5, 'Rebounds': 3.5, 'Points + Rebounds': 15.5}
+Kevin Huerter {'Points': 8.5, 'Pts + Rebs + Asts': 15.5, 'Rebounds': 3.5}
+Jerami Grant {'Points': 21.5, 'Pts + Rebs + Asts': 28.5, 'Points + Rebounds': 25.5, 'Points + Assists': 24.5}
+Anfernee Simons {'Points': 26.5, 'Pts + Rebs + Asts': 35.5, 'Assists': 5.5, 'Points + Assists': 32.5, 'Points + Rebounds': 29.5}
+Deandre Ayton {'Points': 14.5, 'Pts + Rebs + Asts': 27.5, 'Rebounds': 11.5, 'Points + Rebounds': 26.5}
+Terry Rozier {'Assists': 6.5, 'Rebounds': 3.5, 'Points + Rebounds': 26.5, 'Points + Assists': 29.5}
+Kawhi Leonard {'Points': 26.5, 'Pts + Rebs + Asts': 37.5, 'Assists': 3.5, 'Rebounds': 6.5, 'Points + Assists': 30.5, 'Points + Rebounds': 33.5}
+Ivica Zubac {'Points': 12.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 10.0, 'Points + Assists': 13.5}
+Quincy Williams {'Assists': 2.5}
+Tony Adams {'Assists': 1.5}

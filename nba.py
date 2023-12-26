@@ -14,6 +14,8 @@ import math
 import requests
 import time
 
+from os.path import exists
+
 import pandas as pd
 
 from collections import defaultdict
@@ -33,6 +35,38 @@ import plotly.io as pio
 
 
 nba_stats = ["Pts + Rebs + Asts", "Points + Assists", "Points + Rebounds", "Points", "Rebounds", "Assists"]
+
+
+
+def get_record(pid): 
+
+	today = date.today()
+	curr_date = pid + str(today.strftime("%m-%d-%y"))
+	record_name = curr_date + '.txt'
+
+	file_exists = exists(record_name)	
+
+	if file_exists:
+		record = open(record_name, "r")
+		return record
+
+	return None
+
+
+
+def update_record(pid): 
+
+	today = date.today()
+	curr_date = pid + str(today.strftime("%m-%d-%y"))
+	file_name = curr_date + '.txt'
+
+	output = open(file_name, "w")
+
+	for k, v in ud_nba.items():
+		output.writelines(f'{k} {v}\n')
+
+	return
+
 
 
 def extract_ud_nba():
@@ -55,7 +89,6 @@ def extract_ud_nba():
 				ud_nba[player][stat] = float(val)
 			else:
 				ud_nba[player] = {stat: float(val)}
-
 
 	today = date.today()
 	curr_date = 'nba-' + str(today.strftime("%m-%d-%y"))
@@ -132,8 +165,16 @@ def find_ud_lines():
 				games_21['Points'].append(game['PTS'])
 				games_21['Assists'].append(game['AST'])
 				games_21['Rebounds'].append(game['REB'])
-				# games_21['FGM'].append(game['FGM'])
-				# games_21['FGA'].append(game['FGA'])
+
+
+				print('FGM', game['FGM'])
+				print('FGA', game['FGA'])
+				print('3PA', game['3PA'])
+
+				games_21['FGM'].append(game['FGM'])
+				games_21['FGA'].append(game['FGA'])
+
+				print 
 
 
 				# x_vals = []
@@ -187,7 +228,7 @@ def find_ud_lines():
 
 						stat_proj, last_8, mean_3, mean_13, med_13, stdev_8 = calculate_projection(games_21, s)
 
-						proj += stat_proj
+						proj += stat_proj + 0.25
 						avg += mean_13
 						std8 += stdev_8
 
@@ -209,13 +250,17 @@ def find_ud_lines():
 
 						recent.append(['Total', total])
 
-					print(ud_player, ud_stat, proj)
+					print(ud_player, ud_stat, ud_val, ' -> ', colored(round(proj, 2), 'yellow'), colored(last_8, 'cyan'))
+					# print(ud)
 
 					if abs(proj-ud_val) > min_threshold(ud_val): 
 
 						cond_met = False
 
 						if proj > ud_val:
+
+							print('overzzz')
+
 							line_dir = 'OVER'
 
 							###
@@ -238,7 +283,7 @@ def find_ud_lines():
 									if r >= ud_val:
 										hits += 1
 
-								if hits >= 5: 
+								if hits >= 6: 
 
 									cond_met = True
 
@@ -270,7 +315,7 @@ def find_ud_lines():
 									if r <= ud_val:
 										hits += 1
 
-								if hits >= 5: 
+								if hits >= 6: 
 
 									cond_met = True
 
@@ -296,42 +341,6 @@ def find_ud_lines():
 		except:
 
 			continue
-
-
-
-				# # over
-				# if avg_3 - ud_val >= 0.5:
-
-				# 	adj = 0
-
-				# 	for s in stat_8:
-
-				# 		if s >= base:
-				# 			hits += 1
-
-				# 		diff = min(0, s - ud_val)
-
-				# 		if diff >= 1:
-
-				# 			diff_scaled = math.log(diff, 2)
-				# 			adj += diff_scaled
-						
-				# 		elif diff < 0:
-
-				# 			diff_scaled = math.log(abs(diff))
-				# 			adj -= 1.5*diff_scaled
-
-
-				# 	proj = round(base + adj, 2)
-
-					# if proj - ud_val > 0.5:
-					# 	print('')
-					# 	print(ud_player, ud_stat, ud_val, 'OVER')
-					# 	print('avg_3: ' + str(avg_3) + ' avg_8: ' + str(avg_8))
-					# 	print('proj: ' + str(proj))
-					# 	print('hit_8: ' + str(hits) + '/8')
-					# 	print('log: ' + str(stat_8))
-
 
 			return
 
@@ -969,10 +978,184 @@ Assists: 1106/1291 | 0.8567
 '''
 
 
+def hit_double(pt, reb, ast):
+
+	double = 0
+
+	for i in range(len(pt)):
+
+		count = 0
+
+		if pt[i] >= 10:
+			count += 1
+
+		if reb[i] >= 10:
+			count += 1
+
+		if ast[i] >= 10:
+			count += 1
+
+		if count >= 2:
+
+			double += 1
+
+	return double
 
 
+# global res
+
+def double_double(): 
 
 
+	ud_nba = extract_ud_nba()
+
+	# filter for nba players and stats 
+	ud_players = list(ud_nba.keys())
+	nba_players = players.get_players()
+
+	for player_name in ud_players:
+
+		player_lines = ud_nba[player_name]
+
+		try:
+
+			# print(nba_players)
+
+			player_info = next((x for x in nba_players if x.get("is_active") == True and x.get("full_name") == player_name), None)
+
+			# print(player_info)
+
+			player_id = player_info.get("id")
+			player_team = player_info.get("team")
+
+			ud_nba[player_name]['*player_id'] = player_id
+			# ud_nba[player_name]['*player_team'] = player_team
+
+		except:
+
+			del ud_nba[player_name]
+			continue
+
+
+	# res = []
+
+	for ud_player in ud_nba.keys():
+
+		# time.sleep(0.1)
+
+		game_log = {}
+
+		try:
+
+			# game_log_pd = pd.concat(playergamelog.PlayerGameLog(player_id=player_id, season=SeasonAll.all).get_data_frames())
+			player_id = ud_nba[ud_player]['*player_id']
+			game_log_pd = pd.concat(playergamelog.PlayerGameLog(player_id=player_id, season=SeasonAll.all).get_data_frames())
+			game_log = game_log_pd.to_dict('records')
+
+		except:
+			continue
+			print('.')
+			return
+
+		# is_empty = game_log_pd.empty()
+
+		if game_log:
+
+			# player_id = ud_nba[ud_player]['*player_id']
+			# game_log_pd = pd.concat(playergamelog.PlayerGameLog(player_id=player_id, season=SeasonAll.all).get_data_frames())
+			# game_log = game_log_pd.to_dict('records')
+
+			last_21_games = game_log[0:20]
+			games_21 = defaultdict(list)
+
+			for i in range(len(last_21_games)):
+
+				game = last_21_games[i]
+
+				# if 'PR' not in last_21_game_data: last_21_game_data['PR'] =
+				# DREB/OREB
+
+				games_21['Points'].append(game['PTS'])
+				games_21['Assists'].append(game['AST'])
+				games_21['Rebounds'].append(game['REB'])
+
+			pt_avg = np.mean(games_21['Points'])
+			ast_avg = np.mean(games_21['Assists'])
+			reb_avg = np.mean(games_21['Rebounds'])
+
+			# print(ud_player, pt_avg, reb_avg, ast_avg)
+
+			count = 0
+
+			if pt_avg >= 10:
+
+				count += 1
+
+			if ast_avg >= 10:
+
+				count += 1
+
+			if reb_avg >= 10:
+
+				count += 1
+
+			# if count >= 2:
+
+			double = 0
+
+			for i in range(len(games_21['Points'])):
+
+				count = 0
+
+				if games_21['Points'][i] >= 10:
+					count += 1
+
+				if games_21['Rebounds'][i] >= 10:
+					count += 1
+
+				if games_21['Assists'][i] >= 10:
+					count += 1
+
+				if count >= 2:
+
+					double += 1
+
+			hit_rate = double/len(games_21['Points'])
+			
+			print(ud_player, hit_rate, ud_player, pt_avg, reb_avg, ast_avg)
+
+			continue
+				# res.append([round(hit_rate, 2), ud_player, pt_avg, reb_avg, ast_avg])
+				# res[ud_player][pt_avg, reb_avg, ast_avg]
+
+
+	# except:
+	# 	print('.')
+	# 	# break
+	# 	continue
+	# 		return 
+
+			# time.sleep(0.1)
+
+			# 	# time.sleep(0.05)
+			# 	print(e)
+		
+		# print(res)
+
+	# res_sorted = sorted(res, reverse=True)
+
+	# for r in res_sorted:
+
+	# 	print(r)
+
+	# return res_sorted
+
+
+				# games_21['FGM'].append(game['FGM'])
+				# games_21['FGA'].append(game['FGA'])
+
+
+# double_double()
 find_ud_lines()
 
 # test_1()

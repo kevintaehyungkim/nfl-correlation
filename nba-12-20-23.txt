@@ -1,0 +1,179 @@
+Anthony Edwards {'Assists': 5.0, 'Points': 26.5, 'Pts + Rebs + Asts': 36.5, 'Rebounds': 4.5, 'Points + Assists': 31.5, 'Points + Rebounds': 31.5}
+Collin Sexton {'Pts + Rebs + Asts': 30.5, 'Assists': 5.0, 'Rebounds': 3.5, 'Points + Assists': 26.5, 'Points + Rebounds': 25.5}
+Simone Fontecchio {'Points': 9.5, 'Pts + Rebs + Asts': 13.5, 'Assists': 1.5, 'Points + Assists': 10.5, 'Points + Rebounds': 12.5}
+Donovan Mitchell {'Points': 32.5, 'Pts + Rebs + Asts': 45.5, 'Assists': 7.0, 'Rebounds': 6.0, 'Points + Assists': 39.5, 'Points + Rebounds': 38.5}
+Jarrett Allen {'Points': 15.5, 'Pts + Rebs + Asts': 28.5, 'Rebounds': 10.5, 'Points + Assists': 17.5, 'Points + Rebounds': 25.5}
+Max Strus {'Points': 15.5, 'Pts + Rebs + Asts': 24.5, 'Assists': 4.0, 'Rebounds': 5.0, 'Points + Assists': 19.5, 'Points + Rebounds': 20.5}
+Bam Adebayo {'Points': 21.5, 'Pts + Rebs + Asts': 36.5, 'Assists': 4.0, 'Rebounds': 10.0, 'Points + Assists': 26.5, 'Points + Rebounds': 32.5}
+Tyler Herro {'Pts + Rebs + Asts': 30.5, 'Points + Assists': 25.5, 'Points + Rebounds': 26.5}
+Kyle Lowry {'Points': 8.5, 'Pts + Rebs + Asts': 16.5, 'Assists': 4.0, 'Rebounds': 3.5, 'Points + Assists': 13.5, 'Points + Rebounds': 12.5}
+Paolo Banchero {'Points': 21.5, 'Pts + Rebs + Asts': 33.5, 'Assists': 4.0, 'Rebounds': 7.0, 'Points + Assists': 25.5, 'Points + Rebounds': 28.5}
+Franz Wagner {'Points': 19.5, 'Pts + Rebs + Asts': 29.5, 'Rebounds': 5.0, 'Points + Rebounds': 24.5, 'Points + Assists': 23.5}
+Jalen Suggs {'Points': 11.5, 'Pts + Rebs + Asts': 17.5, 'Assists': 2.5, 'Rebounds': 3.5, 'Points + Rebounds': 14.5, 'Points + Assists': 14.5}
+Terry Rozier {'Points': 22.5, 'Pts + Rebs + Asts': 34.5, 'Assists': 7.5, 'Rebounds': 3.5, 'Points + Rebounds': 26.5, 'Points + Assists': 30.5}
+Miles Bridges {'Points': 21.5, 'Pts + Rebs + Asts': 31.5, 'Rebounds': 6.5, 'Points + Rebounds': 28.5, 'Points + Assists': 24.5}
+Gordon Hayward {'Points': 16.5, 'Pts + Rebs + Asts': 26.5, 'Rebounds': 4.5, 'Points + Assists': 21.5, 'Points + Rebounds': 21.5}
+Nick Richards {'Points': 11.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 9.5, 'Points + Rebounds': 21.5}
+Brandon Miller {'Points': 16.5, 'Pts + Rebs + Asts': 22.5, 'Points + Assists': 18.5, 'Points + Rebounds': 20.5}
+Tyrese Haliburton {'Points': 24.5, 'Pts + Rebs + Asts': 41.5, 'Points + Rebounds': 28.5, 'Points + Assists': 37.5}
+Myles Turner {'Points': 16.5, 'Pts + Rebs + Asts': 26.5, 'Rebounds': 8.5, 'Points + Rebounds': 25.5, 'Points + Assists': 18.5}
+Buddy Hield {'Points': 14.5, 'Pts + Rebs + Asts': 20.5, 'Points + Assists': 16.5, 'Points + Rebounds': 18.5}
+Bruce Brown {'Points': 11.5, 'Pts + Rebs + Asts': 17.5, 'Rebounds': 4.0, 'Points + Rebounds': 15.5}
+Obi Toppin {'Points': 10.5, 'Pts + Rebs + Asts': 16.5, 'Rebounds': 4.0}
+Jalen Brunson {'Points': 25.5, 'Pts + Rebs + Asts': 35.5, 'Assists': 6.0, 'Rebounds': 4.0, 'Points + Assists': 31.5, 'Points + Rebounds': 29.5}
+Julius Randle {'Points': 24.5, 'Pts + Rebs + Asts': 40.5, 'Rebounds': 10.0, 'Points + Assists': 29.5, 'Points + Rebounds': 35.5}
+RJ Barrett {'Points': 17.5, 'Pts + Rebs + Asts': 24.5, 'Rebounds': 4.5, 'Points + Assists': 19.5, 'Points + Rebounds': 21.5}
+Mikal Bridges {'Points': 21.5, 'Pts + Rebs + Asts': 30.5, 'Assists': 3.5, 'Rebounds': 5.0, 'Points + Assists': 25.5, 'Points + Rebounds': 26.5}
+Spencer Dinwiddie {'Points': 16.5, 'Pts + Rebs + Asts': 28.5, 'Assists': 8.0, 'Rebounds': 4.0, 'Points + Assists': 24.5, 'Points + Rebounds': 20.5}
+Nic Claxton {'Points': 12.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 9.0, 'Points + Assists': 13.5, 'Points + Rebounds': 21.5}
+Cam Johnson {'Points': 13.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 4.5, 'Points + Assists': 15.5, 'Points + Rebounds': 17.5}
+Cam Thomas {'Points': 24.5, 'Pts + Rebs + Asts': 31.5, 'Points + Assists': 27.5, 'Points + Rebounds': 28.5}
+LeBron James {'Points': 25.5, 'Pts + Rebs + Asts': 42.5, 'Assists': 7.5, 'Points + Assists': 33.5, 'Points + Rebounds': 34.5}
+Anthony Davis {'Points': 28.5, 'Pts + Rebs + Asts': 45.5, 'Assists': 2.5, 'Points + Assists': 30.5, 'Points + Rebounds': 42.5}
+DeMar DeRozan {'Points': 22.5, 'Pts + Rebs + Asts': 31.5, 'Assists': 5.5, 'Rebounds': 4.0, 'Points + Assists': 27.5, 'Points + Rebounds': 26.5}
+Nikola Vucevic {'Points': 19.5, 'Pts + Rebs + Asts': 34.5, 'Rebounds': 11.5, 'Points + Assists': 22.5, 'Points + Rebounds': 30.5}
+Coby White {'Points': 22.5, 'Pts + Rebs + Asts': 33.5, 'Assists': 6.0, 'Rebounds': 4.5, 'Points + Assists': 28.5, 'Points + Rebounds': 26.5}
+Patrick Williams {'Points': 12.5, 'Pts + Rebs + Asts': 19.5, 'Rebounds': 5.5, 'Points + Assists': 13.5, 'Points + Rebounds': 17.5}
+Trae Young {'Points': 30.5, 'Pts + Rebs + Asts': 43.5, 'Assists': 10.0, 'Rebounds': 3.0, 'Points + Assists': 40.5, 'Points + Rebounds': 33.5}
+Dejounte Murray {'Points': 18.5, 'Pts + Rebs + Asts': 28.5, 'Assists': 4.5, 'Rebounds': 4.5, 'Points + Assists': 23.5, 'Points + Rebounds': 23.5}
+Clint Capela {'Points': 13.5, 'Pts + Rebs + Asts': 26.5, 'Rebounds': 11.5, 'Points + Rebounds': 25.5}
+De'Andre Hunter {'Points': 14.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 4.0, 'Points + Assists': 15.5, 'Points + Rebounds': 18.5}
+Saddiq Bey {'Points': 14.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 6.5, 'Points + Assists': 15.5, 'Points + Rebounds': 20.5}
+Fred VanVleet {'Points': 18.5, 'Pts + Rebs + Asts': 33.5, 'Assists': 9.5, 'Rebounds': 4.5, 'Points + Assists': 28.5, 'Points + Rebounds': 23.5}
+Jalen Green {'Points': 17.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 4.0, 'Points + Assists': 20.5, 'Points + Rebounds': 21.5}
+Alperen Sengun {'Points': 20.5, 'Pts + Rebs + Asts': 35.5, 'Assists': 5.0, 'Rebounds': 9.5, 'Points + Rebounds': 30.5, 'Points + Assists': 26.5}
+Jabari Smith Jr. {'Points': 13.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 8.5, 'Points + Rebounds': 22.5}
+Dillon Brooks {'Points': 14.5, 'Pts + Rebs + Asts': 19.5, 'Rebounds': 3.5, 'Points + Rebounds': 17.5}
+Kawhi Leonard {'Points': 28.5, 'Pts + Rebs + Asts': 38.5, 'Assists': 3.5, 'Rebounds': 7.0, 'Points + Assists': 31.5, 'Points + Rebounds': 35.5}
+Ivica Zubac {'Points': 12.5, 'Pts + Rebs + Asts': 24.5, 'Rebounds': 10.5, 'Points + Assists': 13.5, 'Points + Rebounds': 23.5}
+Luka Doncic {'Points': 36.5, 'Pts + Rebs + Asts': 57.5, 'Assists': 10.0, 'Rebounds': 10.0, 'Points + Assists': 46.5, 'Points + Rebounds': 46.5}
+Grant Williams {'Points': 9.5, 'Pts + Rebs + Asts': 15.5, 'Assists': 1.5, 'Rebounds': 4.0, 'Points + Assists': 10.5, 'Points + Rebounds': 13.5}
+Derrick Jones Jr. {'Points': 10.5, 'Pts + Rebs + Asts': 16.5, 'Rebounds': 4.0, 'Points + Assists': 12.5, 'Points + Rebounds': 15.5}
+Dante Exum {'Points': 13.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 4.0, 'Points + Assists': 17.5, 'Points + Rebounds': 18.5}
+Domantas Sabonis {'Points': 18.5, 'Pts + Rebs + Asts': 38.5, 'Assists': 7.0, 'Rebounds': 13.0, 'Points + Assists': 25.5, 'Points + Rebounds': 31.5}
+De'Aaron Fox {'Points': 29.5, 'Pts + Rebs + Asts': 40.5, 'Assists': 6.5, 'Rebounds': 4.5, 'Points + Assists': 36.5, 'Points + Rebounds': 33.5}
+Nikola Jokic {'Points': 25.5, 'Pts + Rebs + Asts': 48.5, 'Assists': 9.5, 'Rebounds': 12.5, 'Points + Assists': 35.5, 'Points + Rebounds': 38.5}
+Jamal Murray {'Points': 19.5, 'Pts + Rebs + Asts': 28.5, 'Assists': 5.5, 'Rebounds': 3.0, 'Points + Assists': 25.5, 'Points + Rebounds': 22.5}
+Karl-Anthony Towns {'Pts + Rebs + Asts': 31.5, 'Rebounds': 8.0, 'Points + Assists': 23.5}
+Rudy Gobert {'Points': 11.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 11.0, 'Points + Rebounds': 22.5}
+Michael Porter Jr. {'Points': 14.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 6.5, 'Points + Assists': 15.5, 'Points + Rebounds': 21.5}
+Mike Conley {'Points': 11.5, 'Pts + Rebs + Asts': 20.5, 'Assists': 6.0, 'Points + Assists': 17.5}
+Aaron Gordon {'Points': 13.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 6.0, 'Points + Assists': 16.5, 'Points + Rebounds': 19.5}
+Kentavious Caldwell-Pope {'Points': 8.5, 'Pts + Rebs + Asts': 12.5}
+Pascal Siakam {'Points': 21.5, 'Pts + Rebs + Asts': 33.5, 'Assists': 5.0, 'Rebounds': 6.5, 'Points + Rebounds': 28.5, 'Points + Assists': 26.5}
+Joel Embiid {'Pts + Rebs + Asts': 51.5, 'Assists': 5.5, 'Rebounds': 12.0, 'Points + Assists': 39.5, 'Points + Rebounds': 45.5}
+Scottie Barnes {'Points': 20.5, 'Pts + Rebs + Asts': 34.5, 'Assists': 5.5, 'Rebounds': 8.0, 'Points + Assists': 26.5, 'Points + Rebounds': 28.5}
+Tyrese Maxey {'Points': 24.5, 'Pts + Rebs + Asts': 34.5, 'Assists': 6.5, 'Rebounds': 3.5, 'Points + Assists': 30.5, 'Points + Rebounds': 27.5}
+OG Anunoby {'Points': 14.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 3.5, 'Points + Assists': 16.5, 'Points + Rebounds': 17.5}
+Jakob Poeltl {'Points': 9.5, 'Pts + Rebs + Asts': 19.5, 'Rebounds': 7.5, 'Points + Rebounds': 17.5}
+Dennis Schroder {'Points': 12.5, 'Pts + Rebs + Asts': 21.5, 'Assists': 6.0, 'Points + Assists': 19.5, 'Points + Rebounds': 15.5}
+Demario Davis {'Assists': 2.5}
+Carl Granderson {'Assists': 1.5}
+Jordan Howden {'Assists': 2.0}
+Alohi Gilman {'Assists': 2.0}
+Derwin James Jr. {'Assists': 2.5}
+J.T. Compher {'Points': 0.5}
+Patrick Kane {'Points': 0.5}
+Lucas Raymond {'Points': 0.5}
+Josh Morrissey {'Assists': 0.5}
+Mark Scheifele {'Assists': 0.5}
+Gabriel Vilardi {'Points': 0.5}
+Cole Perfetti {'Points': 0.5}
+Kyle Palmieri {'Points': 0.5}
+Mathew Barzal {'Assists': 0.5}
+Noah Dobson {'Assists': 0.5}
+Alex Ovechkin {'Assists': 0.5}
+John Carlson {'Assists': 0.5}
+Evgeny Kuznetsov {'Points': 0.5}
+Tom Wilson {'Points': 0.5}
+Dylan Strome {'Points': 0.5}
+Oliver Bjorkstrand {'Points': 0.5}
+Vince Dunn {'Points': 0.5}
+Kevin Fiala {'Assists': 0.5}
+Phillip Danault {'Points': 0.5}
+Drew Doughty {'Points': 0.5}
+Trevor Moore {'Points': 0.5}
+Quinton Byfield {'Points': 0.5}
+Javon Small {'Points': 14.0, 'Pts + Rebs + Asts': 24.5, 'Rebounds': 5.0, 'Assists': 5.5}
+Quion Williams {'Points': 9.5, 'Pts + Rebs + Asts': 17.5, 'Assists': 2.5}
+Eric Dailey Jr. {'Points': 11.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 7.0}
+RayJ Dennis {'Points': 13.5, 'Pts + Rebs + Asts': 24.5, 'Assists': 6.0}
+Jalen Bridges {'Points': 10.5, 'Pts + Rebs + Asts': 16.5, 'Rebounds': 4.5}
+Ja'Kobe Walter {'Pts + Rebs + Asts': 18.5}
+Yves Missi {'Points': 10.0, 'Pts + Rebs + Asts': 16.5, 'Rebounds': 6.0}
+Tristen Newton {'Points': 15.5, 'Pts + Rebs + Asts': 29.5, 'Rebounds': 7.0, 'Assists': 5.5}
+Cam Spencer {'Points': 15.5, 'Pts + Rebs + Asts': 22.5, 'Assists': 3.5}
+Alex Karaban {'Points': 14.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 5.5}
+Donovan Clingan {'Points': 14.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 7.0}
+Al-Amir Dawes {'Points': 13.5, 'Pts + Rebs + Asts': 17.5}
+Kadary Richmond {'Points': 14.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 6.0, 'Assists': 4.0}
+Dre Davis {'Points': 12.5, 'Pts + Rebs + Asts': 19.5, 'Rebounds': 5.5}
+Dylan Addae-Wusu {'Points': 8.5, 'Pts + Rebs + Asts': 16.5, 'Rebounds': 5.0, 'Assists': 2.5}
+Quincy Olivari {'Points': 19.5, 'Pts + Rebs + Asts': 26.5, 'Rebounds': 4.5}
+Desmond Claude {'Points': 14.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 4.5, 'Assists': 4.0}
+Dayvion McKnight {'Points': 11.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 5.0, 'Assists': 5.5}
+Joel Soriano {'Points': 18.5, 'Pts + Rebs + Asts': 31.5, 'Rebounds': 10.5}
+Chris Ledlum {'Points': 12.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 7.5}
+Daniss Jenkins {'Points': 11.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 4.0, 'Assists': 6.0}
+Gibson Jimerson {'Points': 17.5, 'Pts + Rebs + Asts': 22.5}
+Terrence Hargrove Jr. {'Points': 13.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 6.0}
+Quinn Slazinski {'Points': 15.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 5.5, 'Assists': 1.5}
+Armando Bacot {'Points': 13.5, 'Pts + Rebs + Asts': 24.5, 'Rebounds': 10.5}
+RJ Davis {'Points': 19.5, 'Pts + Rebs + Asts': 26.5, 'Rebounds': 4.0}
+Cormac Ryan {'Points': 12.5, 'Pts + Rebs + Asts': 18.5, 'Rebounds': 4.0, 'Assists': 1.5}
+Harrison Ingram {'Points': 12.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 6.0}
+Steven Ashworth {'Points': 8.5, 'Pts + Rebs + Asts': 14.5, 'Rebounds': 2.5}
+Ryan Kalkbrenner {'Points': 16.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 7.5}
+Mason Miller {'Points': 8.0, 'Pts + Rebs + Asts': 13.5, 'Rebounds': 4.5}
+Trey Alexander {'Points': 15.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 5.5, 'Assists': 4.0}
+Baylor Scheierman {'Points': 17.5, 'Pts + Rebs + Asts': 30.5, 'Rebounds': 7.5, 'Assists': 4.5}
+Ryan Nembhard {'Points': 12.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 3.5, 'Assists': 6.5}
+Nolan Hickman {'Points': 11.5, 'Pts + Rebs + Asts': 17.5}
+Graham Ike {'Points': 14.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 8.5}
+Jaelen House {'Points': 15.5, 'Pts + Rebs + Asts': 22.5, 'Assists': 4.0}
+JT Toppin {'Points': 11.0, 'Pts + Rebs + Asts': 18.5, 'Rebounds': 7.0, 'Assists': 0.5}
+Donovan Dent {'Points': 14.5, 'Pts + Rebs + Asts': 22.5, 'Assists': 5.0}
+Tibet Gorener {'Points': 12.5, 'Pts + Rebs + Asts': 18.5, 'Rebounds': 4.5}
+Alvaro Cardenas {'Points': 13.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 3.5, 'Assists': 4.5}
+Aaron Estrada {'Points': 12.5, 'Pts + Rebs + Asts': 19.5}
+Mark Sears {'Points': 17.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 4.5}
+Rylan Griffen {'Points': 8.5}
+Grant Nelson {'Points': 12.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 6.5}
+Rolands Smits {'Points': 11.5}
+Keenan Evans {'Points': 14.5}
+Tomas Dimsa {'Points': 8.5}
+Edgaras Ulanovas {'Points': 7.5, 'Pts + Rebs + Asts': 14.5, 'Rebounds': 3.5}
+Kevarrius Hayes {'Points': 6.5}
+Scottie Wilbekin {'Points': 13.5, 'Assists': 3.5}
+Johnathan Motley {'Points': 10.5, 'Rebounds': 4.5}
+Marko Guduric {'Points': 10.5}
+Tyler Dorsey {'Points': 8.5}
+Nigel Hayes {'Points': 13.5, 'Pts + Rebs + Asts': 20.5, 'Rebounds': 4.5}
+Konstantinos Mitoglou {'Points': 13.5, 'Rebounds': 7.0}
+Jerian Grant {'Points': 7.5, 'Pts + Rebs + Asts': 12.5, 'Assists': 2.5, 'Rebounds': 2.5}
+Mathias Lessort {'Points': 13.5, 'Rebounds': 5.5}
+Kostas Sloukas {'Points': 11.5, 'Assists': 6.5}
+Kendrick Nunn {'Points': 13.5}
+Jaron Blossomgame {'Points': 6.5, 'Rebounds': 3.5}
+Elie Okobo {'Points': 10.5, 'Assists': 3.5}
+Donatas Motiejunas {'Points': 7.5}
+Alpha Diallo {'Points': 10.5, 'Rebounds': 4.5}
+Mike James {'Points': 18.5, 'Pts + Rebs + Asts': 27.5, 'Assists': 4.5, 'Rebounds': 4.5}
+Nando De Colo {'Points': 12.5}
+Mike Scott {'Points': 8.5}
+Joffrey Lauvergne {'Points': 12.5, 'Rebounds': 6.5}
+Youssoupha Fall {'Points': 8.5, 'Rebounds': 6.5}
+Timothe Luwawu-Cabarrot {'Points': 14.5, 'Pts + Rebs + Asts': 21.5, 'Rebounds': 3.5}
+Paris Lee {'Points': 8.5, 'Assists': 5.0}
+Shavon Shields {'Points': 17.5}
+Nicolo Melli {'Points': 9.5, 'Pts + Rebs + Asts': 17.5, 'Assists': 2.5, 'Rebounds': 5.5}
+Devon Hall {'Points': 9.5}
+Tyrique Jones {'Rebounds': 8.0}
+Darius Thompson {'Points': 15.5, 'Pts + Rebs + Asts': 24.5, 'Assists': 5.5}
+Shane Larkin {'Points': 20.0, 'Assists': 5.5}
+Sylvian Francisco {'Points': 10.5, 'Assists': 3.5}
+Devin Booker {'Points': 10.5, 'Rebounds': 5.5}
+Serge Ibaka {'Points': 13.5, 'Rebounds': 7.0}
+Leandro Bolmaro {'Points': 10.5, 'Pts + Rebs + Asts': 17.5}
+Nick Weiler-Babb {'Points': 6.5}
+Carsen Edwards {'Points': 12.5}

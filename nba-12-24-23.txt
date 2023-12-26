@@ -1,0 +1,44 @@
+Alex Anzalone {'Assists': 3.0}
+Jack Campbell {'Assists': 2.5}
+Harrison Smith {'Assists': 1.5}
+Jartavius Martin {'Assists': 1.5}
+Quincy Williams {'Assists': 2.5}
+Jordan Whitehead {'Assists': 2.0}
+Vonn Bell {'Assists': 1.5}
+Frankie Luvu {'Assists': 3.0}
+Jalen Pitre {'Assists': 1.5}
+E.J. Speed {'Assists': 2.5}
+Zaire Franklin {'Assists': 3.5}
+Jordyn Brooks {'Assists': 2.5}
+Julian Love {'Assists': 2.0}
+Azeez Al-Shaair {'Assists': 3.5}
+Devin Lloyd {'Assists': 3.0}
+Lavonte David {'Assists': 2.5}
+Markquese Bell {'Assists': 2.5}
+Donovan Wilson {'Assists': 1.5}
+Damone Clark {'Assists': 2.5}
+Zach Sieler {'Assists': 1.5}
+DeShon Elliott {'Assists': 1.5}
+T.J. Edwards {'Assists': 3.0}
+Tremaine Edmunds {'Assists': 2.5}
+Ja'Whaun Bentley {'Assists': 3.0}
+Patrick Queen {'Assists': 2.5}
+Roquan Smith {'Assists': 3.0}
+Ji'Ayir Brown {'Assists': 1.5}
+Fred Warner {'Assists': 3.0}
+Dre Greenlaw {'Assists': 3.0}
+Giannis Antetokounmpo {'Points': 31.5, 'Pts + Rebs + Asts': 49.5, 'Assists': 6.0, 'Rebounds': 10.5, 'Points + Rebounds': 42.5, 'Points + Assists': 38.5}
+Damian Lillard {'Points': 24.5, 'Pts + Rebs + Asts': 36.5, 'Assists': 7.0, 'Rebounds': 4.0, 'Points + Assists': 32.5, 'Points + Rebounds': 29.5}
+Khris Middleton {'Points': 16.5, 'Pts + Rebs + Asts': 25.5, 'Rebounds': 4.5, 'Points + Assists': 20.5, 'Points + Rebounds': 20.5}
+Brook Lopez {'Points': 12.5, 'Pts + Rebs + Asts': 18.5, 'Rebounds': 5.0, 'Points + Assists': 13.5, 'Points + Rebounds': 17.5}
+Jalen Brunson {'Points': 26.5, 'Pts + Rebs + Asts': 36.5, 'Assists': 6.5, 'Rebounds': 3.5, 'Points + Assists': 32.5, 'Points + Rebounds': 29.5}
+Julius Randle {'Points': 24.5, 'Pts + Rebs + Asts': 38.5, 'Rebounds': 9.0, 'Points + Assists': 29.5, 'Points + Rebounds': 33.5}
+RJ Barrett {'Points': 17.5, 'Pts + Rebs + Asts': 23.5, 'Points + Assists': 19.5, 'Points + Rebounds': 21.5}
+Joel Embiid {'Points': 32.5, 'Pts + Rebs + Asts': 49.5, 'Assists': 5.0, 'Rebounds': 11.5, 'Points + Rebounds': 44.5, 'Points + Assists': 37.5}
+Tyrese Maxey {'Points': 25.5, 'Pts + Rebs + Asts': 35.5, 'Assists': 6.5, 'Points + Assists': 32.5, 'Points + Rebounds': 28.5}
+Jameer Nelson Jr. {'Points': 10.5, 'Pts + Rebs + Asts': 15.5, 'Rebounds': 2.5}
+Emanuel Miller {'Points': 16.5, 'Pts + Rebs + Asts': 24.5, 'Rebounds': 6.0}
+Micah Peavy {'Points': 10.5, 'Pts + Rebs + Asts': 16.5, 'Assists': 1.5}
+Kenan Blackshear {'Points': 14.5, 'Pts + Rebs + Asts': 23.5, 'Rebounds': 5.0, 'Assists': 3.5}
+Jarod Lucas {'Points': 17.5, 'Pts + Rebs + Asts': 22.5, 'Rebounds': 3.0}
+Nick Davidson {'Points': 11.5, 'Pts + Rebs + Asts': 19.5, 'Rebounds': 7.0}
