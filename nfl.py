@@ -3,6 +3,7 @@ import nfl_data_py as nfl
 
 import math
 import pprint
+import json
 
 import numpy as np
 import pandas as pd
@@ -22,76 +23,98 @@ MIN_YARD_AVG = 10
 MIN_REC_AVG = 1
 
 
-# relevant columns
-columns = ['passer_player_name', 'receiver_player_name', 'posteam', 'defteam', 'season', 'week', 'play_type', 
-           'yards_after_catch', 'complete_pass', 'qb_hit', 'sack','passing_yards']
+# Function to load JSON data from a file
+def load_json(filename):
+    try:
+        with open(filename, 'r') as file:
+            data = json.load(file)
+        return data
+    except FileNotFoundError:
+        print(f"Error: The file {filename} was not found.")
+        return None
+    except json.JSONDecodeError:
+        print("Error: The file could not be decoded. Please check the file format.")
+        return None
 
 
-# load NFL pbp data
-pbp_raw = nfl.import_pbp_data([2023], columns)
-pbp_records = pbp_raw.to_dict('records')
+# Example usage
+filename = 'game_stats_2023.json'
+TEAM_GAME_YARDS = dict(load_json(filename))
+
+# print(TEAM_GAME_YARDS)
 
 
-# util functions
-def nested_dict():
-    return defaultdict(nested_dict)
+# # relevant columns
+# columns = ['passer_player_name', 'receiver_player_name', 'posteam', 'defteam', 'season', 'week', 'play_type', 
+#            'yards_after_catch', 'complete_pass', 'qb_hit', 'sack','passing_yards']
+# 
+# 
+# # load NFL pbp data
+# pbp_raw = nfl.import_pbp_data([2023], columns)
+# pbp_records = pbp_raw.to_dict('records')
+
+
+# # util functions
+# def nested_dict():
+#     return defaultdict(nested_dict)
 
 
 
-'''
-nested key structure
---------------------
--> team 
- -> game
-  -> 'pass' OR 'rec'
-   -> player
-    -> yards
-'''
-TEAM_GAME_YARDS = nested_dict()
+# '''
+# nested key structure
+# --------------------
+# -> team 
+#  -> game
+#   -> 'pass' OR 'rec'
+#    -> player
+#     -> yards
+# '''
+# TEAM_GAME_YARDS = nested_dict()
 
 
 
-'''
-process each play and create map of team yards (pass or rec) per game
-'''
-for line in pbp_records:
+# '''
+# process each play and create map of team yards (pass or rec) per game
+# '''
+# for line in pbp_records:
 
-	if line['play_type'] == 'pass' and line['complete_pass'] == 1.0:
+# 	if line['play_type'] == 'pass' and line['complete_pass'] == 1.0 and str(line['nflverse_game_id']) != 'nan':
 
-		team = str(line['posteam'])
-		game = str(line['nflverse_game_id'])
+# 		team = str(line['posteam'])
+# 		game = str(line['nflverse_game_id'])
 
-		passer = line['passer_player_name']
-		receiver = line['receiver_player_name']
-		yards = line['passing_yards']
+# 		print(game)
+
+# 		passer = line['passer_player_name']
+# 		receiver = line['receiver_player_name']
+# 		yards = line['passing_yards']
+
+# 		teams = set([game.split('_')[2], game.split('_')[3]])
+# 		teams.remove(team)
+# 		opp = list(teams)[0]
+
+# 		TEAM_GAME_YARDS[team][game]['opp'] = opp
 
 
-		teams = set([game.split('_')[2], game.split('_')[3]])
-		teams.remove(team)
-		opp = list(teams)[0]
+# 		if not TEAM_GAME_YARDS[team][game]['pass']:
+# 			TEAM_GAME_YARDS[team][game]['pass'] = nested_dict()
 
-		TEAM_GAME_YARDS[team][game]['opp'] = opp
+# 		if not TEAM_GAME_YARDS[team][game]['rec']:
+# 			TEAM_GAME_YARDS[team][game]['rec'] = nested_dict()
 
+# 		# rec yards + receptions
+# 		if TEAM_GAME_YARDS[team][game]['rec'][receiver]:
+# 			TEAM_GAME_YARDS[team][game]['rec'][receiver][0] += int(yards)
+# 			TEAM_GAME_YARDS[team][game]['rec'][receiver][1] += 1
+# 		else:
+# 			TEAM_GAME_YARDS[team][game]['rec'][receiver] = [int(yards), 1]
 
-		if not TEAM_GAME_YARDS[team][game]['pass']:
-			TEAM_GAME_YARDS[team][game]['pass'] = nested_dict()
-
-		if not TEAM_GAME_YARDS[team][game]['rec']:
-			TEAM_GAME_YARDS[team][game]['rec'] = nested_dict()
-
-		# rec yards + receptions
-		if TEAM_GAME_YARDS[team][game]['rec'][receiver]:
-			TEAM_GAME_YARDS[team][game]['rec'][receiver][0] += int(yards)
-			TEAM_GAME_YARDS[team][game]['rec'][receiver][1] += 1
-		else:
-			TEAM_GAME_YARDS[team][game]['rec'][receiver] = [int(yards), 1]
-
-		# pass yards + completions
-		if TEAM_GAME_YARDS[team][game]['pass'][passer]:
-			TEAM_GAME_YARDS[team][game]['pass'][passer][0] += int(yards)
-			TEAM_GAME_YARDS[team][game]['pass'][passer][1] += 1
-		else:
-			TEAM_GAME_YARDS[team][game]['pass'][passer] = [int(yards), 1]
+# 		# pass yards + completions
+# 		if TEAM_GAME_YARDS[team][game]['pass'][passer]:
+# 			TEAM_GAME_YARDS[team][game]['pass'][passer][0] += int(yards)
+# 			TEAM_GAME_YARDS[team][game]['pass'][passer][1] += 1
+# 		else:
+# 			TEAM_GAME_YARDS[team][game]['pass'][passer] = [int(yards), 1]
 
 
 
@@ -100,9 +123,12 @@ team game log
 '''
 def game_log(team):
 	print('\n')
-	print(colored('[TEAM - ' + team + ']', 'yellow'))
-	
+	# print(colored('[TEAM - ' + team + ']', 'yellow'))
+	print(colored('[n/a]', 'yellow'))
+
+
 	game_log = TEAM_GAME_YARDS[team] 
+	# print(game_log)
 	
 	for game in game_log:
 		print('\n')
@@ -181,6 +207,16 @@ def space(num):
 	return ' ' * num
 
 
+def key_with_highest_first_element(dictionary):
+    # Sort the dictionary items based on the first element of the list
+    sorted_items = sorted(dictionary.items(), key=lambda item: float(item[1][0]) if item[1] else float('-inf'))
+    
+    # The last item in the sorted list has the highest first element
+    key_with_highest = sorted_items[-1][0] if sorted_items else None
+    
+    return key_with_highest
+
+
 
 
 def parlay_helper():
@@ -217,12 +253,12 @@ def parlay_helper():
 
 		for game in game_log.keys():
 
-			qb_list = list(game_log[game]['pass'].keys())
+			# qb_list = list(game_log[game]['pass'].keys())
 
-			if len(qb_list) > 1: 
-				continue
+			# if len(qb_list) > 1: 
+			# 	continue
 
-			qb_key = qb_list[0]
+			qb_key = key_with_highest_first_element(game_log[game]['pass'])
 			pass_yards = game_log[game]['pass'][qb_key][0]
 			pass_completions = game_log[game]['pass'][qb_key][1]
 
@@ -321,8 +357,6 @@ def parlay_helper():
 
 
 
-
-
 # pair_str = ""
 
 
@@ -360,12 +394,16 @@ def correlation_all():
 
 		for game in game_log.keys():
 
-			qb_list = list(game_log[game]['pass'].keys())
+			# qb_list = list(game_log[game]['pass'].keys())
 
-			if len(qb_list) > 1: 
-				continue
+			# if len(qb_list) > 1: 
+			# 	continue
 
-			qb_key = qb_list[0]
+			# qb_key = qb_list[0]
+
+
+			qb_key = key_with_highest_first_element(game_log[game]['pass'])
+			print(qb_key)
 			pass_yards = game_log[game]['pass'][qb_key][0]
 			pass_completions = game_log[game]['pass'][qb_key][1]
 
@@ -398,12 +436,10 @@ def correlation_all():
 				r_data[receiver] = zzz
 
 
-
 			# print (r_data)
 			# testing against kc team
-			for r in r_data: 
-				print 
-
+			# for r in r_data: 
+			# 	print 
 
 			# all_pair_str += qb_key + '+' + receiver + ' '
 			# print(all_pair_str)
@@ -420,9 +456,9 @@ def correlation_all():
 
 			# filter for most consistently best-performing receivers
 			min_yards = 45
-			min_games = 5
+			min_games = 5 # temporary 
 
-			if yards_mean > min_yards and num_games >= min_games:
+			if yards_mean > min_yards and num_games >= min_games and min(r_yards[receiver])>0:
 
 				all_pair_str += qb_key + '+' + receiver + ' '
 				print(all_pair_str)
@@ -816,7 +852,7 @@ def correlation_all():
 
 	print('\n')
 
-	print(all_pair_str)
+	# print(all_pair_str)
 
 	return sorted_team_data
 
@@ -963,7 +999,13 @@ import requests
 from datetime import date
 
 r = requests.get("https://api.underdogfantasy.com/beta/v3/over_under_lines")
-lines = r.json()["over_under_lines"]
+
+lines = []
+
+try:
+	lines = r.json()["over_under_lines"]
+except: 
+	"no underdog lines"
 
 
 
@@ -973,6 +1015,8 @@ ud_nfl = defaultdict()
 
 def extract_ud_nfl():
 	for line in lines:
+
+		# print(line)
 
 		if line['over_under']['appearance_stat'] and line['over_under']['appearance_stat']['stat'] in nfl_stats and line['status'] == 'active' and '+' not in line['over_under']["title"]:
 
@@ -1023,5 +1067,9 @@ correlation_all()
 
 correlation_scores_sorted = sorted(correlation_scores, reverse=True)
 
-for c in correlation_scores_sorted:
-	print(c)
+
+
+
+
+# for c in correlation_scores_sorted:
+# 	print(c)
