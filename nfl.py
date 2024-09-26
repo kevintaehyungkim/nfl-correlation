@@ -38,7 +38,7 @@ def load_json(filename):
 
 
 # Example usage
-filename = 'game_stats_2023.json'
+filename = 'game_stats_2024.json'
 TEAM_GAME_YARDS = dict(load_json(filename))
 
 # print(TEAM_GAME_YARDS)
@@ -217,6 +217,21 @@ def key_with_highest_first_element(dictionary):
     return key_with_highest
 
 
+def format_name(input_str):
+    # Split the input string into first and last names
+    input_split = input_str.split(' ')
+    first_name, last_name = input_split[0], input_split[1]
+    
+    # Capitalize the first letter of the first name
+    first_initial = first_name[0].upper()
+    
+    # Format the output as "FirstInitial.LastName"
+    formatted_name = f"{first_initial}.{last_name}"
+    
+    return formatted_name
+
+
+
 
 
 def parlay_helper():
@@ -252,11 +267,6 @@ def parlay_helper():
 		r_data = defaultdict()
 
 		for game in game_log.keys():
-
-			# qb_list = list(game_log[game]['pass'].keys())
-
-			# if len(qb_list) > 1: 
-			# 	continue
 
 			qb_key = key_with_highest_first_element(game_log[game]['pass'])
 			pass_yards = game_log[game]['pass'][qb_key][0]
@@ -357,8 +367,6 @@ def parlay_helper():
 
 
 
-# pair_str = ""
-
 
 correlation_scores = []
 
@@ -403,7 +411,7 @@ def correlation_all():
 
 
 			qb_key = key_with_highest_first_element(game_log[game]['pass'])
-			print(qb_key)
+
 			pass_yards = game_log[game]['pass'][qb_key][0]
 			pass_completions = game_log[game]['pass'][qb_key][1]
 
@@ -415,18 +423,8 @@ def correlation_all():
 				r_yards[receiver].append(rec_data[0])
 				r_receptions[receiver].append(rec_data[1])
 
-
-				# TEST #
-				# print("jajaja")
-				# print(game_log[game]['opp'])
-
-				# if game_log[game]['opp'] == 'KC':
-				# 	r_data[receiver] = [team, rec_data[0]]
-				# TEST #
-
 		qb_yards_mean = round(np.mean(qb_yards), 2)
 		qb_yards_std = round(np.std(qb_yards), 2)
-
 
 		for receiver in r_yards.keys():
 
@@ -444,9 +442,6 @@ def correlation_all():
 			# all_pair_str += qb_key + '+' + receiver + ' '
 			# print(all_pair_str)
 
-
-			ud_projections = extract_ud_nfl()
-
 			yards_mean = round(np.mean(r_yards[receiver]), 2)
 			yards_std = round(np.std(r_yards[receiver]), 2)
 			num_games = len(r_yards[receiver])
@@ -455,13 +450,13 @@ def correlation_all():
 			rec_std = round(np.std(r_receptions[receiver]), 2)
 
 			# filter for most consistently best-performing receivers
-			min_yards = 45
-			min_games = 5 # temporary 
+			min_yards = 30
+			min_games = 2 # temporary 
 
 			if yards_mean > min_yards and num_games >= min_games and min(r_yards[receiver])>0:
 
 				all_pair_str += qb_key + '+' + receiver + ' '
-				print(all_pair_str)
+				# print(all_pair_str)
 
 				# correlation score per game
 				corr_games = []
@@ -735,10 +730,16 @@ def correlation_all():
 		# print(colored('   ============', 'blue'))
 
 
+		########################
+		# underdog projections #
+		########################
 
-		# underdog projections 
+		ud_projections = extract_ud_nfl()
 
-		if qb_str in ud_projections or rc_str in ud_projections:
+		qb_abbrev = format_name(qb_str)
+		rc_abbrev = format_name(rc_str)
+
+		if qb_abbrev in ud_projections or rc_abbrev in ud_projections:
 
 			print('')
 			print(colored(' Underdog Lines' , 'cyan'))
@@ -747,9 +748,9 @@ def correlation_all():
 			qb_line_val, rc_line_val = None, None
 			qb_line, rc_line = False, False
 
-			if qb_str in ud_projections:
+			if qb_abbrev in ud_projections:
 				qb_line = True
-				qb_line_val = ud_projections[qb_str]['passing_yds']
+				qb_line_val = ud_projections[qb_abbrev]['passing_yds']
 				diff = float(qb_line_val) - d[2]
 				diff_str = str(round(diff, 2))
 
@@ -763,9 +764,9 @@ def correlation_all():
 				print(' > ' + qb_str + ' Passing Yards: n/a')
 
 
-			if rc_str in ud_projections:
+			if rc_abbrev in ud_projections:
 				rc_line = True
-				rc_line_val = ud_projections[rc_str]['receiving_yds']
+				rc_line_val = ud_projections[rc_abbrev]['receiving_yds']
 				diff = float(rc_line_val) - d[0]
 				diff_str = str(round(diff, 2))
 
@@ -851,9 +852,7 @@ def correlation_all():
 
 
 	print('\n')
-
 	# print(all_pair_str)
-
 	return sorted_team_data
 
 
@@ -985,13 +984,6 @@ def team_data(team, qb):
 
 
 
-# title
-# 'stat_value': '33.5'
-# 'status': 'active'
-
-nba_stats = ["Pts + Rebs + Asts", "double_faults", "service_games_lost", "breakpoints_won", "sets_lost"]
-nfl_stats = ["receiving_yds", "passing_yds"]
-
 
 
 
@@ -1008,9 +1000,8 @@ except:
 	"no underdog lines"
 
 
-
 ud_nfl = defaultdict()
-
+nfl_stats = {'receiving_yds', 'passing_yds'}
 
 
 def extract_ud_nfl():
