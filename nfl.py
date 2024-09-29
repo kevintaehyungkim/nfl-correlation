@@ -1,6 +1,4 @@
 
-import nfl_data_py as nfl
-
 import math
 import pprint
 import json
@@ -19,7 +17,7 @@ pip install termcolor
 '''
 
 
-MIN_YARD_AVG = 10
+MIN_YARD_AVG = 45
 MIN_REC_AVG = 1
 
 
@@ -450,10 +448,10 @@ def correlation_all():
 			rec_std = round(np.std(r_receptions[receiver]), 2)
 
 			# filter for most consistently best-performing receivers
-			min_yards = 30
+			# min_yards = 45
 			min_games = 2 # temporary 
 
-			if yards_mean > min_yards and num_games >= min_games and min(r_yards[receiver])>0:
+			if yards_mean > MIN_YARD_AVG and num_games >= min_games and min(r_yards[receiver])>0:
 
 				all_pair_str += qb_key + '+' + receiver + ' '
 				# print(all_pair_str)

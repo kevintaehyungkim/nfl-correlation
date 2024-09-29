@@ -1,13 +1,42 @@
 {
     "BAL": {
-        "202409050": {
+        "202409050vKAN": {
             "pass": {
                 "Lamar Jackson": [
                     273,
                     26
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Derrick Henry": [
+                    46,
+                    13
+                ],
+                "Zay Flowers": [
+                    14,
+                    2
+                ],
+                "Justice Hill": [
+                    3,
+                    1
+                ],
+                "Isaiah Likely": [
+                    0,
+                    0
+                ],
+                "Rashod Bateman": [
+                    0,
+                    0
+                ],
+                "Mark Andrews": [
+                    0,
+                    0
+                ],
+                "Nelson Agholor": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Derrick Henry": [
                     0,
@@ -39,14 +68,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vLVR": {
             "pass": {
                 "Lamar Jackson": [
                     247,
                     21
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Derrick Henry": [
+                    84,
+                    18
+                ],
+                "Justice Hill": [
+                    22,
+                    4
+                ],
+                "Zay Flowers": [
+                    0,
+                    0
+                ],
+                "Mark Andrews": [
+                    0,
+                    0
+                ],
+                "Rashod Bateman": [
+                    0,
+                    0
+                ],
+                "Isaiah Likely": [
+                    0,
+                    0
+                ],
+                "Nelson Agholor": [
+                    0,
+                    0
+                ],
+                "Charlie Kolar": [
+                    0,
+                    0
+                ],
+                "Patrick Ricard": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Derrick Henry": [
                     12,
@@ -86,14 +152,47 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vDAL": {
             "pass": {
                 "Lamar Jackson": [
                     182,
                     12
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Derrick Henry": [
+                    151,
+                    25
+                ],
+                "Justice Hill": [
+                    33,
+                    5
+                ],
+                "Zay Flowers": [
+                    3,
+                    1
+                ],
+                "Nelson Agholor": [
+                    0,
+                    0
+                ],
+                "Charlie Kolar": [
+                    0,
+                    0
+                ],
+                "Rashod Bateman": [
+                    0,
+                    0
+                ],
+                "Isaiah Likely": [
+                    0,
+                    0
+                ],
+                "Mark Andrews": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Derrick Henry": [
                     23,
@@ -131,14 +230,51 @@
         }
     },
     "KAN": {
-        "202409050": {
+        "202409050vBAL": {
             "pass": {
                 "Patrick Mahomes": [
                     291,
                     20
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Isiah Pacheco": [
+                    45,
+                    15
+                ],
+                "Xavier Worthy": [
+                    21,
+                    1
+                ],
+                "Carson Steele": [
+                    3,
+                    2
+                ],
+                "Rashee Rice": [
+                    0,
+                    0
+                ],
+                "Noah Gray": [
+                    0,
+                    0
+                ],
+                "Travis Kelce": [
+                    0,
+                    0
+                ],
+                "Justin Watson": [
+                    0,
+                    0
+                ],
+                "Samaje Perine": [
+                    0,
+                    0
+                ],
+                "JuJu Smith-Schuster": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Isiah Pacheco": [
                     33,
@@ -178,14 +314,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vCIN": {
             "pass": {
                 "Patrick Mahomes": [
                     151,
                     18
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Isiah Pacheco": [
+                    90,
+                    19
+                ],
+                "Carson Steele": [
+                    24,
+                    7
+                ],
+                "Xavier Worthy": [
+                    5,
+                    1
+                ],
+                "Travis Kelce": [
+                    1,
+                    1
+                ],
+                "Rashee Rice": [
+                    0,
+                    0
+                ],
+                "Justin Watson": [
+                    0,
+                    0
+                ],
+                "Jared Wiley": [
+                    0,
+                    0
+                ],
+                "Samaje Perine": [
+                    0,
+                    0
+                ],
+                "Wanya Morris": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Isiah Pacheco": [
                     21,
@@ -225,14 +398,47 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vATL": {
             "pass": {
                 "Patrick Mahomes": [
                     217,
                     26
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Carson Steele": [
+                    72,
+                    17
+                ],
+                "Samaje Perine": [
+                    25,
+                    6
+                ],
+                "Xavier Worthy": [
+                    13,
+                    3
+                ],
+                "Rashee Rice": [
+                    1,
+                    1
+                ],
+                "Travis Kelce": [
+                    0,
+                    0
+                ],
+                "JuJu Smith-Schuster": [
+                    0,
+                    0
+                ],
+                "Noah Gray": [
+                    0,
+                    0
+                ],
+                "Justin Watson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Carson Steele": [
                     2,
@@ -270,7 +476,7 @@
         }
     },
     "GNB": {
-        "202409060": {
+        "202409060vPHI": {
             "pass": {
                 "Jordan Love": [
                     260,
@@ -281,7 +487,40 @@
                     0
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Josh Jacobs": [
+                    84,
+                    16
+                ],
+                "Emanuel Wilson": [
+                    46,
+                    4
+                ],
+                "Jayden Reed": [
+                    33,
+                    1
+                ],
+                "Romeo Doubs": [
+                    0,
+                    0
+                ],
+                "Tucker Kraft": [
+                    0,
+                    0
+                ],
+                "Christian Watson": [
+                    0,
+                    0
+                ],
+                "Dontayvion Wicks": [
+                    0,
+                    0
+                ],
+                "Luke Musgrave": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Josh Jacobs": [
                     20,
@@ -317,14 +556,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vIND": {
             "pass": {
                 "Malik Willis": [
                     122,
                     12
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Josh Jacobs": [
+                    151,
+                    32
+                ],
+                "Jayden Reed": [
+                    37,
+                    2
+                ],
+                "MarShawn Lloyd": [
+                    15,
+                    6
+                ],
+                "Emanuel Wilson": [
+                    9,
+                    5
+                ],
+                "Bo Melton": [
+                    8,
+                    2
+                ],
+                "Romeo Doubs": [
+                    0,
+                    0
+                ],
+                "Dontayvion Wicks": [
+                    0,
+                    0
+                ],
+                "Tucker Kraft": [
+                    0,
+                    0
+                ],
+                "Luke Musgrave": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Josh Jacobs": [
                     0,
@@ -364,14 +640,51 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vTEN": {
             "pass": {
                 "Malik Willis": [
                     202,
                     13
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Emanuel Wilson": [
+                    50,
+                    12
+                ],
+                "Josh Jacobs": [
+                    43,
+                    14
+                ],
+                "Jayden Reed": [
+                    19,
+                    2
+                ],
+                "Chris Brooks": [
+                    3,
+                    3
+                ],
+                "Christian Watson": [
+                    0,
+                    0
+                ],
+                "Tucker Kraft": [
+                    0,
+                    0
+                ],
+                "Romeo Doubs": [
+                    0,
+                    0
+                ],
+                "Luke Musgrave": [
+                    0,
+                    0
+                ],
+                "Dontayvion Wicks": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Emanuel Wilson": [
                     35,
@@ -413,14 +726,47 @@
         }
     },
     "PHI": {
-        "202409060": {
+        "202409060vGNB": {
             "pass": {
                 "Jalen Hurts": [
                     278,
                     20
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Saquon Barkley": [
+                    109,
+                    24
+                ],
+                "Kenneth Gainwell": [
+                    2,
+                    1
+                ],
+                "A.J. Brown": [
+                    0,
+                    0
+                ],
+                "DeVonta Smith": [
+                    0,
+                    0
+                ],
+                "Dallas Goedert": [
+                    0,
+                    0
+                ],
+                "Grant Calcaterra": [
+                    0,
+                    0
+                ],
+                "Jahan Dotson": [
+                    0,
+                    0
+                ],
+                "Johnny Wilson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Saquon Barkley": [
                     23,
@@ -456,14 +802,47 @@
                 ]
             }
         },
-        "202409160": {
+        "202409160vATL": {
             "pass": {
                 "Jalen Hurts": [
                     183,
                     23
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Saquon Barkley": [
+                    95,
+                    22
+                ],
+                "Kenneth Gainwell": [
+                    6,
+                    2
+                ],
+                "DeVonta Smith": [
+                    0,
+                    0
+                ],
+                "Dallas Goedert": [
+                    0,
+                    0
+                ],
+                "Britain Covey": [
+                    0,
+                    0
+                ],
+                "Grant Calcaterra": [
+                    0,
+                    0
+                ],
+                "Jahan Dotson": [
+                    0,
+                    0
+                ],
+                "Johnny Wilson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Saquon Barkley": [
                     21,
@@ -499,14 +878,47 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vNOR": {
             "pass": {
                 "Jalen Hurts": [
                     311,
                     29
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Saquon Barkley": [
+                    147,
+                    17
+                ],
+                "Dallas Goedert": [
+                    0,
+                    0
+                ],
+                "DeVonta Smith": [
+                    0,
+                    0
+                ],
+                "Parris Campbell": [
+                    0,
+                    0
+                ],
+                "Kenneth Gainwell": [
+                    0,
+                    0
+                ],
+                "Britain Covey": [
+                    0,
+                    0
+                ],
+                "Johnny Wilson": [
+                    0,
+                    0
+                ],
+                "Jahan Dotson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Saquon Barkley": [
                     9,
@@ -544,14 +956,51 @@
         }
     },
     "PIT": {
-        "202409080": {
+        "202409080vATL": {
             "pass": {
                 "Justin Fields": [
                     156,
                     17
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Najee Harris": [
+                    70,
+                    20
+                ],
+                "Cordarrelle Patterson": [
+                    13,
+                    4
+                ],
+                "Jaylen Warren": [
+                    7,
+                    2
+                ],
+                "Pat Freiermuth": [
+                    0,
+                    0
+                ],
+                "MyCole Pruitt": [
+                    0,
+                    0
+                ],
+                "Calvin Austin": [
+                    0,
+                    0
+                ],
+                "Darnell Washington": [
+                    0,
+                    0
+                ],
+                "Van Jefferson": [
+                    0,
+                    0
+                ],
+                "George Pickens": [
+                    -10,
+                    1
+                ]
+            },
             "rec": {
                 "Najee Harris": [
                     9,
@@ -591,14 +1040,47 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vDEN": {
             "pass": {
                 "Justin Fields": [
                     117,
                     13
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Najee Harris": [
+                    69,
+                    17
+                ],
+                "Jaylen Warren": [
+                    42,
+                    9
+                ],
+                "Cordarrelle Patterson": [
+                    3,
+                    2
+                ],
+                "Pat Freiermuth": [
+                    0,
+                    0
+                ],
+                "George Pickens": [
+                    0,
+                    0
+                ],
+                "Van Jefferson": [
+                    0,
+                    0
+                ],
+                "Calvin Austin": [
+                    0,
+                    0
+                ],
+                "Darnell Washington": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Najee Harris": [
                     5,
@@ -634,14 +1116,47 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vLAC": {
             "pass": {
                 "Justin Fields": [
                     245,
                     25
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Najee Harris": [
+                    70,
+                    18
+                ],
+                "Cordarrelle Patterson": [
+                    33,
+                    4
+                ],
+                "Jaylen Warren": [
+                    5,
+                    3
+                ],
+                "Calvin Austin": [
+                    0,
+                    0
+                ],
+                "George Pickens": [
+                    0,
+                    0
+                ],
+                "Pat Freiermuth": [
+                    0,
+                    0
+                ],
+                "Scott Miller": [
+                    0,
+                    0
+                ],
+                "Connor Heyward": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Najee Harris": [
                     16,
@@ -679,14 +1194,43 @@
         }
     },
     "ATL": {
-        "202409080": {
+        "202409080vPIT": {
             "pass": {
                 "Kirk Cousins": [
                     155,
                     16
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Bijan Robinson": [
+                    68,
+                    18
+                ],
+                "Tyler Allgeier": [
+                    21,
+                    3
+                ],
+                "Ray-Ray McCloud": [
+                    0,
+                    0
+                ],
+                "Kyle Pitts": [
+                    0,
+                    0
+                ],
+                "Darnell Mooney": [
+                    0,
+                    0
+                ],
+                "Drake London": [
+                    0,
+                    0
+                ],
+                "Charlie Woerner": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Bijan Robinson": [
                     43,
@@ -718,14 +1262,39 @@
                 ]
             }
         },
-        "202409160": {
+        "202409160vPHI": {
             "pass": {
                 "Kirk Cousins": [
                     241,
                     20
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Bijan Robinson": [
+                    97,
+                    14
+                ],
+                "Tyler Allgeier": [
+                    53,
+                    9
+                ],
+                "Ray-Ray McCloud": [
+                    3,
+                    1
+                ],
+                "Darnell Mooney": [
+                    0,
+                    0
+                ],
+                "Drake London": [
+                    0,
+                    0
+                ],
+                "Kyle Pitts": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Bijan Robinson": [
                     25,
@@ -753,14 +1322,39 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vKAN": {
             "pass": {
                 "Kirk Cousins": [
                     230,
                     20
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Tyler Allgeier": [
+                    32,
+                    7
+                ],
+                "Bijan Robinson": [
+                    31,
+                    16
+                ],
+                "Ray-Ray McCloud": [
+                    20,
+                    1
+                ],
+                "Drake London": [
+                    0,
+                    0
+                ],
+                "Darnell Mooney": [
+                    0,
+                    0
+                ],
+                "Kyle Pitts": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Tyler Allgeier": [
                     0,
@@ -789,849 +1383,48 @@
             }
         }
     },
-    "ARI": {
-        "202409080": {
-            "pass": {
-                "Kyler Murray": [
-                    162,
-                    21
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "James Conner": [
-                    33,
-                    3
-                ],
-                "Trey Benson": [
-                    5,
-                    1
-                ],
-                "Greg Dortch": [
-                    47,
-                    6
-                ],
-                "Trey McBride": [
-                    30,
-                    5
-                ],
-                "Emari Demercado": [
-                    26,
-                    2
-                ],
-                "Elijah Higgins": [
-                    12,
-                    2
-                ],
-                "Michael Wilson": [
-                    5,
-                    1
-                ],
-                "Marvin Harrison Jr.": [
-                    4,
-                    1
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Kyler Murray": [
-                    266,
-                    17
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "James Conner": [
-                    2,
-                    1
-                ],
-                "Emari Demercado": [
-                    0,
-                    0
-                ],
-                "Trey Benson": [
-                    7,
-                    1
-                ],
-                "Marvin Harrison Jr.": [
-                    130,
-                    4
-                ],
-                "Trey McBride": [
-                    67,
-                    6
-                ],
-                "Michael Wilson": [
-                    31,
-                    2
-                ],
-                "Elijah Higgins": [
-                    18,
-                    1
-                ],
-                "Greg Dortch": [
-                    11,
-                    2
-                ],
-                "Clayton Tune": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409220": {
-            "pass": {
-                "Kyler Murray": [
-                    207,
-                    21
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "James Conner": [
-                    8,
-                    1
-                ],
-                "Trey Benson": [
-                    0,
-                    0
-                ],
-                "Emari Demercado": [
-                    0,
-                    0
-                ],
-                "Marvin Harrison Jr.": [
-                    64,
-                    5
-                ],
-                "Michael Wilson": [
-                    64,
-                    8
-                ],
-                "Greg Dortch": [
-                    35,
-                    3
-                ],
-                "Trey McBride": [
-                    25,
-                    3
-                ],
-                "Elijah Higgins": [
-                    11,
-                    1
-                ]
-            }
-        }
-    },
-    "BUF": {
-        "202409080": {
-            "pass": {
-                "Josh Allen": [
-                    232,
-                    18
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "James Cook": [
-                    32,
-                    3
-                ],
-                "Ray Davis": [
-                    14,
-                    1
-                ],
-                "Ty Johnson": [
-                    0,
-                    0
-                ],
-                "Keon Coleman": [
-                    51,
-                    4
-                ],
-                "Khalil Shakir": [
-                    42,
-                    3
-                ],
-                "Mack Hollins": [
-                    25,
-                    2
-                ],
-                "Dawson Knox": [
-                    23,
-                    1
-                ],
-                "Marquez Valdes-Scantling": [
-                    19,
-                    1
-                ],
-                "Curtis Samuel": [
-                    15,
-                    2
-                ],
-                "Dalton Kincaid": [
-                    11,
-                    1
-                ]
-            }
-        },
-        "202409120": {
-            "pass": {
-                "Josh Allen": [
-                    139,
-                    13
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "James Cook": [
-                    17,
-                    1
-                ],
-                "Ray Davis": [
-                    -1,
-                    1
-                ],
-                "Khalil Shakir": [
-                    54,
-                    5
-                ],
-                "Dalton Kincaid": [
-                    33,
-                    4
-                ],
-                "Curtis Samuel": [
-                    3,
-                    1
-                ],
-                "Marquez Valdes-Scantling": [
-                    0,
-                    0
-                ],
-                "Keon Coleman": [
-                    0,
-                    0
-                ],
-                "Mack Hollins": [
-                    0,
-                    0
-                ],
-                "Ty Johnson": [
-                    33,
-                    1
-                ],
-                "Mitchell Trubisky": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409230": {
-            "pass": {
-                "Josh Allen": [
-                    263,
-                    23
-                ],
-                "Mitchell Trubisky": [
-                    3,
-                    1
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "James Cook": [
-                    48,
-                    4
-                ],
-                "Ray Davis": [
-                    1,
-                    1
-                ],
-                "Ty Johnson": [
-                    28,
-                    3
-                ],
-                "Khalil Shakir": [
-                    72,
-                    6
-                ],
-                "Dalton Kincaid": [
-                    41,
-                    3
-                ],
-                "Keon Coleman": [
-                    24,
-                    1
-                ],
-                "Curtis Samuel": [
-                    22,
-                    3
-                ],
-                "Mack Hollins": [
-                    16,
-                    1
-                ],
-                "Dawson Knox": [
-                    7,
-                    1
-                ],
-                "Marquez Valdes-Scantling": [
-                    7,
-                    1
-                ]
-            }
-        }
-    },
-    "MIN": {
-        "202409080": {
-            "pass": {
-                "Sam Darnold": [
-                    208,
-                    19
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Aaron Jones": [
-                    15,
-                    2
-                ],
-                "Ty Chandler": [
-                    25,
-                    3
-                ],
-                "Justin Jefferson": [
-                    59,
-                    4
-                ],
-                "Jordan Addison": [
-                    35,
-                    3
-                ],
-                "Josh Oliver": [
-                    27,
-                    2
-                ],
-                "Jalen Nailor": [
-                    21,
-                    1
-                ],
-                "Johnny Mundt": [
-                    15,
-                    2
-                ],
-                "C.J. Ham": [
-                    11,
-                    2
-                ],
-                "Myles Gaskin": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Sam Darnold": [
-                    268,
-                    17
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Ty Chandler": [
-                    0,
-                    0
-                ],
-                "Aaron Jones": [
-                    36,
-                    5
-                ],
-                "Justin Jefferson": [
-                    133,
-                    4
-                ],
-                "Jalen Nailor": [
-                    54,
-                    3
-                ],
-                "Trent Sherfield": [
-                    17,
-                    1
-                ],
-                "Brandon Powell": [
-                    16,
-                    2
-                ],
-                "Johnny Mundt": [
-                    12,
-                    2
-                ]
-            }
-        },
-        "202409220": {
-            "pass": {
-                "Sam Darnold": [
-                    181,
-                    17
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Aaron Jones": [
-                    46,
-                    5
-                ],
-                "Ty Chandler": [
-                    0,
-                    0
-                ],
-                "Jalen Nailor": [
-                    31,
-                    3
-                ],
-                "Justin Jefferson": [
-                    81,
-                    6
-                ],
-                "Brandon Powell": [
-                    13,
-                    1
-                ],
-                "Trent Sherfield": [
-                    8,
-                    1
-                ],
-                "Johnny Mundt": [
-                    2,
-                    1
-                ],
-                "Nick Mullens": [
-                    0,
-                    0
-                ],
-                "Josh Oliver": [
-                    0,
-                    0
-                ]
-            }
-        }
-    },
-    "NYG": {
-        "202409080": {
-            "pass": {
-                "Daniel Jones": [
-                    186,
-                    22
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Devin Singletary": [
-                    15,
-                    4
-                ],
-                "Wan'Dale Robinson": [
-                    44,
-                    6
-                ],
-                "Eric Gray": [
-                    9,
-                    1
-                ],
-                "Tyrone Tracy": [
-                    5,
-                    1
-                ],
-                "Malik Nabers": [
-                    66,
-                    5
-                ],
-                "Darius Slayton": [
-                    26,
-                    3
-                ],
-                "Theo Johnson": [
-                    18,
-                    1
-                ],
-                "Daniel Bellinger": [
-                    3,
-                    1
-                ],
-                "Jalin Hyatt": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Daniel Jones": [
-                    178,
-                    16
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Devin Singletary": [
-                    0,
-                    1
-                ],
-                "Tyrone Tracy": [
-                    0,
-                    0
-                ],
-                "Malik Nabers": [
-                    127,
-                    10
-                ],
-                "Darius Slayton": [
-                    33,
-                    3
-                ],
-                "Wan'Dale Robinson": [
-                    18,
-                    2
-                ]
-            }
-        },
-        "202409220": {
-            "pass": {
-                "Daniel Jones": [
-                    236,
-                    24
-                ],
-                "Malik Nabers": [
-                    0,
-                    0
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Devin Singletary": [
-                    43,
-                    4
-                ],
-                "Tyrone Tracy": [
-                    17,
-                    2
-                ],
-                "Wan'Dale Robinson": [
-                    61,
-                    7
-                ],
-                "Daniel Bellinger": [
-                    17,
-                    1
-                ],
-                "Theo Johnson": [
-                    13,
-                    1
-                ],
-                "Darius Slayton": [
-                    7,
-                    1
-                ],
-                "Jalin Hyatt": [
-                    0,
-                    0
-                ],
-                "Eric Gray": [
-                    0,
-                    0
-                ]
-            }
-        }
-    },
-    "CAR": {
-        "202409080": {
-            "pass": {
-                "Bryce Young": [
-                    161,
-                    13
-                ],
-                "Andy Dalton": [
-                    0,
-                    0
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Miles Sanders": [
-                    0,
-                    0
-                ],
-                "Chuba Hubbard": [
-                    0,
-                    0
-                ],
-                "Mike Boone": [
-                    0,
-                    0
-                ],
-                "Jonathan Mingo": [
-                    40,
-                    2
-                ],
-                "Adam Thielen": [
-                    49,
-                    3
-                ],
-                "Xavier Legette": [
-                    35,
-                    4
-                ],
-                "Diontae Johnson": [
-                    19,
-                    2
-                ],
-                "David Moore": [
-                    14,
-                    1
-                ],
-                "Ja'Tavion Sanders": [
-                    4,
-                    1
-                ],
-                "Jordan Matthews": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Bryce Young": [
-                    84,
-                    18
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Chuba Hubbard": [
-                    12,
-                    4
-                ],
-                "Miles Sanders": [
-                    5,
-                    3
-                ],
-                "Tommy Tremble": [
-                    23,
-                    3
-                ],
-                "Adam Thielen": [
-                    20,
-                    2
-                ],
-                "Diontae Johnson": [
-                    15,
-                    3
-                ],
-                "Ja'Tavion Sanders": [
-                    8,
-                    2
-                ],
-                "Jonathan Mingo": [
-                    1,
-                    1
-                ],
-                "David Moore": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409220": {
-            "pass": {
-                "Andy Dalton": [
-                    319,
-                    26
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Chuba Hubbard": [
-                    55,
-                    5
-                ],
-                "Miles Sanders": [
-                    13,
-                    2
-                ],
-                "Jonathan Mingo": [
-                    18,
-                    3
-                ],
-                "Diontae Johnson": [
-                    122,
-                    8
-                ],
-                "Xavier Legette": [
-                    42,
-                    2
-                ],
-                "Adam Thielen": [
-                    40,
-                    3
-                ],
-                "Tommy Tremble": [
-                    29,
-                    3
-                ],
-                "Ja'Tavion Sanders": [
-                    0,
-                    0
-                ]
-            }
-        }
-    },
-    "NOR": {
-        "202409080": {
-            "pass": {
-                "Derek Carr": [
-                    200,
-                    19
-                ],
-                "Jake Haener": [
-                    0,
-                    0
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Alvin Kamara": [
-                    27,
-                    5
-                ],
-                "Jamaal Williams": [
-                    13,
-                    1
-                ],
-                "Taysom Hill": [
-                    1,
-                    1
-                ],
-                "Jordan Mims": [
-                    0,
-                    0
-                ],
-                "Rashid Shaheed": [
-                    73,
-                    3
-                ],
-                "Foster Moreau": [
-                    43,
-                    4
-                ],
-                "Juwan Johnson": [
-                    26,
-                    2
-                ],
-                "Chris Olave": [
-                    11,
-                    2
-                ],
-                "Mason Tipton": [
-                    6,
-                    1
-                ],
-                "Bub Means": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Derek Carr": [
-                    243,
-                    11
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Alvin Kamara": [
-                    65,
-                    2
-                ],
-                "Jamaal Williams": [
-                    0,
-                    0
-                ],
-                "Taysom Hill": [
-                    1,
-                    1
-                ],
-                "Rashid Shaheed": [
-                    96,
-                    4
-                ],
-                "Chris Olave": [
-                    81,
-                    4
-                ],
-                "Adam Prentice": [
-                    0,
-                    0
-                ],
-                "Jake Haener": [
-                    0,
-                    0
-                ]
-            }
-        },
-        "202409220": {
-            "pass": {
-                "Derek Carr": [
-                    142,
-                    14
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Alvin Kamara": [
-                    40,
-                    3
-                ],
-                "Chris Olave": [
-                    86,
-                    6
-                ],
-                "Mason Tipton": [
-                    11,
-                    2
-                ],
-                "Cedrick Wilson Jr.": [
-                    3,
-                    1
-                ],
-                "Foster Moreau": [
-                    2,
-                    1
-                ],
-                "Rashid Shaheed": [
-                    0,
-                    0
-                ],
-                "Jamaal Williams": [
-                    0,
-                    1
-                ]
-            }
-        }
-    },
     "JAX": {
-        "202409080": {
+        "202409080vMIA": {
             "pass": {
                 "Trevor Lawrence": [
                     162,
                     12
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Tank Bigsby": [
+                    73,
+                    12
+                ],
+                "Travis Etienne": [
+                    44,
+                    12
+                ],
+                "Devin Duvernay": [
+                    3,
+                    1
+                ],
+                "Gabriel Davis": [
+                    0,
+                    0
+                ],
+                "Brian Thomas": [
+                    0,
+                    0
+                ],
+                "Christian Kirk": [
+                    0,
+                    0
+                ],
+                "Evan Engram": [
+                    0,
+                    0
+                ],
+                "Parker Washington": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Tank Bigsby": [
                     0,
@@ -1667,14 +1460,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vCLE": {
             "pass": {
                 "Trevor Lawrence": [
                     220,
                     14
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Travis Etienne": [
+                    52,
+                    13
+                ],
+                "D'Ernest Johnson": [
+                    26,
+                    5
+                ],
+                "Devin Duvernay": [
+                    4,
+                    1
+                ],
+                "Brian Thomas": [
+                    0,
+                    0
+                ],
+                "Brenton Strange": [
+                    0,
+                    0
+                ],
+                "Gabriel Davis": [
+                    0,
+                    0
+                ],
+                "Luke Farrell": [
+                    0,
+                    0
+                ],
+                "Parker Washington": [
+                    0,
+                    0
+                ],
+                "Christian Kirk": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Travis Etienne": [
                     6,
@@ -1714,7 +1544,7 @@
                 ]
             }
         },
-        "202409230": {
+        "202409230vBUF": {
             "pass": {
                 "Trevor Lawrence": [
                     178,
@@ -1725,7 +1555,52 @@
                     5
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Travis Etienne": [
+                    68,
+                    11
+                ],
+                "D'Ernest Johnson": [
+                    12,
+                    2
+                ],
+                "Tank Bigsby": [
+                    9,
+                    2
+                ],
+                "Christian Kirk": [
+                    0,
+                    0
+                ],
+                "Brian Thomas": [
+                    0,
+                    0
+                ],
+                "Parker Washington": [
+                    0,
+                    0
+                ],
+                "Gabriel Davis": [
+                    0,
+                    0
+                ],
+                "Brenton Strange": [
+                    0,
+                    0
+                ],
+                "Josiah Deguara": [
+                    0,
+                    0
+                ],
+                "Luke Farrell": [
+                    0,
+                    0
+                ],
+                "Devin Duvernay": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Travis Etienne": [
                     17,
@@ -1775,14 +1650,55 @@
         }
     },
     "MIA": {
-        "202409080": {
+        "202409080vJAX": {
             "pass": {
                 "Tua Tagovailoa": [
                     338,
                     23
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jeff Wilson": [
+                    26,
+                    5
+                ],
+                "De'Von Achane": [
+                    24,
+                    10
+                ],
+                "Raheem Mostert": [
+                    9,
+                    6
+                ],
+                "Alec Ingold": [
+                    8,
+                    2
+                ],
+                "Jaylen Waddle": [
+                    3,
+                    1
+                ],
+                "Tyreek Hill": [
+                    0,
+                    0
+                ],
+                "Jonnu Smith": [
+                    0,
+                    0
+                ],
+                "Julian Hill": [
+                    0,
+                    0
+                ],
+                "Durham Smythe": [
+                    0,
+                    0
+                ],
+                "Braxton Berrios": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jeff Wilson": [
                     0,
@@ -1826,7 +1742,7 @@
                 ]
             }
         },
-        "202409120": {
+        "202409120vBUF": {
             "pass": {
                 "Tua Tagovailoa": [
                     145,
@@ -1837,7 +1753,56 @@
                     8
                 ]
             },
-            "rush": [],
+            "rush": {
+                "De'Von Achane": [
+                    96,
+                    22
+                ],
+                "Tyreek Hill": [
+                    12,
+                    1
+                ],
+                "Jaylen Waddle": [
+                    4,
+                    1
+                ],
+                "Jaylen Wright": [
+                    4,
+                    5
+                ],
+                "Alec Ingold": [
+                    2,
+                    2
+                ],
+                "Jonnu Smith": [
+                    0,
+                    0
+                ],
+                "Grant Dubose": [
+                    0,
+                    0
+                ],
+                "Jeff Wilson": [
+                    0,
+                    0
+                ],
+                "Durham Smythe": [
+                    0,
+                    0
+                ],
+                "Robbie Chosen": [
+                    0,
+                    0
+                ],
+                "Julian Hill": [
+                    0,
+                    0
+                ],
+                "Braxton Berrios": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "De'Von Achane": [
                     69,
@@ -1889,7 +1854,7 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vSEA": {
             "pass": {
                 "Skylar Thompson": [
                     107,
@@ -1900,7 +1865,60 @@
                     7
                 ]
             },
-            "rush": [],
+            "rush": {
+                "De'Von Achane": [
+                    30,
+                    11
+                ],
+                "Jaylen Wright": [
+                    17,
+                    2
+                ],
+                "Jeff Wilson": [
+                    14,
+                    3
+                ],
+                "Tyreek Hill": [
+                    0,
+                    0
+                ],
+                "D'Wayne Eskridge": [
+                    0,
+                    0
+                ],
+                "Jaylen Waddle": [
+                    0,
+                    0
+                ],
+                "Julian Hill": [
+                    0,
+                    0
+                ],
+                "Jonnu Smith": [
+                    0,
+                    0
+                ],
+                "Durham Smythe": [
+                    0,
+                    0
+                ],
+                "Tanner Conner": [
+                    0,
+                    0
+                ],
+                "Braxton Berrios": [
+                    0,
+                    0
+                ],
+                "Erik Ezukanma": [
+                    0,
+                    0
+                ],
+                "Alec Ingold": [
+                    -2,
+                    1
+                ]
+            },
             "rec": {
                 "De'Von Achane": [
                     28,
@@ -1957,289 +1975,584 @@
             }
         }
     },
-    "TEN": {
-        "202409080": {
+    "MIN": {
+        "202409080vNYG": {
             "pass": {
-                "Will Levis": [
-                    127,
+                "Sam Darnold": [
+                    208,
                     19
                 ]
             },
-            "rush": [],
-            "rec": {
-                "Tony Pollard": [
-                    12,
-                    3
+            "rush": {
+                "Aaron Jones": [
+                    94,
+                    14
                 ],
-                "Tyjae Spears": [
-                    11,
-                    4
+                "Ty Chandler": [
+                    17,
+                    8
                 ],
-                "Treylon Burks": [
-                    2,
+                "Justin Jefferson": [
+                    0,
+                    0
+                ],
+                "Jordan Addison": [
+                    0,
+                    0
+                ],
+                "Josh Oliver": [
+                    0,
+                    0
+                ],
+                "Jalen Nailor": [
+                    0,
+                    0
+                ],
+                "Johnny Mundt": [
+                    0,
+                    0
+                ],
+                "C.J. Ham": [
+                    0,
+                    0
+                ],
+                "Myles Gaskin": [
+                    -3,
                     1
-                ],
-                "Calvin Ridley": [
-                    50,
-                    3
-                ],
-                "Tyler Boyd": [
-                    18,
-                    3
-                ],
-                "Chigoziem Okonkwo": [
+                ]
+            },
+            "rec": {
+                "Aaron Jones": [
                     15,
                     2
                 ],
-                "Nick Vannett": [
-                    11,
-                    2
-                ],
-                "DeAndre Hopkins": [
-                    8,
-                    1
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Will Levis": [
-                    192,
-                    19
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Tony Pollard": [
-                    40,
-                    5
-                ],
-                "Tyjae Spears": [
-                    11,
-                    2
-                ],
-                "Calvin Ridley": [
-                    77,
-                    4
-                ],
-                "Tyler Boyd": [
-                    26,
-                    2
-                ],
-                "Chigoziem Okonkwo": [
-                    16,
+                "Ty Chandler": [
+                    25,
                     3
                 ],
-                "Josh Whyle": [
-                    13,
+                "Justin Jefferson": [
+                    59,
+                    4
+                ],
+                "Jordan Addison": [
+                    35,
+                    3
+                ],
+                "Josh Oliver": [
+                    27,
                     2
                 ],
-                "DeAndre Hopkins": [
-                    9,
+                "Jalen Nailor": [
+                    21,
                     1
                 ],
-                "Treylon Burks": [
+                "Johnny Mundt": [
+                    15,
+                    2
+                ],
+                "C.J. Ham": [
+                    11,
+                    2
+                ],
+                "Myles Gaskin": [
                     0,
                     0
                 ]
             }
         },
-        "202409220": {
+        "202409150vSFO": {
             "pass": {
-                "Will Levis": [
-                    260,
-                    26
+                "Sam Darnold": [
+                    268,
+                    17
                 ]
             },
-            "rush": [],
-            "rec": {
-                "Tony Pollard": [
-                    15,
-                    3
+            "rush": {
+                "Ty Chandler": [
+                    82,
+                    10
                 ],
-                "Tyjae Spears": [
-                    54,
+                "Aaron Jones": [
+                    32,
+                    9
+                ],
+                "Justin Jefferson": [
+                    0,
+                    0
+                ],
+                "Jalen Nailor": [
+                    0,
+                    0
+                ],
+                "Trent Sherfield": [
+                    0,
+                    0
+                ],
+                "Brandon Powell": [
+                    0,
+                    0
+                ],
+                "Johnny Mundt": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Ty Chandler": [
+                    0,
+                    0
+                ],
+                "Aaron Jones": [
+                    36,
+                    5
+                ],
+                "Justin Jefferson": [
+                    133,
                     4
                 ],
-                "DeAndre Hopkins": [
-                    73,
+                "Jalen Nailor": [
+                    54,
+                    3
+                ],
+                "Trent Sherfield": [
+                    17,
+                    1
+                ],
+                "Brandon Powell": [
+                    16,
+                    2
+                ],
+                "Johnny Mundt": [
+                    12,
+                    2
+                ]
+            }
+        },
+        "202409220vHOU": {
+            "pass": {
+                "Sam Darnold": [
+                    181,
+                    17
+                ]
+            },
+            "rush": {
+                "Aaron Jones": [
+                    102,
+                    19
+                ],
+                "Ty Chandler": [
+                    13,
+                    7
+                ],
+                "Jalen Nailor": [
+                    3,
+                    1
+                ],
+                "Justin Jefferson": [
+                    0,
+                    0
+                ],
+                "Brandon Powell": [
+                    0,
+                    0
+                ],
+                "Trent Sherfield": [
+                    0,
+                    0
+                ],
+                "Johnny Mundt": [
+                    0,
+                    0
+                ],
+                "Nick Mullens": [
+                    0,
+                    1
+                ],
+                "Josh Oliver": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Aaron Jones": [
+                    46,
+                    5
+                ],
+                "Ty Chandler": [
+                    0,
+                    0
+                ],
+                "Jalen Nailor": [
+                    31,
+                    3
+                ],
+                "Justin Jefferson": [
+                    81,
                     6
                 ],
-                "Josh Whyle": [
-                    43,
-                    4
-                ],
-                "Tyler Boyd": [
-                    33,
-                    3
-                ],
-                "Chigoziem Okonkwo": [
-                    15,
-                    2
-                ],
-                "Calvin Ridley": [
-                    9,
+                "Brandon Powell": [
+                    13,
                     1
                 ],
-                "Nick Vannett": [
-                    9,
-                    2
-                ],
-                "Treylon Burks": [
-                    9,
+                "Trent Sherfield": [
+                    8,
                     1
+                ],
+                "Johnny Mundt": [
+                    2,
+                    1
+                ],
+                "Nick Mullens": [
+                    0,
+                    0
+                ],
+                "Josh Oliver": [
+                    0,
+                    0
                 ]
             }
         }
     },
-    "CHI": {
-        "202409080": {
+    "NYG": {
+        "202409080vMIN": {
             "pass": {
-                "Caleb Williams": [
-                    93,
-                    14
+                "Daniel Jones": [
+                    186,
+                    22
                 ]
             },
-            "rush": [],
-            "rec": {
-                "D'Andre Swift": [
-                    0,
-                    0
+            "rush": {
+                "Devin Singletary": [
+                    37,
+                    10
                 ],
-                "D.J. Moore": [
-                    36,
-                    5
-                ],
-                "Velus Jones Jr.": [
-                    8,
+                "Wan'Dale Robinson": [
+                    14,
                     1
                 ],
-                "Travis Homer": [
+                "Eric Gray": [
+                    6,
+                    2
+                ],
+                "Tyrone Tracy": [
+                    2,
+                    2
+                ],
+                "Malik Nabers": [
                     0,
                     0
                 ],
-                "Khalil Herbert": [
+                "Darius Slayton": [
                     0,
                     0
                 ],
-                "Keenan Allen": [
-                    29,
+                "Theo Johnson": [
+                    0,
+                    0
+                ],
+                "Daniel Bellinger": [
+                    0,
+                    0
+                ],
+                "Jalin Hyatt": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Devin Singletary": [
+                    15,
                     4
                 ],
-                "Rome Odunze": [
-                    11,
+                "Wan'Dale Robinson": [
+                    44,
+                    6
+                ],
+                "Eric Gray": [
+                    9,
                     1
                 ],
-                "DeAndre Carter": [
+                "Tyrone Tracy": [
+                    5,
+                    1
+                ],
+                "Malik Nabers": [
+                    66,
+                    5
+                ],
+                "Darius Slayton": [
+                    26,
+                    3
+                ],
+                "Theo Johnson": [
+                    18,
+                    1
+                ],
+                "Daniel Bellinger": [
+                    3,
+                    1
+                ],
+                "Jalin Hyatt": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409150vWAS": {
+            "pass": {
+                "Daniel Jones": [
+                    178,
+                    16
+                ]
+            },
+            "rush": {
+                "Devin Singletary": [
+                    95,
+                    16
+                ],
+                "Tyrone Tracy": [
+                    2,
+                    1
+                ],
+                "Malik Nabers": [
+                    0,
+                    0
+                ],
+                "Darius Slayton": [
+                    0,
+                    0
+                ],
+                "Wan'Dale Robinson": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Devin Singletary": [
+                    0,
+                    1
+                ],
+                "Tyrone Tracy": [
+                    0,
+                    0
+                ],
+                "Malik Nabers": [
+                    127,
+                    10
+                ],
+                "Darius Slayton": [
+                    33,
+                    3
+                ],
+                "Wan'Dale Robinson": [
+                    18,
+                    2
+                ]
+            }
+        },
+        "202409220vCLE": {
+            "pass": {
+                "Daniel Jones": [
+                    236,
+                    24
+                ],
+                "Malik Nabers": [
+                    0,
+                    0
+                ]
+            },
+            "rush": {
+                "Devin Singletary": [
+                    65,
+                    16
+                ],
+                "Tyrone Tracy": [
+                    23,
+                    5
+                ],
+                "Wan'Dale Robinson": [
+                    0,
+                    0
+                ],
+                "Daniel Bellinger": [
+                    0,
+                    0
+                ],
+                "Theo Johnson": [
+                    0,
+                    0
+                ],
+                "Darius Slayton": [
+                    0,
+                    0
+                ],
+                "Jalin Hyatt": [
+                    0,
+                    0
+                ],
+                "Eric Gray": [
+                    0,
+                    1
+                ]
+            },
+            "rec": {
+                "Devin Singletary": [
+                    43,
+                    4
+                ],
+                "Tyrone Tracy": [
+                    17,
+                    2
+                ],
+                "Wan'Dale Robinson": [
+                    61,
+                    7
+                ],
+                "Daniel Bellinger": [
+                    17,
+                    1
+                ],
+                "Theo Johnson": [
+                    13,
+                    1
+                ],
+                "Darius Slayton": [
+                    7,
+                    1
+                ],
+                "Jalin Hyatt": [
+                    0,
+                    0
+                ],
+                "Eric Gray": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409260vDAL": {
+            "pass": {
+                "Daniel Jones": [
+                    281,
+                    29
+                ]
+            },
+            "rush": {
+                "Devin Singletary": [
+                    24,
+                    14
+                ],
+                "Tyrone Tracy": [
+                    2,
+                    4
+                ],
+                "Eric Gray": [
+                    1,
+                    1
+                ],
+                "Wan'Dale Robinson": [
+                    0,
+                    0
+                ],
+                "Darius Slayton": [
+                    0,
+                    0
+                ],
+                "Theo Johnson": [
+                    0,
+                    0
+                ],
+                "Jalin Hyatt": [
+                    0,
+                    0
+                ],
+                "Malik Nabers": [
+                    -4,
+                    1
+                ]
+            },
+            "rec": {
+                "Devin Singletary": [
+                    14,
+                    1
+                ],
+                "Tyrone Tracy": [
+                    19,
+                    1
+                ],
+                "Eric Gray": [
+                    0,
+                    0
+                ],
+                "Wan'Dale Robinson": [
+                    71,
+                    11
+                ],
+                "Darius Slayton": [
+                    56,
+                    3
+                ],
+                "Theo Johnson": [
                     6,
                     1
                 ],
-                "Cole Kmet": [
-                    4,
-                    1
-                ],
-                "Gerald Everett": [
-                    -1,
-                    1
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Caleb Williams": [
-                    174,
-                    23
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "D'Andre Swift": [
-                    24,
-                    4
-                ],
-                "Travis Homer": [
+                "Jalin Hyatt": [
                     0,
                     0
                 ],
-                "Khalil Herbert": [
-                    4,
-                    2
-                ],
-                "D.J. Moore": [
-                    53,
-                    6
-                ],
-                "Rome Odunze": [
-                    33,
-                    2
-                ],
-                "DeAndre Carter": [
-                    32,
-                    3
-                ],
-                "Cole Kmet": [
-                    27,
-                    4
-                ],
-                "Gerald Everett": [
-                    1,
-                    2
-                ]
-            }
-        },
-        "202409220": {
-            "pass": {
-                "Caleb Williams": [
-                    363,
-                    33
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Roschon Johnson": [
-                    32,
-                    4
-                ],
-                "D'Andre Swift": [
-                    22,
-                    2
-                ],
-                "Khalil Herbert": [
-                    0,
-                    0
-                ],
-                "Rome Odunze": [
-                    112,
-                    6
-                ],
-                "Cole Kmet": [
-                    97,
-                    10
-                ],
-                "DeAndre Carter": [
-                    22,
-                    3
-                ],
-                "Gerald Everett": [
-                    0,
-                    0
-                ],
-                "D.J. Moore": [
-                    78,
-                    8
+                "Malik Nabers": [
+                    115,
+                    12
                 ]
             }
         }
     },
     "HOU": {
-        "202409080": {
+        "202409080vIND": {
             "pass": {
                 "C.J. Stroud": [
                     234,
                     24
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Joe Mixon": [
+                    159,
+                    30
+                ],
+                "Tank Dell": [
+                    19,
+                    2
+                ],
+                "Dameon Pierce": [
+                    16,
+                    3
+                ],
+                "Stefon Diggs": [
+                    6,
+                    1
+                ],
+                "Nico Collins": [
+                    0,
+                    0
+                ],
+                "Dalton Schultz": [
+                    0,
+                    0
+                ],
+                "Xavier Hutchinson": [
+                    0,
+                    0
+                ],
+                "Brevin Jordan": [
+                    0,
+                    0
+                ],
+                "Dare Ogunbowale": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Joe Mixon": [
                     19,
@@ -2279,14 +2592,55 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vCHI": {
             "pass": {
                 "C.J. Stroud": [
                     260,
                     23
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Cam Akers": [
+                    32,
+                    7
+                ],
+                "Joe Mixon": [
+                    25,
+                    9
+                ],
+                "Tank Dell": [
+                    16,
+                    3
+                ],
+                "Dare Ogunbowale": [
+                    3,
+                    2
+                ],
+                "Nico Collins": [
+                    0,
+                    0
+                ],
+                "Stefon Diggs": [
+                    0,
+                    0
+                ],
+                "Dalton Schultz": [
+                    0,
+                    0
+                ],
+                "Cade Stover": [
+                    0,
+                    0
+                ],
+                "Brevin Jordan": [
+                    0,
+                    0
+                ],
+                "Xavier Hutchinson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Cam Akers": [
                     3,
@@ -2330,7 +2684,7 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vMIN": {
             "pass": {
                 "C.J. Stroud": [
                     215,
@@ -2345,7 +2699,44 @@
                     1
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Cam Akers": [
+                    21,
+                    9
+                ],
+                "J.J. Taylor": [
+                    3,
+                    1
+                ],
+                "British Brooks": [
+                    2,
+                    1
+                ],
+                "Nico Collins": [
+                    0,
+                    0
+                ],
+                "Tank Dell": [
+                    0,
+                    0
+                ],
+                "Dare Ogunbowale": [
+                    0,
+                    0
+                ],
+                "Robert Woods": [
+                    0,
+                    0
+                ],
+                "Dalton Schultz": [
+                    0,
+                    0
+                ],
+                "Xavier Hutchinson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Cam Akers": [
                     8,
@@ -2387,14 +2778,43 @@
         }
     },
     "IND": {
-        "202409080": {
+        "202409080vHOU": {
             "pass": {
                 "Anthony Richardson": [
                     212,
                     9
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jonathan Taylor": [
+                    48,
+                    16
+                ],
+                "Alec Pierce": [
+                    0,
+                    0
+                ],
+                "Ashton Dulin": [
+                    0,
+                    0
+                ],
+                "Michael Pittman Jr.": [
+                    0,
+                    0
+                ],
+                "Adonai Mitchell": [
+                    0,
+                    0
+                ],
+                "Kylen Granson": [
+                    0,
+                    0
+                ],
+                "Mo Alie-Cox": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jonathan Taylor": [
                     0,
@@ -2426,14 +2846,55 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vGNB": {
             "pass": {
                 "Anthony Richardson": [
                     204,
                     17
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jonathan Taylor": [
+                    103,
+                    12
+                ],
+                "Alec Pierce": [
+                    0,
+                    0
+                ],
+                "Adonai Mitchell": [
+                    0,
+                    0
+                ],
+                "Mo Alie-Cox": [
+                    0,
+                    0
+                ],
+                "Michael Pittman Jr.": [
+                    0,
+                    0
+                ],
+                "Ashton Dulin": [
+                    0,
+                    0
+                ],
+                "Andrew Ogletree": [
+                    0,
+                    0
+                ],
+                "Kylen Granson": [
+                    0,
+                    0
+                ],
+                "Trey Sermon": [
+                    0,
+                    2
+                ],
+                "Tyler Goodson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jonathan Taylor": [
                     32,
@@ -2477,14 +2938,51 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vCHI": {
             "pass": {
                 "Anthony Richardson": [
                     167,
                     10
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jonathan Taylor": [
+                    110,
+                    23
+                ],
+                "Trey Sermon": [
+                    16,
+                    2
+                ],
+                "Alec Pierce": [
+                    0,
+                    0
+                ],
+                "Kylen Granson": [
+                    0,
+                    0
+                ],
+                "Michael Pittman Jr.": [
+                    0,
+                    0
+                ],
+                "Josh Downs": [
+                    0,
+                    0
+                ],
+                "Adonai Mitchell": [
+                    0,
+                    0
+                ],
+                "Ashton Dulin": [
+                    0,
+                    0
+                ],
+                "Mo Alie-Cox": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jonathan Taylor": [
                     25,
@@ -2526,14 +3024,47 @@
         }
     },
     "NWE": {
-        "202409080": {
+        "202409080vCIN": {
             "pass": {
                 "Jacoby Brissett": [
                     121,
                     15
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Rhamondre Stevenson": [
+                    120,
+                    25
+                ],
+                "Antonio Gibson": [
+                    18,
+                    7
+                ],
+                "Austin Hooper": [
+                    0,
+                    0
+                ],
+                "Tyquan Thornton": [
+                    0,
+                    0
+                ],
+                "K.J. Osborn": [
+                    0,
+                    0
+                ],
+                "Hunter Henry": [
+                    0,
+                    0
+                ],
+                "Demario Douglas": [
+                    0,
+                    0
+                ],
+                "Ja'Lynn Polk": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Rhamondre Stevenson": [
                     6,
@@ -2569,14 +3100,43 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vSEA": {
             "pass": {
                 "Jacoby Brissett": [
                     149,
                     15
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Antonio Gibson": [
+                    96,
+                    11
+                ],
+                "Rhamondre Stevenson": [
+                    81,
+                    21
+                ],
+                "Jamycal Hasty": [
+                    2,
+                    1
+                ],
+                "Hunter Henry": [
+                    0,
+                    0
+                ],
+                "Ja'Lynn Polk": [
+                    0,
+                    1
+                ],
+                "K.J. Osborn": [
+                    0,
+                    0
+                ],
+                "Austin Hooper": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Antonio Gibson": [
                     7,
@@ -2608,7 +3168,7 @@
                 ]
             }
         },
-        "202409190": {
+        "202409190vNYJ": {
             "pass": {
                 "Jacoby Brissett": [
                     98,
@@ -2619,7 +3179,44 @@
                     4
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Antonio Gibson": [
+                    29,
+                    5
+                ],
+                "Rhamondre Stevenson": [
+                    23,
+                    6
+                ],
+                "Demario Douglas": [
+                    9,
+                    1
+                ],
+                "Jamycal Hasty": [
+                    5,
+                    1
+                ],
+                "Austin Hooper": [
+                    0,
+                    0
+                ],
+                "Ja'Lynn Polk": [
+                    0,
+                    0
+                ],
+                "Hunter Henry": [
+                    0,
+                    0
+                ],
+                "Kayshon Boutte": [
+                    0,
+                    0
+                ],
+                "Tyquan Thornton": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Antonio Gibson": [
                     8,
@@ -2661,14 +3258,47 @@
         }
     },
     "CIN": {
-        "202409080": {
+        "202409080vNWE": {
             "pass": {
                 "Joe Burrow": [
                     164,
                     21
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Zack Moss": [
+                    44,
+                    9
+                ],
+                "Chase Brown": [
+                    11,
+                    3
+                ],
+                "Ja'Marr Chase": [
+                    0,
+                    0
+                ],
+                "Andrei Iosivas": [
+                    0,
+                    0
+                ],
+                "Tanner Hudson": [
+                    0,
+                    0
+                ],
+                "Mike Gesicki": [
+                    0,
+                    0
+                ],
+                "Trenton Irwin": [
+                    0,
+                    0
+                ],
+                "Charlie Jones": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Zack Moss": [
                     17,
@@ -2704,14 +3334,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vKAN": {
             "pass": {
                 "Joe Burrow": [
                     258,
                     23
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Zack Moss": [
+                    34,
+                    12
+                ],
+                "Chase Brown": [
+                    31,
+                    4
+                ],
+                "Mike Gesicki": [
+                    0,
+                    0
+                ],
+                "Jermaine Burton": [
+                    0,
+                    0
+                ],
+                "Ja'Marr Chase": [
+                    0,
+                    0
+                ],
+                "Erick All": [
+                    0,
+                    0
+                ],
+                "Drew Sample": [
+                    0,
+                    0
+                ],
+                "Andrei Iosivas": [
+                    0,
+                    0
+                ],
+                "Trenton Irwin": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Zack Moss": [
                     13,
@@ -2751,14 +3418,43 @@
                 ]
             }
         },
-        "202409230": {
+        "202409230vWAS": {
             "pass": {
                 "Joe Burrow": [
                     324,
                     29
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Chase Brown": [
+                    62,
+                    7
+                ],
+                "Zack Moss": [
+                    58,
+                    12
+                ],
+                "Ja'Marr Chase": [
+                    0,
+                    0
+                ],
+                "Andrei Iosivas": [
+                    0,
+                    0
+                ],
+                "Mike Gesicki": [
+                    0,
+                    0
+                ],
+                "Tee Higgins": [
+                    0,
+                    0
+                ],
+                "Erick All": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Chase Brown": [
                     7,
@@ -2791,301 +3487,1548 @@
             }
         }
     },
-    "LVR": {
-        "202409080": {
+    "TEN": {
+        "202409080vCHI": {
             "pass": {
-                "Gardner Minshew II": [
-                    257,
-                    25
+                "Will Levis": [
+                    127,
+                    19
                 ]
             },
-            "rush": [],
-            "rec": {
-                "Zamir White": [
-                    2,
-                    2
+            "rush": {
+                "Tony Pollard": [
+                    82,
+                    16
                 ],
-                "Alexander Mattison": [
-                    43,
+                "Tyjae Spears": [
+                    21,
                     4
                 ],
-                "Jakobi Meyers": [
-                    61,
-                    3
-                ],
-                "Davante Adams": [
-                    59,
-                    5
-                ],
-                "Brock Bowers": [
-                    58,
-                    6
-                ],
-                "Tre Tucker": [
-                    22,
-                    2
-                ],
-                "DJ Turner": [
-                    9,
-                    1
-                ],
-                "Michael Mayer": [
-                    3,
-                    2
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Gardner Minshew II": [
-                    276,
-                    30
-                ]
-            },
-            "rush": [],
-            "rec": {
-                "Zamir White": [
-                    14,
-                    3
-                ],
-                "DJ Turner": [
-                    0,
-                    0
-                ],
-                "Ameer Abdullah": [
+                "Treylon Burks": [
                     1,
                     2
                 ],
-                "Alexander Mattison": [
+                "Calvin Ridley": [
                     0,
                     0
                 ],
-                "Davante Adams": [
-                    110,
-                    9
+                "Tyler Boyd": [
+                    0,
+                    0
                 ],
-                "Brock Bowers": [
-                    98,
-                    9
+                "Chigoziem Okonkwo": [
+                    0,
+                    0
                 ],
-                "Jakobi Meyers": [
-                    29,
+                "Nick Vannett": [
+                    0,
+                    0
+                ],
+                "DeAndre Hopkins": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Tony Pollard": [
+                    12,
+                    3
+                ],
+                "Tyjae Spears": [
+                    11,
                     4
                 ],
-                "Tre Tucker": [
+                "Treylon Burks": [
+                    2,
+                    1
+                ],
+                "Calvin Ridley": [
+                    50,
+                    3
+                ],
+                "Tyler Boyd": [
+                    18,
+                    3
+                ],
+                "Chigoziem Okonkwo": [
+                    15,
+                    2
+                ],
+                "Nick Vannett": [
+                    11,
+                    2
+                ],
+                "DeAndre Hopkins": [
+                    8,
+                    1
+                ]
+            }
+        },
+        "202409150vNYJ": {
+            "pass": {
+                "Will Levis": [
+                    192,
+                    19
+                ]
+            },
+            "rush": {
+                "Tony Pollard": [
+                    62,
+                    17
+                ],
+                "Tyjae Spears": [
+                    20,
+                    6
+                ],
+                "Calvin Ridley": [
+                    10,
+                    1
+                ],
+                "Tyler Boyd": [
+                    0,
+                    0
+                ],
+                "Chigoziem Okonkwo": [
+                    0,
+                    0
+                ],
+                "Josh Whyle": [
+                    0,
+                    0
+                ],
+                "DeAndre Hopkins": [
+                    0,
+                    0
+                ],
+                "Treylon Burks": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Tony Pollard": [
+                    40,
+                    5
+                ],
+                "Tyjae Spears": [
+                    11,
+                    2
+                ],
+                "Calvin Ridley": [
+                    77,
+                    4
+                ],
+                "Tyler Boyd": [
+                    26,
+                    2
+                ],
+                "Chigoziem Okonkwo": [
+                    16,
+                    3
+                ],
+                "Josh Whyle": [
                     13,
                     2
                 ],
-                "Michael Mayer": [
-                    11,
+                "DeAndre Hopkins": [
+                    9,
                     1
                 ],
-                "Harrison Bryant": [
+                "Treylon Burks": [
                     0,
                     0
                 ]
             }
         },
-        "202409220": {
+        "202409220vGNB": {
             "pass": {
-                "Gardner Minshew II": [
-                    214,
-                    18
-                ],
-                "Aidan O'Connell": [
-                    82,
-                    9
+                "Will Levis": [
+                    260,
+                    26
                 ]
             },
-            "rush": [],
-            "rec": {
-                "Zamir White": [
+            "rush": {
+                "Tony Pollard": [
+                    14,
+                    6
+                ],
+                "Tyjae Spears": [
+                    7,
+                    2
+                ],
+                "DeAndre Hopkins": [
                     0,
                     0
                 ],
-                "Alexander Mattison": [
-                    37,
+                "Josh Whyle": [
+                    0,
+                    0
+                ],
+                "Tyler Boyd": [
+                    0,
+                    0
+                ],
+                "Chigoziem Okonkwo": [
+                    0,
+                    0
+                ],
+                "Calvin Ridley": [
+                    0,
+                    0
+                ],
+                "Nick Vannett": [
+                    0,
+                    0
+                ],
+                "Treylon Burks": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Tony Pollard": [
+                    15,
                     3
                 ],
-                "Tre Tucker": [
-                    96,
+                "Tyjae Spears": [
+                    54,
+                    4
+                ],
+                "DeAndre Hopkins": [
+                    73,
+                    6
+                ],
+                "Josh Whyle": [
+                    43,
+                    4
+                ],
+                "Tyler Boyd": [
+                    33,
+                    3
+                ],
+                "Chigoziem Okonkwo": [
+                    15,
+                    2
+                ],
+                "Calvin Ridley": [
+                    9,
+                    1
+                ],
+                "Nick Vannett": [
+                    9,
+                    2
+                ],
+                "Treylon Burks": [
+                    9,
+                    1
+                ]
+            }
+        }
+    },
+    "CHI": {
+        "202409080vTEN": {
+            "pass": {
+                "Caleb Williams": [
+                    93,
+                    14
+                ]
+            },
+            "rush": {
+                "D'Andre Swift": [
+                    30,
+                    10
+                ],
+                "D.J. Moore": [
+                    14,
+                    1
+                ],
+                "Velus Jones Jr.": [
+                    11,
+                    2
+                ],
+                "Travis Homer": [
+                    10,
+                    2
+                ],
+                "Khalil Herbert": [
+                    4,
+                    2
+                ],
+                "Keenan Allen": [
+                    0,
+                    0
+                ],
+                "Rome Odunze": [
+                    0,
+                    0
+                ],
+                "DeAndre Carter": [
+                    0,
+                    0
+                ],
+                "Cole Kmet": [
+                    0,
+                    0
+                ],
+                "Gerald Everett": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "D'Andre Swift": [
+                    0,
+                    0
+                ],
+                "D.J. Moore": [
+                    36,
+                    5
+                ],
+                "Velus Jones Jr.": [
+                    8,
+                    1
+                ],
+                "Travis Homer": [
+                    0,
+                    0
+                ],
+                "Khalil Herbert": [
+                    0,
+                    0
+                ],
+                "Keenan Allen": [
+                    29,
+                    4
+                ],
+                "Rome Odunze": [
+                    11,
+                    1
+                ],
+                "DeAndre Carter": [
+                    6,
+                    1
+                ],
+                "Cole Kmet": [
+                    4,
+                    1
+                ],
+                "Gerald Everett": [
+                    -1,
+                    1
+                ]
+            }
+        },
+        "202409150vHOU": {
+            "pass": {
+                "Caleb Williams": [
+                    174,
+                    23
+                ]
+            },
+            "rush": {
+                "D'Andre Swift": [
+                    18,
+                    14
+                ],
+                "Travis Homer": [
+                    6,
+                    1
+                ],
+                "Khalil Herbert": [
+                    3,
+                    2
+                ],
+                "D.J. Moore": [
+                    0,
+                    0
+                ],
+                "Rome Odunze": [
+                    0,
+                    0
+                ],
+                "DeAndre Carter": [
+                    0,
+                    0
+                ],
+                "Cole Kmet": [
+                    0,
+                    0
+                ],
+                "Gerald Everett": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "D'Andre Swift": [
+                    24,
+                    4
+                ],
+                "Travis Homer": [
+                    0,
+                    0
+                ],
+                "Khalil Herbert": [
+                    4,
+                    2
+                ],
+                "D.J. Moore": [
+                    53,
+                    6
+                ],
+                "Rome Odunze": [
+                    33,
+                    2
+                ],
+                "DeAndre Carter": [
+                    32,
+                    3
+                ],
+                "Cole Kmet": [
+                    27,
+                    4
+                ],
+                "Gerald Everett": [
+                    1,
+                    2
+                ]
+            }
+        },
+        "202409220vIND": {
+            "pass": {
+                "Caleb Williams": [
+                    363,
+                    33
+                ]
+            },
+            "rush": {
+                "Roschon Johnson": [
+                    30,
+                    8
+                ],
+                "D'Andre Swift": [
+                    20,
+                    13
+                ],
+                "Khalil Herbert": [
+                    9,
+                    4
+                ],
+                "Rome Odunze": [
+                    2,
+                    1
+                ],
+                "Cole Kmet": [
+                    0,
+                    0
+                ],
+                "DeAndre Carter": [
+                    0,
+                    0
+                ],
+                "Gerald Everett": [
+                    0,
+                    0
+                ],
+                "D.J. Moore": [
+                    -6,
+                    1
+                ]
+            },
+            "rec": {
+                "Roschon Johnson": [
+                    32,
+                    4
+                ],
+                "D'Andre Swift": [
+                    22,
+                    2
+                ],
+                "Khalil Herbert": [
+                    0,
+                    0
+                ],
+                "Rome Odunze": [
+                    112,
+                    6
+                ],
+                "Cole Kmet": [
+                    97,
+                    10
+                ],
+                "DeAndre Carter": [
+                    22,
+                    3
+                ],
+                "Gerald Everett": [
+                    0,
+                    0
+                ],
+                "D.J. Moore": [
+                    78,
+                    8
+                ]
+            }
+        }
+    },
+    "ARI": {
+        "202409080vBUF": {
+            "pass": {
+                "Kyler Murray": [
+                    162,
+                    21
+                ]
+            },
+            "rush": {
+                "James Conner": [
+                    50,
+                    16
+                ],
+                "Trey Benson": [
+                    13,
+                    3
+                ],
+                "Greg Dortch": [
+                    4,
+                    1
+                ],
+                "Trey McBride": [
+                    0,
+                    0
+                ],
+                "Emari Demercado": [
+                    0,
+                    0
+                ],
+                "Elijah Higgins": [
+                    0,
+                    0
+                ],
+                "Michael Wilson": [
+                    0,
+                    0
+                ],
+                "Marvin Harrison Jr.": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "James Conner": [
+                    33,
+                    3
+                ],
+                "Trey Benson": [
+                    5,
+                    1
+                ],
+                "Greg Dortch": [
+                    47,
+                    6
+                ],
+                "Trey McBride": [
+                    30,
+                    5
+                ],
+                "Emari Demercado": [
+                    26,
+                    2
+                ],
+                "Elijah Higgins": [
+                    12,
+                    2
+                ],
+                "Michael Wilson": [
+                    5,
+                    1
+                ],
+                "Marvin Harrison Jr.": [
+                    4,
+                    1
+                ]
+            }
+        },
+        "202409150vLAR": {
+            "pass": {
+                "Kyler Murray": [
+                    266,
+                    17
+                ]
+            },
+            "rush": {
+                "James Conner": [
+                    122,
+                    21
+                ],
+                "Emari Demercado": [
+                    46,
+                    2
+                ],
+                "Trey Benson": [
+                    10,
+                    11
+                ],
+                "Marvin Harrison Jr.": [
+                    0,
+                    0
+                ],
+                "Trey McBride": [
+                    0,
+                    0
+                ],
+                "Michael Wilson": [
+                    0,
+                    0
+                ],
+                "Elijah Higgins": [
+                    0,
+                    0
+                ],
+                "Greg Dortch": [
+                    0,
+                    0
+                ],
+                "Clayton Tune": [
+                    -6,
+                    1
+                ]
+            },
+            "rec": {
+                "James Conner": [
+                    2,
+                    1
+                ],
+                "Emari Demercado": [
+                    0,
+                    0
+                ],
+                "Trey Benson": [
+                    7,
+                    1
+                ],
+                "Marvin Harrison Jr.": [
+                    130,
+                    4
+                ],
+                "Trey McBride": [
+                    67,
+                    6
+                ],
+                "Michael Wilson": [
+                    31,
+                    2
+                ],
+                "Elijah Higgins": [
+                    18,
+                    1
+                ],
+                "Greg Dortch": [
+                    11,
+                    2
+                ],
+                "Clayton Tune": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409220vDET": {
+            "pass": {
+                "Kyler Murray": [
+                    207,
+                    21
+                ]
+            },
+            "rush": {
+                "James Conner": [
+                    17,
+                    9
+                ],
+                "Trey Benson": [
+                    8,
+                    2
+                ],
+                "Emari Demercado": [
+                    7,
+                    2
+                ],
+                "Marvin Harrison Jr.": [
+                    0,
+                    0
+                ],
+                "Michael Wilson": [
+                    0,
+                    0
+                ],
+                "Greg Dortch": [
+                    0,
+                    0
+                ],
+                "Trey McBride": [
+                    0,
+                    0
+                ],
+                "Elijah Higgins": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "James Conner": [
+                    8,
+                    1
+                ],
+                "Trey Benson": [
+                    0,
+                    0
+                ],
+                "Emari Demercado": [
+                    0,
+                    0
+                ],
+                "Marvin Harrison Jr.": [
+                    64,
+                    5
+                ],
+                "Michael Wilson": [
+                    64,
+                    8
+                ],
+                "Greg Dortch": [
+                    35,
+                    3
+                ],
+                "Trey McBride": [
+                    25,
+                    3
+                ],
+                "Elijah Higgins": [
+                    11,
+                    1
+                ]
+            }
+        }
+    },
+    "BUF": {
+        "202409080vARI": {
+            "pass": {
+                "Josh Allen": [
+                    232,
+                    18
+                ]
+            },
+            "rush": {
+                "James Cook": [
+                    71,
+                    19
+                ],
+                "Ray Davis": [
+                    13,
+                    3
+                ],
+                "Ty Johnson": [
+                    7,
+                    2
+                ],
+                "Keon Coleman": [
+                    0,
+                    0
+                ],
+                "Khalil Shakir": [
+                    0,
+                    0
+                ],
+                "Mack Hollins": [
+                    0,
+                    0
+                ],
+                "Dawson Knox": [
+                    0,
+                    0
+                ],
+                "Marquez Valdes-Scantling": [
+                    0,
+                    0
+                ],
+                "Curtis Samuel": [
+                    0,
+                    0
+                ],
+                "Dalton Kincaid": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "James Cook": [
+                    32,
+                    3
+                ],
+                "Ray Davis": [
+                    14,
+                    1
+                ],
+                "Ty Johnson": [
+                    0,
+                    0
+                ],
+                "Keon Coleman": [
+                    51,
+                    4
+                ],
+                "Khalil Shakir": [
+                    42,
+                    3
+                ],
+                "Mack Hollins": [
+                    25,
+                    2
+                ],
+                "Dawson Knox": [
+                    23,
+                    1
+                ],
+                "Marquez Valdes-Scantling": [
+                    19,
+                    1
+                ],
+                "Curtis Samuel": [
+                    15,
+                    2
+                ],
+                "Dalton Kincaid": [
+                    11,
+                    1
+                ]
+            }
+        },
+        "202409120vMIA": {
+            "pass": {
+                "Josh Allen": [
+                    139,
+                    13
+                ]
+            },
+            "rush": {
+                "James Cook": [
+                    78,
+                    11
+                ],
+                "Ray Davis": [
+                    29,
+                    9
+                ],
+                "Khalil Shakir": [
+                    2,
+                    1
+                ],
+                "Dalton Kincaid": [
+                    0,
+                    0
+                ],
+                "Curtis Samuel": [
+                    0,
+                    0
+                ],
+                "Marquez Valdes-Scantling": [
+                    0,
+                    0
+                ],
+                "Keon Coleman": [
+                    0,
+                    0
+                ],
+                "Mack Hollins": [
+                    0,
+                    0
+                ],
+                "Ty Johnson": [
+                    -1,
+                    1
+                ],
+                "Mitchell Trubisky": [
+                    -2,
+                    2
+                ]
+            },
+            "rec": {
+                "James Cook": [
+                    17,
+                    1
+                ],
+                "Ray Davis": [
+                    -1,
+                    1
+                ],
+                "Khalil Shakir": [
+                    54,
+                    5
+                ],
+                "Dalton Kincaid": [
+                    33,
+                    4
+                ],
+                "Curtis Samuel": [
+                    3,
+                    1
+                ],
+                "Marquez Valdes-Scantling": [
+                    0,
+                    0
+                ],
+                "Keon Coleman": [
+                    0,
+                    0
+                ],
+                "Mack Hollins": [
+                    0,
+                    0
+                ],
+                "Ty Johnson": [
+                    33,
+                    1
+                ],
+                "Mitchell Trubisky": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409230vJAX": {
+            "pass": {
+                "Josh Allen": [
+                    263,
+                    23
+                ],
+                "Mitchell Trubisky": [
+                    3,
+                    1
+                ]
+            },
+            "rush": {
+                "James Cook": [
+                    39,
+                    11
+                ],
+                "Ray Davis": [
+                    22,
                     7
                 ],
-                "Jakobi Meyers": [
-                    62,
-                    7
+                "Ty Johnson": [
+                    18,
+                    3
                 ],
-                "Brock Bowers": [
+                "Khalil Shakir": [
+                    0,
+                    0
+                ],
+                "Dalton Kincaid": [
+                    0,
+                    0
+                ],
+                "Keon Coleman": [
+                    0,
+                    0
+                ],
+                "Curtis Samuel": [
+                    0,
+                    1
+                ],
+                "Mack Hollins": [
+                    0,
+                    0
+                ],
+                "Dawson Knox": [
+                    0,
+                    0
+                ],
+                "Marquez Valdes-Scantling": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "James Cook": [
+                    48,
+                    4
+                ],
+                "Ray Davis": [
+                    1,
+                    1
+                ],
+                "Ty Johnson": [
+                    28,
+                    3
+                ],
+                "Khalil Shakir": [
+                    72,
+                    6
+                ],
+                "Dalton Kincaid": [
                     41,
                     3
                 ],
-                "Davante Adams": [
-                    40,
-                    4
+                "Keon Coleman": [
+                    24,
+                    1
                 ],
-                "Ameer Abdullah": [
-                    13,
-                    2
+                "Curtis Samuel": [
+                    22,
+                    3
                 ],
-                "Michael Mayer": [
+                "Mack Hollins": [
+                    16,
+                    1
+                ],
+                "Dawson Knox": [
+                    7,
+                    1
+                ],
+                "Marquez Valdes-Scantling": [
                     7,
                     1
                 ]
             }
         }
     },
-    "LAC": {
-        "202409080": {
+    "CAR": {
+        "202409080vNOR": {
             "pass": {
-                "Justin Herbert": [
-                    144,
-                    17
+                "Bryce Young": [
+                    161,
+                    13
+                ],
+                "Andy Dalton": [
+                    0,
+                    0
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Miles Sanders": [
+                    22,
+                    5
+                ],
+                "Chuba Hubbard": [
+                    14,
+                    6
+                ],
+                "Mike Boone": [
+                    7,
+                    4
+                ],
+                "Jonathan Mingo": [
+                    3,
+                    1
+                ],
+                "Adam Thielen": [
+                    0,
+                    0
+                ],
+                "Xavier Legette": [
+                    0,
+                    0
+                ],
+                "Diontae Johnson": [
+                    0,
+                    0
+                ],
+                "David Moore": [
+                    0,
+                    0
+                ],
+                "Ja'Tavion Sanders": [
+                    0,
+                    0
+                ],
+                "Jordan Matthews": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
-                "J.K. Dobbins": [
-                    4,
+                "Miles Sanders": [
+                    0,
+                    0
+                ],
+                "Chuba Hubbard": [
+                    0,
+                    0
+                ],
+                "Mike Boone": [
+                    0,
+                    0
+                ],
+                "Jonathan Mingo": [
+                    40,
+                    2
+                ],
+                "Adam Thielen": [
+                    49,
                     3
                 ],
-                "Gus Edwards": [
+                "Xavier Legette": [
+                    35,
+                    4
+                ],
+                "Diontae Johnson": [
+                    19,
+                    2
+                ],
+                "David Moore": [
+                    14,
+                    1
+                ],
+                "Ja'Tavion Sanders": [
+                    4,
+                    1
+                ],
+                "Jordan Matthews": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409150vLAC": {
+            "pass": {
+                "Bryce Young": [
+                    84,
+                    18
+                ]
+            },
+            "rush": {
+                "Chuba Hubbard": [
+                    64,
+                    10
+                ],
+                "Miles Sanders": [
+                    20,
+                    7
+                ],
+                "Tommy Tremble": [
+                    0,
+                    0
+                ],
+                "Adam Thielen": [
+                    0,
+                    0
+                ],
+                "Diontae Johnson": [
+                    0,
+                    0
+                ],
+                "Ja'Tavion Sanders": [
+                    0,
+                    0
+                ],
+                "Jonathan Mingo": [
+                    0,
+                    0
+                ],
+                "David Moore": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Chuba Hubbard": [
+                    12,
+                    4
+                ],
+                "Miles Sanders": [
+                    5,
+                    3
+                ],
+                "Tommy Tremble": [
+                    23,
+                    3
+                ],
+                "Adam Thielen": [
+                    20,
+                    2
+                ],
+                "Diontae Johnson": [
+                    15,
+                    3
+                ],
+                "Ja'Tavion Sanders": [
+                    8,
+                    2
+                ],
+                "Jonathan Mingo": [
+                    1,
+                    1
+                ],
+                "David Moore": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409220vLVR": {
+            "pass": {
+                "Andy Dalton": [
+                    319,
+                    26
+                ]
+            },
+            "rush": {
+                "Chuba Hubbard": [
+                    114,
+                    21
+                ],
+                "Miles Sanders": [
+                    17,
+                    7
+                ],
+                "Jonathan Mingo": [
                     2,
                     1
                 ],
-                "Derius Davis": [
+                "Diontae Johnson": [
                     0,
                     0
                 ],
-                "Ladd McConkey": [
-                    39,
-                    5
-                ],
-                "Quentin Johnston": [
-                    38,
-                    3
-                ],
-                "Hayden Hurst": [
-                    33,
-                    2
-                ],
-                "Josh Palmer": [
-                    15,
-                    2
-                ],
-                "Will Dissly": [
-                    13,
-                    1
-                ],
-                "Scott Matlock": [
+                "Xavier Legette": [
                     0,
                     0
-                ]
-            }
-        },
-        "202409150": {
-            "pass": {
-                "Justin Herbert": [
-                    130,
-                    14
+                ],
+                "Adam Thielen": [
+                    0,
+                    0
+                ],
+                "Tommy Tremble": [
+                    0,
+                    0
+                ],
+                "Ja'Tavion Sanders": [
+                    0,
+                    0
                 ]
             },
-            "rush": [],
             "rec": {
-                "J.K. Dobbins": [
-                    0,
-                    1
-                ],
-                "Gus Edwards": [
-                    0,
-                    0
-                ],
-                "Hassan Haskins": [
-                    0,
-                    0
-                ],
-                "Quentin Johnston": [
-                    51,
+                "Chuba Hubbard": [
+                    55,
                     5
                 ],
-                "Will Dissly": [
+                "Miles Sanders": [
+                    13,
+                    2
+                ],
+                "Jonathan Mingo": [
+                    18,
+                    3
+                ],
+                "Diontae Johnson": [
+                    122,
+                    8
+                ],
+                "Xavier Legette": [
+                    42,
+                    2
+                ],
+                "Adam Thielen": [
+                    40,
+                    3
+                ],
+                "Tommy Tremble": [
                     29,
                     3
                 ],
-                "Ladd McConkey": [
+                "Ja'Tavion Sanders": [
+                    0,
+                    0
+                ]
+            }
+        }
+    },
+    "NOR": {
+        "202409080vCAR": {
+            "pass": {
+                "Derek Carr": [
+                    200,
+                    19
+                ],
+                "Jake Haener": [
+                    0,
+                    0
+                ]
+            },
+            "rush": {
+                "Alvin Kamara": [
+                    83,
+                    15
+                ],
+                "Jamaal Williams": [
+                    38,
+                    11
+                ],
+                "Taysom Hill": [
+                    35,
+                    5
+                ],
+                "Jordan Mims": [
+                    11,
+                    4
+                ],
+                "Rashid Shaheed": [
+                    0,
+                    0
+                ],
+                "Foster Moreau": [
+                    0,
+                    0
+                ],
+                "Juwan Johnson": [
+                    0,
+                    0
+                ],
+                "Chris Olave": [
+                    0,
+                    0
+                ],
+                "Mason Tipton": [
+                    0,
+                    0
+                ],
+                "Bub Means": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Alvin Kamara": [
+                    27,
+                    5
+                ],
+                "Jamaal Williams": [
+                    13,
+                    1
+                ],
+                "Taysom Hill": [
+                    1,
+                    1
+                ],
+                "Jordan Mims": [
+                    0,
+                    0
+                ],
+                "Rashid Shaheed": [
+                    73,
+                    3
+                ],
+                "Foster Moreau": [
+                    43,
+                    4
+                ],
+                "Juwan Johnson": [
                     26,
                     2
                 ],
-                "Josh Palmer": [
-                    19,
+                "Chris Olave": [
+                    11,
                     2
                 ],
-                "Hayden Hurst": [
-                    5,
+                "Mason Tipton": [
+                    6,
                     1
                 ],
-                "Eric Tomlinson": [
+                "Bub Means": [
                     0,
                     0
                 ]
             }
         },
-        "202409220": {
+        "202409150vDAL": {
             "pass": {
-                "Justin Herbert": [
-                    125,
-                    12
-                ],
-                "Taylor Heinicke": [
-                    24,
-                    2
+                "Derek Carr": [
+                    243,
+                    11
                 ]
             },
-            "rush": [],
-            "rec": {
-                "J.K. Dobbins": [
-                    10,
+            "rush": {
+                "Alvin Kamara": [
+                    115,
+                    20
+                ],
+                "Jamaal Williams": [
+                    39,
+                    8
+                ],
+                "Taysom Hill": [
+                    18,
                     3
                 ],
-                "Gus Edwards": [
-                    0,
-                    0
-                ],
-                "Derius Davis": [
-                    0,
-                    0
-                ],
-                "Quentin Johnston": [
-                    44,
-                    2
-                ],
-                "Ladd McConkey": [
-                    44,
+                "Rashid Shaheed": [
+                    13,
                     3
                 ],
-                "Will Dissly": [
-                    19,
-                    3
-                ],
-                "Simi Fehoko": [
-                    17,
+                "Chris Olave": [
+                    7,
                     1
                 ],
-                "Hayden Hurst": [
-                    15,
+                "Adam Prentice": [
+                    0,
+                    0
+                ],
+                "Jake Haener": [
+                    -3,
+                    3
+                ]
+            },
+            "rec": {
+                "Alvin Kamara": [
+                    65,
                     2
+                ],
+                "Jamaal Williams": [
+                    0,
+                    0
+                ],
+                "Taysom Hill": [
+                    1,
+                    1
+                ],
+                "Rashid Shaheed": [
+                    96,
+                    4
+                ],
+                "Chris Olave": [
+                    81,
+                    4
+                ],
+                "Adam Prentice": [
+                    0,
+                    0
+                ],
+                "Jake Haener": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409220vPHI": {
+            "pass": {
+                "Derek Carr": [
+                    142,
+                    14
+                ]
+            },
+            "rush": {
+                "Alvin Kamara": [
+                    87,
+                    26
+                ],
+                "Chris Olave": [
+                    0,
+                    0
+                ],
+                "Mason Tipton": [
+                    0,
+                    0
+                ],
+                "Cedrick Wilson Jr.": [
+                    0,
+                    0
+                ],
+                "Foster Moreau": [
+                    0,
+                    0
+                ],
+                "Rashid Shaheed": [
+                    0,
+                    0
+                ],
+                "Jamaal Williams": [
+                    -1,
+                    1
+                ]
+            },
+            "rec": {
+                "Alvin Kamara": [
+                    40,
+                    3
+                ],
+                "Chris Olave": [
+                    86,
+                    6
+                ],
+                "Mason Tipton": [
+                    11,
+                    2
+                ],
+                "Cedrick Wilson Jr.": [
+                    3,
+                    1
+                ],
+                "Foster Moreau": [
+                    2,
+                    1
+                ],
+                "Rashid Shaheed": [
+                    0,
+                    0
+                ],
+                "Jamaal Williams": [
+                    0,
+                    1
                 ]
             }
         }
     },
     "DEN": {
-        "202409080": {
+        "202409080vSEA": {
             "pass": {
                 "Bo Nix": [
                     138,
                     26
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jaleel McLaughlin": [
+                    27,
+                    10
+                ],
+                "Javonte Williams": [
+                    23,
+                    8
+                ],
+                "Audric Estime": [
+                    14,
+                    2
+                ],
+                "Josh Reynolds": [
+                    0,
+                    0
+                ],
+                "Devaughn Vele": [
+                    0,
+                    0
+                ],
+                "Courtland Sutton": [
+                    0,
+                    0
+                ],
+                "Greg Dulcich": [
+                    0,
+                    0
+                ],
+                "Michael Burton": [
+                    0,
+                    0
+                ],
+                "Lil'Jordan Humphrey": [
+                    0,
+                    0
+                ],
+                "Marvin Mims": [
+                    0,
+                    0
+                ],
+                "Adam Trautman": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jaleel McLaughlin": [
                     1,
@@ -3133,14 +5076,59 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vPIT": {
             "pass": {
                 "Bo Nix": [
                     246,
                     20
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Javonte Williams": [
+                    17,
+                    11
+                ],
+                "Tyler Badie": [
+                    16,
+                    1
+                ],
+                "Jaleel McLaughlin": [
+                    6,
+                    3
+                ],
+                "Josh Reynolds": [
+                    0,
+                    0
+                ],
+                "Lil'Jordan Humphrey": [
+                    0,
+                    0
+                ],
+                "Courtland Sutton": [
+                    0,
+                    0
+                ],
+                "Greg Dulcich": [
+                    0,
+                    0
+                ],
+                "Marvin Mims": [
+                    0,
+                    0
+                ],
+                "Michael Burton": [
+                    0,
+                    0
+                ],
+                "Troy Franklin": [
+                    0,
+                    0
+                ],
+                "Nate Adkins": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Javonte Williams": [
                     48,
@@ -3188,14 +5176,55 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vTAM": {
             "pass": {
                 "Bo Nix": [
                     216,
                     25
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Tyler Badie": [
+                    70,
+                    9
+                ],
+                "Javonte Williams": [
+                    12,
+                    5
+                ],
+                "Jaleel McLaughlin": [
+                    7,
+                    5
+                ],
+                "Courtland Sutton": [
+                    0,
+                    0
+                ],
+                "Lil'Jordan Humphrey": [
+                    0,
+                    0
+                ],
+                "Josh Reynolds": [
+                    0,
+                    0
+                ],
+                "Adam Trautman": [
+                    0,
+                    0
+                ],
+                "Troy Franklin": [
+                    0,
+                    0
+                ],
+                "Marvin Mims": [
+                    0,
+                    0
+                ],
+                "Nate Adkins": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Tyler Badie": [
                     0,
@@ -3241,14 +5270,47 @@
         }
     },
     "SEA": {
-        "202409080": {
+        "202409080vDEN": {
             "pass": {
                 "Geno Smith": [
                     171,
                     18
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Kenneth Walker III": [
+                    103,
+                    20
+                ],
+                "Zach Charbonnet": [
+                    12,
+                    8
+                ],
+                "Laviska Shenault Jr.": [
+                    1,
+                    1
+                ],
+                "Tyler Lockett": [
+                    0,
+                    0
+                ],
+                "D.K. Metcalf": [
+                    0,
+                    0
+                ],
+                "Jaxon Smith-Njigba": [
+                    0,
+                    0
+                ],
+                "Noah Fant": [
+                    0,
+                    0
+                ],
+                "Dareke Young": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Kenneth Walker III": [
                     6,
@@ -3284,14 +5346,43 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vNWE": {
             "pass": {
                 "Geno Smith": [
                     327,
                     33
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Zach Charbonnet": [
+                    38,
+                    14
+                ],
+                "D.K. Metcalf": [
+                    0,
+                    0
+                ],
+                "Jaxon Smith-Njigba": [
+                    0,
+                    0
+                ],
+                "Jake Bobo": [
+                    0,
+                    0
+                ],
+                "Tyler Lockett": [
+                    0,
+                    0
+                ],
+                "Noah Fant": [
+                    0,
+                    0
+                ],
+                "Laviska Shenault Jr.": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Zach Charbonnet": [
                     31,
@@ -3323,14 +5414,51 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vMIA": {
             "pass": {
                 "Geno Smith": [
                     289,
                     26
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Zach Charbonnet": [
+                    91,
+                    18
+                ],
+                "Kenny McIntosh": [
+                    11,
+                    3
+                ],
+                "D.K. Metcalf": [
+                    0,
+                    0
+                ],
+                "Noah Fant": [
+                    0,
+                    0
+                ],
+                "Tyler Lockett": [
+                    0,
+                    0
+                ],
+                "Jaxon Smith-Njigba": [
+                    0,
+                    0
+                ],
+                "AJ Barner": [
+                    0,
+                    0
+                ],
+                "Pharaoh Brown": [
+                    0,
+                    0
+                ],
+                "Laviska Shenault Jr.": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Zach Charbonnet": [
                     16,
@@ -3371,15 +5499,548 @@
             }
         }
     },
+    "LVR": {
+        "202409080vLAC": {
+            "pass": {
+                "Gardner Minshew II": [
+                    257,
+                    25
+                ]
+            },
+            "rush": {
+                "Zamir White": [
+                    44,
+                    13
+                ],
+                "Alexander Mattison": [
+                    19,
+                    5
+                ],
+                "Jakobi Meyers": [
+                    3,
+                    1
+                ],
+                "Davante Adams": [
+                    0,
+                    0
+                ],
+                "Brock Bowers": [
+                    0,
+                    0
+                ],
+                "Tre Tucker": [
+                    0,
+                    0
+                ],
+                "DJ Turner": [
+                    0,
+                    0
+                ],
+                "Michael Mayer": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Zamir White": [
+                    2,
+                    2
+                ],
+                "Alexander Mattison": [
+                    43,
+                    4
+                ],
+                "Jakobi Meyers": [
+                    61,
+                    3
+                ],
+                "Davante Adams": [
+                    59,
+                    5
+                ],
+                "Brock Bowers": [
+                    58,
+                    6
+                ],
+                "Tre Tucker": [
+                    22,
+                    2
+                ],
+                "DJ Turner": [
+                    9,
+                    1
+                ],
+                "Michael Mayer": [
+                    3,
+                    2
+                ]
+            }
+        },
+        "202409150vBAL": {
+            "pass": {
+                "Gardner Minshew II": [
+                    276,
+                    30
+                ]
+            },
+            "rush": {
+                "Zamir White": [
+                    24,
+                    9
+                ],
+                "DJ Turner": [
+                    2,
+                    1
+                ],
+                "Ameer Abdullah": [
+                    1,
+                    2
+                ],
+                "Alexander Mattison": [
+                    1,
+                    4
+                ],
+                "Davante Adams": [
+                    0,
+                    0
+                ],
+                "Brock Bowers": [
+                    0,
+                    0
+                ],
+                "Jakobi Meyers": [
+                    0,
+                    0
+                ],
+                "Tre Tucker": [
+                    0,
+                    0
+                ],
+                "Michael Mayer": [
+                    0,
+                    0
+                ],
+                "Harrison Bryant": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Zamir White": [
+                    14,
+                    3
+                ],
+                "DJ Turner": [
+                    0,
+                    0
+                ],
+                "Ameer Abdullah": [
+                    1,
+                    2
+                ],
+                "Alexander Mattison": [
+                    0,
+                    0
+                ],
+                "Davante Adams": [
+                    110,
+                    9
+                ],
+                "Brock Bowers": [
+                    98,
+                    9
+                ],
+                "Jakobi Meyers": [
+                    29,
+                    4
+                ],
+                "Tre Tucker": [
+                    13,
+                    2
+                ],
+                "Michael Mayer": [
+                    11,
+                    1
+                ],
+                "Harrison Bryant": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409220vCAR": {
+            "pass": {
+                "Gardner Minshew II": [
+                    214,
+                    18
+                ],
+                "Aidan O'Connell": [
+                    82,
+                    9
+                ]
+            },
+            "rush": {
+                "Zamir White": [
+                    34,
+                    10
+                ],
+                "Alexander Mattison": [
+                    7,
+                    3
+                ],
+                "Tre Tucker": [
+                    0,
+                    0
+                ],
+                "Jakobi Meyers": [
+                    0,
+                    0
+                ],
+                "Brock Bowers": [
+                    0,
+                    0
+                ],
+                "Davante Adams": [
+                    0,
+                    0
+                ],
+                "Ameer Abdullah": [
+                    0,
+                    0
+                ],
+                "Michael Mayer": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Zamir White": [
+                    0,
+                    0
+                ],
+                "Alexander Mattison": [
+                    37,
+                    3
+                ],
+                "Tre Tucker": [
+                    96,
+                    7
+                ],
+                "Jakobi Meyers": [
+                    62,
+                    7
+                ],
+                "Brock Bowers": [
+                    41,
+                    3
+                ],
+                "Davante Adams": [
+                    40,
+                    4
+                ],
+                "Ameer Abdullah": [
+                    13,
+                    2
+                ],
+                "Michael Mayer": [
+                    7,
+                    1
+                ]
+            }
+        }
+    },
+    "LAC": {
+        "202409080vLVR": {
+            "pass": {
+                "Justin Herbert": [
+                    144,
+                    17
+                ]
+            },
+            "rush": {
+                "J.K. Dobbins": [
+                    135,
+                    10
+                ],
+                "Gus Edwards": [
+                    26,
+                    11
+                ],
+                "Derius Davis": [
+                    9,
+                    2
+                ],
+                "Ladd McConkey": [
+                    0,
+                    0
+                ],
+                "Quentin Johnston": [
+                    0,
+                    0
+                ],
+                "Hayden Hurst": [
+                    0,
+                    0
+                ],
+                "Josh Palmer": [
+                    0,
+                    0
+                ],
+                "Will Dissly": [
+                    0,
+                    0
+                ],
+                "Scott Matlock": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "J.K. Dobbins": [
+                    4,
+                    3
+                ],
+                "Gus Edwards": [
+                    2,
+                    1
+                ],
+                "Derius Davis": [
+                    0,
+                    0
+                ],
+                "Ladd McConkey": [
+                    39,
+                    5
+                ],
+                "Quentin Johnston": [
+                    38,
+                    3
+                ],
+                "Hayden Hurst": [
+                    33,
+                    2
+                ],
+                "Josh Palmer": [
+                    15,
+                    2
+                ],
+                "Will Dissly": [
+                    13,
+                    1
+                ],
+                "Scott Matlock": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409150vCAR": {
+            "pass": {
+                "Justin Herbert": [
+                    130,
+                    14
+                ]
+            },
+            "rush": {
+                "J.K. Dobbins": [
+                    131,
+                    17
+                ],
+                "Gus Edwards": [
+                    59,
+                    18
+                ],
+                "Hassan Haskins": [
+                    11,
+                    3
+                ],
+                "Quentin Johnston": [
+                    0,
+                    0
+                ],
+                "Will Dissly": [
+                    0,
+                    0
+                ],
+                "Ladd McConkey": [
+                    0,
+                    0
+                ],
+                "Josh Palmer": [
+                    0,
+                    0
+                ],
+                "Hayden Hurst": [
+                    0,
+                    0
+                ],
+                "Eric Tomlinson": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "J.K. Dobbins": [
+                    0,
+                    1
+                ],
+                "Gus Edwards": [
+                    0,
+                    0
+                ],
+                "Hassan Haskins": [
+                    0,
+                    0
+                ],
+                "Quentin Johnston": [
+                    51,
+                    5
+                ],
+                "Will Dissly": [
+                    29,
+                    3
+                ],
+                "Ladd McConkey": [
+                    26,
+                    2
+                ],
+                "Josh Palmer": [
+                    19,
+                    2
+                ],
+                "Hayden Hurst": [
+                    5,
+                    1
+                ],
+                "Eric Tomlinson": [
+                    0,
+                    0
+                ]
+            }
+        },
+        "202409220vPIT": {
+            "pass": {
+                "Justin Herbert": [
+                    125,
+                    12
+                ],
+                "Taylor Heinicke": [
+                    24,
+                    2
+                ]
+            },
+            "rush": {
+                "J.K. Dobbins": [
+                    44,
+                    15
+                ],
+                "Gus Edwards": [
+                    9,
+                    3
+                ],
+                "Derius Davis": [
+                    8,
+                    1
+                ],
+                "Quentin Johnston": [
+                    0,
+                    0
+                ],
+                "Ladd McConkey": [
+                    0,
+                    0
+                ],
+                "Will Dissly": [
+                    0,
+                    0
+                ],
+                "Simi Fehoko": [
+                    0,
+                    0
+                ],
+                "Hayden Hurst": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "J.K. Dobbins": [
+                    10,
+                    3
+                ],
+                "Gus Edwards": [
+                    0,
+                    0
+                ],
+                "Derius Davis": [
+                    0,
+                    0
+                ],
+                "Quentin Johnston": [
+                    44,
+                    2
+                ],
+                "Ladd McConkey": [
+                    44,
+                    3
+                ],
+                "Will Dissly": [
+                    19,
+                    3
+                ],
+                "Simi Fehoko": [
+                    17,
+                    1
+                ],
+                "Hayden Hurst": [
+                    15,
+                    2
+                ]
+            }
+        }
+    },
     "WAS": {
-        "202409080": {
+        "202409080vTAM": {
             "pass": {
                 "Jayden Daniels": [
                     184,
                     17
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Brian Robinson Jr.": [
+                    40,
+                    12
+                ],
+                "Austin Ekeler": [
+                    10,
+                    2
+                ],
+                "Zach Ertz": [
+                    0,
+                    0
+                ],
+                "Luke McCaffrey": [
+                    0,
+                    0
+                ],
+                "Terry McLaurin": [
+                    0,
+                    0
+                ],
+                "Olamide Zaccheaus": [
+                    0,
+                    0
+                ],
+                "Jamison Crowder": [
+                    0,
+                    0
+                ],
+                "John Bates": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Brian Robinson Jr.": [
                     49,
@@ -3415,14 +6076,47 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vNYG": {
             "pass": {
                 "Jayden Daniels": [
                     226,
                     23
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Brian Robinson Jr.": [
+                    133,
+                    17
+                ],
+                "Austin Ekeler": [
+                    38,
+                    8
+                ],
+                "Zach Ertz": [
+                    0,
+                    0
+                ],
+                "Noah Brown": [
+                    0,
+                    0
+                ],
+                "Terry McLaurin": [
+                    0,
+                    0
+                ],
+                "Dyami Brown": [
+                    0,
+                    0
+                ],
+                "Olamide Zaccheaus": [
+                    0,
+                    0
+                ],
+                "John Bates": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Brian Robinson Jr.": [
                     3,
@@ -3458,14 +6152,51 @@
                 ]
             }
         },
-        "202409230": {
+        "202409230vCIN": {
             "pass": {
                 "Jayden Daniels": [
                     254,
                     21
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Austin Ekeler": [
+                    35,
+                    3
+                ],
+                "Brian Robinson Jr.": [
+                    33,
+                    16
+                ],
+                "Jeremy McNichols": [
+                    1,
+                    1
+                ],
+                "Terry McLaurin": [
+                    0,
+                    0
+                ],
+                "Luke McCaffrey": [
+                    0,
+                    0
+                ],
+                "Zach Ertz": [
+                    0,
+                    0
+                ],
+                "Noah Brown": [
+                    0,
+                    0
+                ],
+                "Dyami Brown": [
+                    0,
+                    0
+                ],
+                "Trenton Scott": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Austin Ekeler": [
                     22,
@@ -3507,14 +6238,51 @@
         }
     },
     "TAM": {
-        "202409080": {
+        "202409080vWAS": {
             "pass": {
                 "Baker Mayfield": [
                     289,
                     24
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Bucky Irving": [
+                    62,
+                    9
+                ],
+                "Rachaad White": [
+                    31,
+                    15
+                ],
+                "Chris Godwin": [
+                    0,
+                    0
+                ],
+                "Mike Evans": [
+                    0,
+                    0
+                ],
+                "Jalen McMillan": [
+                    0,
+                    0
+                ],
+                "Trey Palmer": [
+                    0,
+                    0
+                ],
+                "Cade Otton": [
+                    0,
+                    0
+                ],
+                "Kameron Johnson": [
+                    0,
+                    1
+                ],
+                "Kyle Trask": [
+                    -2,
+                    2
+                ]
+            },
             "rec": {
                 "Bucky Irving": [
                     14,
@@ -3554,14 +6322,39 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vDET": {
             "pass": {
                 "Baker Mayfield": [
                     185,
                     12
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Bucky Irving": [
+                    22,
+                    7
+                ],
+                "Rachaad White": [
+                    18,
+                    10
+                ],
+                "Chris Godwin": [
+                    0,
+                    0
+                ],
+                "Mike Evans": [
+                    0,
+                    0
+                ],
+                "Jalen McMillan": [
+                    0,
+                    0
+                ],
+                "Cade Otton": [
+                    -4,
+                    1
+                ]
+            },
             "rec": {
                 "Bucky Irving": [
                     0,
@@ -3589,14 +6382,51 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vDEN": {
             "pass": {
                 "Baker Mayfield": [
                     163,
                     25
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Bucky Irving": [
+                    70,
+                    9
+                ],
+                "Rachaad White": [
+                    17,
+                    6
+                ],
+                "Sean Tucker": [
+                    4,
+                    1
+                ],
+                "Chris Godwin": [
+                    0,
+                    0
+                ],
+                "Cade Otton": [
+                    0,
+                    0
+                ],
+                "Mike Evans": [
+                    0,
+                    0
+                ],
+                "Payne Durham": [
+                    0,
+                    0
+                ],
+                "Jalen McMillan": [
+                    0,
+                    0
+                ],
+                "Trey Palmer": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Bucky Irving": [
                     14,
@@ -3638,14 +6468,59 @@
         }
     },
     "DAL": {
-        "202409080": {
+        "202409080vCLE": {
             "pass": {
                 "Dak Prescott": [
                     179,
                     19
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Ezekiel Elliott": [
+                    40,
+                    10
+                ],
+                "Rico Dowdle": [
+                    26,
+                    8
+                ],
+                "CeeDee Lamb": [
+                    25,
+                    3
+                ],
+                "Brandin Cooks": [
+                    5,
+                    1
+                ],
+                "Deuce Vaughn": [
+                    4,
+                    1
+                ],
+                "Jalen Brooks": [
+                    0,
+                    0
+                ],
+                "Hunter Luepke": [
+                    0,
+                    0
+                ],
+                "Jake Ferguson": [
+                    0,
+                    0
+                ],
+                "Jalen Tolbert": [
+                    0,
+                    0
+                ],
+                "KaVontae Turpin": [
+                    0,
+                    0
+                ],
+                "Cooper Rush": [
+                    -1,
+                    1
+                ]
+            },
             "rec": {
                 "Ezekiel Elliott": [
                     9,
@@ -3693,7 +6568,7 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vNOR": {
             "pass": {
                 "Dak Prescott": [
                     293,
@@ -3704,7 +6579,48 @@
                     1
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Rico Dowdle": [
+                    30,
+                    7
+                ],
+                "Ezekiel Elliott": [
+                    16,
+                    6
+                ],
+                "Deuce Vaughn": [
+                    11,
+                    4
+                ],
+                "KaVontae Turpin": [
+                    2,
+                    1
+                ],
+                "CeeDee Lamb": [
+                    0,
+                    0
+                ],
+                "Jalen Tolbert": [
+                    0,
+                    0
+                ],
+                "Luke Schoonmaker": [
+                    0,
+                    0
+                ],
+                "Jalen Brooks": [
+                    0,
+                    0
+                ],
+                "Brevyn Spann-Ford": [
+                    0,
+                    0
+                ],
+                "Brandin Cooks": [
+                    -3,
+                    1
+                ]
+            },
             "rec": {
                 "Rico Dowdle": [
                     29,
@@ -3748,14 +6664,63 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vBAL": {
             "pass": {
                 "Dak Prescott": [
                     379,
                     28
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Rico Dowdle": [
+                    32,
+                    8
+                ],
+                "Ezekiel Elliott": [
+                    6,
+                    3
+                ],
+                "Deuce Vaughn": [
+                    5,
+                    2
+                ],
+                "KaVontae Turpin": [
+                    1,
+                    1
+                ],
+                "Jake Ferguson": [
+                    0,
+                    0
+                ],
+                "CeeDee Lamb": [
+                    0,
+                    0
+                ],
+                "Jalen Tolbert": [
+                    0,
+                    0
+                ],
+                "Hunter Luepke": [
+                    0,
+                    0
+                ],
+                "Jalen Brooks": [
+                    0,
+                    0
+                ],
+                "Brandin Cooks": [
+                    0,
+                    0
+                ],
+                "Luke Schoonmaker": [
+                    0,
+                    0
+                ],
+                "Tyler Smith": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Rico Dowdle": [
                     24,
@@ -3806,17 +6771,118 @@
                     1
                 ]
             }
+        },
+        "202409260vNYG": {
+            "pass": {
+                "Dak Prescott": [
+                    221,
+                    22
+                ]
+            },
+            "rush": {
+                "Rico Dowdle": [
+                    46,
+                    11
+                ],
+                "Ezekiel Elliott": [
+                    19,
+                    5
+                ],
+                "CeeDee Lamb": [
+                    8,
+                    3
+                ],
+                "Hunter Luepke": [
+                    8,
+                    2
+                ],
+                "Jake Ferguson": [
+                    0,
+                    0
+                ],
+                "Jalen Tolbert": [
+                    0,
+                    0
+                ],
+                "Brandin Cooks": [
+                    0,
+                    0
+                ]
+            },
+            "rec": {
+                "Rico Dowdle": [
+                    15,
+                    1
+                ],
+                "Ezekiel Elliott": [
+                    5,
+                    1
+                ],
+                "CeeDee Lamb": [
+                    98,
+                    7
+                ],
+                "Hunter Luepke": [
+                    14,
+                    2
+                ],
+                "Jake Ferguson": [
+                    49,
+                    7
+                ],
+                "Jalen Tolbert": [
+                    24,
+                    3
+                ],
+                "Brandin Cooks": [
+                    16,
+                    1
+                ]
+            }
         }
     },
     "CLE": {
-        "202409080": {
+        "202409080vDAL": {
             "pass": {
                 "Deshaun Watson": [
                     169,
                     24
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jerome Ford": [
+                    44,
+                    12
+                ],
+                "Pierre Strong": [
+                    10,
+                    2
+                ],
+                "David Njoku": [
+                    0,
+                    0
+                ],
+                "Jordan Akins": [
+                    0,
+                    0
+                ],
+                "Jerry Jeudy": [
+                    0,
+                    0
+                ],
+                "Amari Cooper": [
+                    0,
+                    0
+                ],
+                "Elijah Moore": [
+                    0,
+                    0
+                ],
+                "Cedric Tillman": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jerome Ford": [
                     25,
@@ -3852,14 +6918,55 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vJAX": {
             "pass": {
                 "Deshaun Watson": [
                     186,
                     22
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jerome Ford": [
+                    64,
+                    7
+                ],
+                "D'Onta Foreman": [
+                    42,
+                    14
+                ],
+                "Jameis Winston": [
+                    4,
+                    2
+                ],
+                "Jerry Jeudy": [
+                    0,
+                    0
+                ],
+                "Elijah Moore": [
+                    0,
+                    0
+                ],
+                "David Bell": [
+                    0,
+                    0
+                ],
+                "Amari Cooper": [
+                    0,
+                    0
+                ],
+                "Jordan Akins": [
+                    0,
+                    0
+                ],
+                "Cedric Tillman": [
+                    0,
+                    0
+                ],
+                "Pierre Strong": [
+                    -5,
+                    1
+                ]
+            },
             "rec": {
                 "Jerome Ford": [
                     0,
@@ -3903,14 +7010,47 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vNYG": {
             "pass": {
                 "Deshaun Watson": [
                     196,
                     21
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jerome Ford": [
+                    37,
+                    10
+                ],
+                "D'Onta Foreman": [
+                    5,
+                    2
+                ],
+                "Jameis Winston": [
+                    1,
+                    2
+                ],
+                "Amari Cooper": [
+                    0,
+                    0
+                ],
+                "Jordan Akins": [
+                    0,
+                    0
+                ],
+                "Jerry Jeudy": [
+                    0,
+                    0
+                ],
+                "Elijah Moore": [
+                    0,
+                    0
+                ],
+                "Cedric Tillman": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jerome Ford": [
                     33,
@@ -3948,14 +7088,47 @@
         }
     },
     "LAR": {
-        "202409080": {
+        "202409080vDET": {
             "pass": {
                 "Matthew Stafford": [
                     317,
                     34
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Kyren Williams": [
+                    50,
+                    18
+                ],
+                "Ronnie Rivers": [
+                    16,
+                    2
+                ],
+                "Cooper Kupp": [
+                    10,
+                    2
+                ],
+                "Puka Nacua": [
+                    7,
+                    1
+                ],
+                "Tyler Johnson": [
+                    0,
+                    0
+                ],
+                "Colby Parkinson": [
+                    0,
+                    0
+                ],
+                "Demarcus Robinson": [
+                    0,
+                    0
+                ],
+                "Davis Allen": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Kyren Williams": [
                     4,
@@ -3991,14 +7164,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vARI": {
             "pass": {
                 "Matthew Stafford": [
                     216,
                     19
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Blake Corum": [
+                    28,
+                    8
+                ],
+                "Kyren Williams": [
+                    25,
+                    12
+                ],
+                "Demarcus Robinson": [
+                    0,
+                    0
+                ],
+                "Tutu Atwell": [
+                    0,
+                    0
+                ],
+                "Cooper Kupp": [
+                    0,
+                    0
+                ],
+                "Jordan Whittington": [
+                    0,
+                    0
+                ],
+                "Tyler Johnson": [
+                    0,
+                    0
+                ],
+                "Colby Parkinson": [
+                    0,
+                    0
+                ],
+                "Ronnie Rivers": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Blake Corum": [
                     0,
@@ -4038,7 +7248,7 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vSFO": {
             "pass": {
                 "Matthew Stafford": [
                     221,
@@ -4049,7 +7259,32 @@
                     0
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Kyren Williams": [
+                    89,
+                    24
+                ],
+                "Ronnie Rivers": [
+                    9,
+                    2
+                ],
+                "Demarcus Robinson": [
+                    0,
+                    0
+                ],
+                "Jordan Whittington": [
+                    0,
+                    0
+                ],
+                "Colby Parkinson": [
+                    0,
+                    0
+                ],
+                "Tyler Johnson": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Kyren Williams": [
                     27,
@@ -4079,14 +7314,43 @@
         }
     },
     "DET": {
-        "202409080": {
+        "202409080vLAR": {
             "pass": {
                 "Jared Goff": [
                     217,
                     18
                 ]
             },
-            "rush": [],
+            "rush": {
+                "David Montgomery": [
+                    91,
+                    17
+                ],
+                "Jahmyr Gibbs": [
+                    40,
+                    11
+                ],
+                "Jameson Williams": [
+                    13,
+                    1
+                ],
+                "Kalif Raymond": [
+                    12,
+                    1
+                ],
+                "Sam LaPorta": [
+                    0,
+                    0
+                ],
+                "Amon-Ra St. Brown": [
+                    0,
+                    0
+                ],
+                "Brock Wright": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "David Montgomery": [
                     2,
@@ -4118,7 +7382,7 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vTAM": {
             "pass": {
                 "Jared Goff": [
                     307,
@@ -4129,7 +7393,44 @@
                     1
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jahmyr Gibbs": [
+                    84,
+                    13
+                ],
+                "David Montgomery": [
+                    35,
+                    11
+                ],
+                "Jameson Williams": [
+                    15,
+                    1
+                ],
+                "Amon-Ra St. Brown": [
+                    0,
+                    0
+                ],
+                "Kalif Raymond": [
+                    0,
+                    0
+                ],
+                "Sione Vaki": [
+                    0,
+                    0
+                ],
+                "Sam LaPorta": [
+                    0,
+                    0
+                ],
+                "Tim Patrick": [
+                    0,
+                    0
+                ],
+                "Tom Kennedy": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jahmyr Gibbs": [
                     22,
@@ -4169,14 +7470,43 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vARI": {
             "pass": {
                 "Jared Goff": [
                     199,
                     18
                 ]
             },
-            "rush": [],
+            "rush": {
+                "David Montgomery": [
+                    105,
+                    23
+                ],
+                "Jahmyr Gibbs": [
+                    83,
+                    16
+                ],
+                "Amon-Ra St. Brown": [
+                    0,
+                    0
+                ],
+                "Sam LaPorta": [
+                    0,
+                    0
+                ],
+                "Brock Wright": [
+                    0,
+                    0
+                ],
+                "Tim Patrick": [
+                    0,
+                    0
+                ],
+                "Jameson Williams": [
+                    -7,
+                    1
+                ]
+            },
             "rec": {
                 "David Montgomery": [
                     17,
@@ -4210,7 +7540,7 @@
         }
     },
     "NYJ": {
-        "202409090": {
+        "202409090vSFO": {
             "pass": {
                 "Aaron Rodgers": [
                     167,
@@ -4221,7 +7551,28 @@
                     6
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Breece Hall": [
+                    54,
+                    16
+                ],
+                "Braelon Allen": [
+                    8,
+                    1
+                ],
+                "Allen Lazard": [
+                    0,
+                    0
+                ],
+                "Garrett Wilson": [
+                    0,
+                    0
+                ],
+                "Tyler Conklin": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Breece Hall": [
                     39,
@@ -4245,14 +7596,47 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vTEN": {
             "pass": {
                 "Aaron Rodgers": [
                     176,
                     18
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Breece Hall": [
+                    62,
+                    14
+                ],
+                "Braelon Allen": [
+                    33,
+                    7
+                ],
+                "Garrett Wilson": [
+                    5,
+                    1
+                ],
+                "Mike Williams": [
+                    0,
+                    0
+                ],
+                "Allen Lazard": [
+                    0,
+                    0
+                ],
+                "Tyler Conklin": [
+                    0,
+                    0
+                ],
+                "Malachi Corley": [
+                    0,
+                    0
+                ],
+                "Jeremy Ruckert": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Breece Hall": [
                     52,
@@ -4288,14 +7672,51 @@
                 ]
             }
         },
-        "202409190": {
+        "202409190vNWE": {
             "pass": {
                 "Aaron Rodgers": [
                     281,
                     27
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Braelon Allen": [
+                    55,
+                    11
+                ],
+                "Breece Hall": [
+                    54,
+                    16
+                ],
+                "Isaiah Davis": [
+                    6,
+                    3
+                ],
+                "Tyler Conklin": [
+                    0,
+                    0
+                ],
+                "Allen Lazard": [
+                    0,
+                    0
+                ],
+                "Mike Williams": [
+                    0,
+                    0
+                ],
+                "Garrett Wilson": [
+                    0,
+                    0
+                ],
+                "Xavier Gipson": [
+                    0,
+                    0
+                ],
+                "Jeremy Ruckert": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Braelon Allen": [
                     13,
@@ -4337,14 +7758,47 @@
         }
     },
     "SFO": {
-        "202409090": {
+        "202409090vNYJ": {
             "pass": {
                 "Brock Purdy": [
                     231,
                     19
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Deebo Samuel": [
+                    23,
+                    8
+                ],
+                "Jordan Mason": [
+                    147,
+                    28
+                ],
+                "Jauan Jennings": [
+                    0,
+                    0
+                ],
+                "Kyle Juszczyk": [
+                    0,
+                    0
+                ],
+                "George Kittle": [
+                    0,
+                    0
+                ],
+                "Brandon Aiyuk": [
+                    0,
+                    0
+                ],
+                "Eric Saubert": [
+                    0,
+                    0
+                ],
+                "Brandon Allen": [
+                    -1,
+                    1
+                ]
+            },
             "rec": {
                 "Deebo Samuel": [
                     54,
@@ -4380,14 +7834,51 @@
                 ]
             }
         },
-        "202409150": {
+        "202409150vMIN": {
             "pass": {
                 "Brock Purdy": [
                     319,
                     28
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jordan Mason": [
+                    100,
+                    20
+                ],
+                "George Kittle": [
+                    0,
+                    0
+                ],
+                "Brandon Aiyuk": [
+                    0,
+                    0
+                ],
+                "Jauan Jennings": [
+                    0,
+                    0
+                ],
+                "Eric Saubert": [
+                    0,
+                    0
+                ],
+                "Kyle Juszczyk": [
+                    0,
+                    0
+                ],
+                "Chris Conley": [
+                    0,
+                    0
+                ],
+                "Isaac Guerendo": [
+                    0,
+                    1
+                ],
+                "Deebo Samuel": [
+                    -10,
+                    2
+                ]
+            },
             "rec": {
                 "Jordan Mason": [
                     4,
@@ -4427,14 +7918,51 @@
                 ]
             }
         },
-        "202409220": {
+        "202409220vLAR": {
             "pass": {
                 "Brock Purdy": [
                     292,
                     22
                 ]
             },
-            "rush": [],
+            "rush": {
+                "Jordan Mason": [
+                    77,
+                    19
+                ],
+                "Isaac Guerendo": [
+                    19,
+                    5
+                ],
+                "Jauan Jennings": [
+                    0,
+                    0
+                ],
+                "Brandon Aiyuk": [
+                    0,
+                    0
+                ],
+                "Eric Saubert": [
+                    0,
+                    0
+                ],
+                "Ronnie Bell": [
+                    0,
+                    0
+                ],
+                "Kyle Juszczyk": [
+                    0,
+                    0
+                ],
+                "Jake Brendel": [
+                    0,
+                    0
+                ],
+                "Dominick Puni": [
+                    0,
+                    0
+                ]
+            },
             "rec": {
                 "Jordan Mason": [
                     11,

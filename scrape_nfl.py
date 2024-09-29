@@ -108,7 +108,7 @@ def fetch_game_stats(game_url):
         )
         
         # Allow additional time for dynamic content to load
-        time.sleep(5)
+        time.sleep(4)
         
         # Extract the table
         table = driver.find_element(By.ID, 'player_offense')
@@ -123,6 +123,22 @@ def fetch_game_stats(game_url):
 
         # Extract rows
         rows = table.find_elements(By.XPATH, './/tbody/tr')
+
+        # team names
+        team_names = set()
+
+
+        # Check if there are any rows
+        if rows:
+            # Extract team name from the first row
+            first_row_team = rows[0].find_element(By.XPATH, './/td[@data-stat="team"]').text.strip()
+            team_names.add(first_row_team)
+
+            # Extract team name from the last row
+            last_row_team = rows[-1].find_element(By.XPATH, './/td[@data-stat="team"]').text.strip()
+            team_names.add(last_row_team)
+
+
         for row in rows:
             cells = row.find_elements(By.XPATH, './/td')
             
@@ -136,31 +152,42 @@ def fetch_game_stats(game_url):
             
             print(f"Player: {player_name}, Team: {team_name}")  # Debugging output
             
+            teams_arr = list(team_names)
+            opp = '' 
+
+            if team_name == teams_arr[0]:
+                opp = teams_arr[1]
+            else:
+                opp = teams_arr[0]
+
+            game_id_opp = game_id + 'v' + opp
+
             if team_name not in TEAM_GAME_YARDS:
                 TEAM_GAME_YARDS[team_name] = {}
-            if game_id not in TEAM_GAME_YARDS[team_name]:
-                TEAM_GAME_YARDS[team_name][game_id] = {'pass': [], 'rush': [], 'rec': []}
+            if game_id_opp not in TEAM_GAME_YARDS[team_name]:
+                TEAM_GAME_YARDS[team_name][game_id_opp] = {'pass': [], 'rush': [], 'rec': []}
             
             # Extract stats based on known positions
             stats = {header: convert_to_number(cell.text) for header, cell in zip(headers[2:], cells[1:])}
 
             print(stats)
+            print(game_id_opp)
 
-            if not TEAM_GAME_YARDS[team_name][game_id]['pass']:
-                TEAM_GAME_YARDS[team_name][game_id]['pass'] = nested_dict()
+            if not TEAM_GAME_YARDS[team_name][game_id_opp]['pass']:
+                TEAM_GAME_YARDS[team_name][game_id_opp]['pass'] = nested_dict()
 
-            if not TEAM_GAME_YARDS[team_name][game_id]['rec']:
-                TEAM_GAME_YARDS[team_name][game_id]['rec'] = nested_dict()
+            if not TEAM_GAME_YARDS[team_name][game_id_opp]['rec']:
+                TEAM_GAME_YARDS[team_name][game_id_opp]['rec'] = nested_dict()
 
-            # if not TEAM_GAME_YARDS[team_name][game_id]['rush']:
-            #     TEAM_GAME_YARDS[team_name][game_id]['rush'] = nested_dict()            
+            if not TEAM_GAME_YARDS[team_name][game_id_opp]['rush']:
+                TEAM_GAME_YARDS[team_name][game_id_opp]['rush'] = nested_dict()            
 
             if stats.get('pass_att') > 0:
-                TEAM_GAME_YARDS[team_name][game_id]['pass'][player_name] = [stats.get('pass_yds', 0), stats.get('pass_cmp', 0)]
+                TEAM_GAME_YARDS[team_name][game_id_opp]['pass'][player_name] = [stats.get('pass_yds', 0), stats.get('pass_cmp', 0)]
             
             else:
-                # TEAM_GAME_YARDS[team_name][game_id]['rush'][player_name] = [stats.get('rush_yds', 0), stats.get('rush_att', 0)]
-                TEAM_GAME_YARDS[team_name][game_id]['rec'][player_name] = [stats.get('rec_yds', 0), stats.get('rec', 0)]
+                TEAM_GAME_YARDS[team_name][game_id_opp]['rush'][player_name] = [stats.get('rush_yds', 0), stats.get('rush_att', 0)]
+                TEAM_GAME_YARDS[team_name][game_id_opp]['rec'][player_name] = [stats.get('rec_yds', 0), stats.get('rec', 0)]
                 
             
 
